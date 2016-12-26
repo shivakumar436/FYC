@@ -1,1 +1,6 @@
-hi
+Name
+email
+create password
+mobile number
+total work experience years,months
+upload resume
