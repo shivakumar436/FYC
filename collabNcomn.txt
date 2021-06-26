@@ -1,0 +1,101 @@
+1 Introduction
+Productivity of a team is based on various factors and one of the key factors is effective collaboration and communication. Increase in the comfort-level of communication and trust among team members leads to overall increase in productivity of the team.
+By working together, people can create greater value than what can be achieved working independently. Among other things, team synergy can be manifested in increased capabilities and more flexibility to adapt to changing requirements.
+Team collaboration offers multiple perspectives for innovation and problem-solving. A team member working independently may not be able to identify causes of a problem, but collaborative team can get more insights into the problems and can provide better solutions.
+Collaboration and Communication Key Drivers
+Infosys Limited – Company Confidential Page 6
+2 Key Drivers
+The key drivers for conceptualizing collaboration and communication mechanisms to support software development in distributed environment are as follows (By Erran Carmel, 1999):
+ Greater knowledge sharing and innovation: Enables teams to mutually exchange knowledge, experiences and skills to jointly innovate. This leads to better efficiency in work and also enhances innovation performance capability
+ Provides each team member a 360-degree view: Provides better clarity and understanding of project goals. Leads to improvement in team’s performance by increasing individual’s awareness and identification of specific areas for growth
+ Reduces duplication of effort: Helps in reducing/eliminating duplicate effort of learning, research, development, retrieving information and status update
+ Supports coordination activities and workflow: Supports better coordination for effective execution of multiple tasks and related workflow management
+ Supports Quality Assurance: Supports effectively in managing processes during the course of project execution, for assuring quality of deliverables
+Collaboration and Communication Application in Projects
+Infosys Limited – Company Confidential Page 7
+3 Application in Projects
+3. 1 Collaboration and Communication Events
+There are many events which occur during the course of execution of Agile projects, where communication and collaboration activities play a key role. Following are the details of these events which enable teams to collaborate and communicate effectively. Infosys Global Agile methodology adopts these approaches for project execution.
+3.1.1 Workshops
+Workshop is an event where a group of people collaborate to present different ideas to reach a predetermined objective supported by an impartial facilitator. It is not the same as brainstorming. In a workshop, there should be a clear idea on what is required and what should be the outcome. It is usually conducted to compress timelines and reach a consensus/decision faster. If there is a clearly articulated problem, it can be solved faster through workshops.
+Figure 1: Workshop
+The main purpose of conducting workshops is for gathering, understanding and prioritizing requirements, mainly during the Initiation phase. However, workshops are worthwhile to do once in every 6 months, just to review the direction of the project, restate the objectives and realign the teams.
+Before conducting any workshop, objectives for the workshop should be setup and the workshop agenda should be circulated to all participants well in advance. Communication is a key factor while conducting this workshop. In order to have effective and productive workshops, it is necessary to understand how to conduct workshops.
+Note: For more details, please refer to ‘InfyAgile Global Requirement Workshop Guidelines’, document in PRidE.
+Path: SparshWebappsPRidEProcessesIT ServicesEngineering ProcessesDevelopmentAgile Methodology
+Collaboration and Communication Application in Projects
+Infosys Limited – Company Confidential Page 8
+3.1.2 Sprint Planning Meeting
+Every Sprint starts with a planning phase. In this phase, team defines what is to be built in the upcoming Sprint. User stories are broken down to tasks, task level estimation is done and the team commits to the Sprint goal. Product Owner, scrum master and the team participate in the Sprint planning.
+The Sprint planning meeting consists of two parts, each one being a time-box, and assigned with half of the duration of Sprint Planning meeting. In the first part, team collaborates with Product Owner and decides what will be delivered as part of the Sprint. In the second part, the team figures out how it is going to build this functionality into a product increment during the Sprint.
+In order to succeed, every Sprint Planning meeting requires effective communication and extensive knowledge sharing between the teams, Product Owner and other relevant stakeholders. Face-to-face meetings between Product Owner and teams are recommended, if co-located. Otherwise, it can be over video conference. If none of these two options are feasible due to non-overlapping time zones, then following alternative ways can be adopted for the co-ordination between teams and Product Owner:
+ Product Owner should send the narratives ahead of time, of each prioritized user story required to be delivered during the Sprint
+ Team should perform analysis on assigned user stories, decisions on how much to commit, list of clarifications and share it with Product Owner for feedback
+ Post this, finalization of Sprint Backlog for the Sprint can happen over the voice or video conference between teams and Product Owner. It reduces the time required for the Sprint Planning meeting during the non-overlapping working hours
+3.1.3 Daily Stand-up Meeting
+Daily Stand-up Meeting is for the team to discuss the progress with each other. It is not a meeting for status reporting to the manager. Customer and any other stakeholder could be present in the meeting, but they normally do not participate actively. Daily Stand-up meeting is the place where the team:
+ Comes together
+ Understands what is happening
+ Understands what others are doing
+ Understands where people can help each other
+Anybody can speak first in the meeting. However, it is a good practice to encourage the youngest or the most inexperienced members to speak first so that their thoughts are not influenced by others. Daily Stand-up Meeting is held always in the backdrop of the Sprint backlog and Sprint progress chart. It helps to find the root cause if the team is not performing as per the estimations done.
+Figure 2: Daily Stand-up Meeting
+Collaboration and Communication Application in Projects
+Infosys Limited – Company Confidential Page 9
+In Daily Stand-up Meeting, following are indications that team is collaborating well:
+ Team manages Scrum call even if Scrum master is on leave
+ Team is enthusiastic in providing updates and meeting ends in 10-15 minutes
+ Everyone attends daily stand-up meeting and provides crisp and clear updates
+3.1.4 Periodic Status Meeting or Mid Sprint Demo Meeting
+Mid Sprint demo brings a lot of client confidence as they are able to see progress of development of actual software. It is mainly used to share the status with the Product Owner and business users about the progress of the Sprint. It helps in bridging the gap between the understanding of the project team and expectations of the customer.
+Figure 3: Mid Sprint Demos
+For co-located teams or distributed teams, the best way to share status to the Product Owner is directly through software code, followed by discussions. However, distributed teams may have time-zone constraints and hence may need to rely on just enough documentation to communicate the status. These teams can notify the progress of Sprint to the Product Owner in the form of status reports which helps in any misinterpretations and improves team collaboration.
+3.1.5 Sprint Review and Working Software Demonstration Meeting
+At the end of the Sprint, Sprint Review meeting is held, which is attended by the team, scrum master, Product Owner and all other stakeholders. The work product gets reviewed as per 'Sprint goal' and 'done' definition. Team demonstrates the working software to all stakeholders for user acceptance on the deliverables. Team gets insight of any changes which Product Owner or end users plan towards the development. Also, Product Owner gets visibility of the development so far.
+Collaboration and Communication Application in Projects
+Infosys Limited – Company Confidential Page 10
+Figure 4: Sprint Reviews
+Sprint Reviews are an effective way to share information and improve communication with all stakeholders. It enables teams, Product Owner and other stakeholders to inspect and adopt what has been developed in the current Sprint and collaborate on what needs to be done next. At the end of Sprint Review, team must notify the Product Owner with overall status of the project with required documentation to support collaborative process. Various tools like Issue tracker, Risk tracker and Progress tracker help in maintaining documentation and visibility.
+3.1.6 Sprint Retrospection Meeting
+Retrospectives are planned at the end of each Sprint and each Release. It is a retrospection meeting where the teams reflects on the happenings in the previous Sprint, both good and bad, and take corrective actions which can be implemented in the subsequent Sprints. Few of the Metrics are analyzed during the meeting. It is recommended that all the team members actively participate and collaborate in the Retrospective meetings for continuous improvement during the course of the project.
+3. 2 Recommended Practices for Collaboration and Communication
+Successful deliverables are produced within the scheduled timelines when there is great collaboration and communication mechanism between the involved teams. Building an effective distributed Agile team is about identifying and implementing effective practices. Distributed teams may struggle to ramp up if they operate as co-located teams and do not effectively address the additional collaboration and communication burdens. To address this constraint it would require commitment from the teams to improve and support of additional practices and tools. The following points outline the recommended practices for enabling the collaborative and communication mechanisms:
+Collaboration and Communication Application in Projects
+Infosys Limited – Company Confidential Page 11
+3.2.1 Real-Time Communication
+Real-time communication enables a free flow of information and more proactive notifications, so that team members can respond more quickly to unexpected events and impediments. This can address the problem of delay in sharing information being dependent on formal communication. Real-time communication helps in overcoming communication related problems like relying on the team hierarchy or waiting for planned meetings.
+3.2.2 Virtual Collaboration
+Collaboration is a critical activity for Agile project execution either in structured or unstructured way. For teams distributed across locations, face-to-face meetings or interactions must be conducted in a virtual manner, like through video conference or web-based. These environments are generally accessed easily and almost always available. A virtual environment creates space where team members and Product Owner distributed across locations can come together and work on the common project goals.
+3.2.3 Single Meeting across Locations
+Minimize the overhead of having multiple team meetings at multiple locations. Conduct a single meeting across locations (with overlapping time zones) through conference, ideally in the team room for impromptu meetings. This allows the entire team to get together quickly regardless of the location. Teams can use live meeting facilities to share applications across the whole team.
+3.2.4 Formal Mechanisms for Sharing Information
+The way team members communicate information with each other should be enhanced to support distributed development environment. For example, communication in a co-located environment can happen informally, maybe verbal. But, this should be done in a more formal, structured and scheduled way for distributed team. If the team is distributed across time zones, then the team members’ approach can be usage of email or a work item tracking tool for updating their status on a particular task. This becomes important as it ensures the information is available even if the person is not around during the overlapping time zones.
+3.2.5 Additional Meetings
+At times, teams may overdo the daily standup meetings (beyond the scheduled time). It may lead to in-effective collaboration. This may be because they may find that this is the only opportunity to raise issues for the whole team. Meeting format needs to be changed in such cases by including some additional time after the standup where the team can discuss other such topics.
+3.2.6 System for Engagement and Unstructured Collaboration
+In any software development activity, all clarifications done over emails, chats, conference calls and video calls are examples of unstructured collaboration. Development team meeting or chatting with architects, designers and product owner, to clarify a work item or engineering task is either stored in their emails or on a white board in a discussion room. Building a framework around these work items from this unstructured collaboration during the actual development engages the developers most. This in turn brings high quality and productivity.
+Collaboration and Communication Mechanisms
+Infosys Limited – Company Confidential Page 12
+4 Collaboration and Communication Mechanisms
+Following are key mechanisms for effective communication and collaboration in Agile projects implemented in distributed environment.
+4.1 Collaboration Mechanisms
+4.1.1 Screen Sharing
+Remote Desktop, VNC, Net Meeting, Team Viewer and Whiteboard are good utilities for screen sharing. This is useful for demonstration of new features, reproducing bugs, working with customers, sharing ideas/understanding and assisting in installations.
+4.1.2 Screen Casts
+Video/Audio recordings of the computer screen and a person talking are very useful for explaining a feature/module to another team member. Recording, then viewing a screen cast, may not be as effective as sitting alongside and explaining in person, but it has advantage of replay ability. A series of screen casts which explains the important parts of a system will get new team members ramp up quickly. The knowledge transfer activity for the new joiners can be given with these screen casts.
+4.1.3 Screen Shots
+Best way to articulate is through sharing the screen shot of the images or pictures to the team members which would convey the details in more effective way.
+4.1.4 Mockups
+A distributed team leaves more room for misunderstanding of desired results. This can be addressed by building a mockup (text files, paper, Microsoft excel) of the desired outcome. These mockups can be shared across the distributed team by taking photographs and sending them across or they can be shared via screen-sharing too.
+4.2 Communication Mechanisms
+4.2.1 Video Conversation
+Large screen, high resolution video conference with virtual whiteboard provides effective communication when teams are working in distributed environment.
+4.2.2 Audio Conversation
+Polycom, VOIP are most popular phones for long distance calls. Also, usage of MS Office Communicator which is available for online voice conversations is recommended.
+4.2.3 Instant Messaging
+The key value in Instant Messaging (IM) is as a substitute for the awareness of who is available and working and for shorter and quick conversations/clarifications. Do not type long conversations unless chat transcripts are required to be recorded.
+Collaboration and Communication Mechanisms
+Infosys Limited – Company Confidential Page 13
+4.2.4 Email
+It is the essential tool used to record the communication. It is used to summarize discussions, record minutes of meetings, conclusions and communication to group.
+Each of these methods/tools helps in communicating the information across the team. However, usage of these tools/methods without actually knowing the other person might not be that effective when compared to the usage of the same with a known team member personally. This gap comes with many apprehensions or assumptions one team member has about the other, working in different location.
