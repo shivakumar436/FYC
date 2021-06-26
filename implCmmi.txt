@@ -1,0 +1,349 @@
+for client projects. Towards this, Infosys has launched a set of Agile Methodologies, which can be easily adopted by project teams based on their business context.
+Figure 1: Three Variations of Infosys Agile Methodologies
+The objective of this module is to provide an understanding on how select process areas of CMMI (v1.3 by Software Engineering Institute) can be implemented in ‘InfyAgile Global’ projects. It provides an insight on how management and engineering practices of ‘InfyAgile Global’ projects address the high maturity practices of CMMI.
+Implementing CMMI in Infosys Global Agile Projects Key Drivers
+Infosys Limited-Company Confidential Page 6
+2 Key Drivers
+The key drivers for adopting high maturity practices of CMMI in ‘InfyAgile Global’ projects are as follows:
+ Improve Project Performance: To improve project performance by leveraging CMMI best practices while executing in co-located or distributed team environment.
+ Process Performance Capabilities: To establish organizational process performance capabilities and benchmark it for continual improvement.
+ Predictability: To achieve predictability in project performance with focus on upfront planning, frequent and early feedback.
+ Contractual Obligation: Qualifying criteria to win deals/contracts and new tenders against the competition. Helps organization to position itself in the market at a higher level of maturity on process
+ Scalability: To maintain coherence and alignment in a distributed team environment with better control of processes.
+ Better Quality: Leads in reducing defects, additional costs and improves efficiency. It provides better visibility to comprehend whether the work delivered meets client expectations or not.
+ Institutionalization: InfyAgile Global projects may individually get implemented successfully, but sustaining this behavior across the organization will require institutionalization of processes.
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 7
+3 Concepts
+3.1 CMMI Overview
+CMMI for development is considered as a reference model to cover activities for both products and services. It is implemented by organizations which could be from any industry like banking, aerospace, hardware, retail, oil and gas, energy utilities, defense, automobile manufacturing, telecommunications.
+For further details please refer to ‘CMMI for Development v1.3’, www.sei.cmu.edu
+CMMI contains practices that cover project management, process management, systems engineering, hardware engineering, software engineering and other supporting processes used in development and maintenance.
+Figure 2: Effectiveness of CMMI
+Source: Software Engineering Institute, Carnegie Mellon University; May 2010
+The required goals in CMMI, which are essential to achieve process improvement in a given process area, are categorized into two groups:
+ Specific Goals
+ Generic Goals
+A Specific Goal describes the unique characteristics that must be present to satisfy the process area. For example, a specific goal from configuration management process area is ‘Integrity of baselines is established and maintained’.
+Generic goals are called ‘generic’ because the same goal statement applies to multiple process areas. A generic goal describes the characteristics that must be present to institutionalize processes in a given process area. An example of a generic goal is ‘The process is institutionalized as a defined process’.
+A Process Area is a cluster of related practices in an area that, when implemented collectively, satisfies a set of goals considered important for making improvement in that area. Please refer ‘Appendix-A’ in this document
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 8
+which provides a list of all CMMI process areas, with its description and their associated categories and maturity levels.
+CMMI supports two improvement paths, represented as ‘Continuous’ and ‘Staged’ representations, and the levels associated with these representations are called ‘Capability levels’ and ‘Maturity levels’ respectively. At Infosys, staged representation is followed to obtain maturity in the adopted process. Maturity levels are applied to a given set of process areas and are rated 1 through 5. The following figure illustrates the five maturity levels of CMMI.
+Figure 3: CMMI Maturity Levels
+CMMI v1.3 as released by SEI (Software Engineering Institute) in May 2010 provides guidance to interpret CMMI practices while using Agile methods. This guidance is provided in the form of examples for the key process areas such as Configuration Management (CM), Product Integration (PI), Project Monitoring and Control (PMC), Project Planning (PP), Process and Product Quality Assurance (PPQA), Requirements Development (RD), Requirements Management (REQM), Risk Management (RSKM), Technical Solution (TS), Verification/Validation (VER/VAL). The next section provides the details on how each of these process areas are addressed in projects using Agile methodology through recommended practices of ‘InfyAgile Global’.
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 9
+3.2 Mapping of Key CMMI Process Areas with InfyAgile Global Practices
+3.2.1 Outline
+Agile methods focus on developing working software incrementally to achieve project goals. ‘InfyAgile Global’ brings the best of industry Agile practices and leverages processes of CMMI institutionalized within Infosys.
+Figure 4: ‘InfyAgile Global’ Methodology
+The above diagram (Figure 4) depicts the flow and various stages of ‘InfyAgile Global’ methodology. The below diagram (Figure 5) provides key management and engineering practices adopted in ‘InfyAgile Global’ methodology for project execution.
+Figure 5: Key Management and Engineering Practices in InfyAgile Global
+Note: The detail description of each of the above mentioned practices is available in the ‘Introduction to Agile Practices’ module of this certification.
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 10
+3.2.2 Mapping of Key ‘InfyAgile Global’ Practices
+This section details the mapping of key practices recommended by ‘InfyAgile Global’ with select process areas of CMMI.
+3.2.2.1 Requirements Development
+The objective of ‘Requirements Development’ process area in CMMI is to elicit, analyze and establish client and product/service requirements. The Specific Goals defined for this process area are:
+ SG1 - Develop Customer Requirements*
+ SG2 - Develop Product Requirements
+ SG3 - Analyze and Validate Requirements
+In the projects where Agile methods are used, client requirements and ideas are iteratively elicited, elaborated, analyzed and validated. Requirements elicitation and analysis in a workshop mode is one of the key techniques used to ensure that the understanding is clear among all stakeholders such as client or Product Owner, project team, end users and others.
+‘Requirements Workshop’ is one of the key management practices recommended by ‘InfyAgile Global’ methodology which makes all the stakeholders have a common understanding of project requirements. It provides a platform for all the participants including the project team members to put forward their ideas towards the project requirement and align them to the overall goal. The requirements are finally consolidated and documented in ‘Product Backlog’ in the form of ‘Epic and User Stories’.
+3.2.2.2 Project Planning
+The purpose of ‘Project Planning’ process area is to establish and maintain plans that define project activities. The Specific Goals defined for this process area are:
+ SG1 - Establish Estimates
+ SG2 - Develop a Project Plan
+ SG3 - Obtain Commitment to the Plan
+Agile projects perform development of work in an incremental manner which involves planning, monitoring, controlling and re-planning more frequently than in any traditional development environment. While a high-level plan for the overall project is established, team does ‘Release Planning’ to estimate, plan and carry out the actual work. Estimates reflect Sprint and team-specific factors that influence time, effort, resources and risks to accomplish the Sprint. Tasks are assigned and accepted during ‘Sprint Planning’. Commitments to the ‘Product Backlog’ items are made by the team during Sprint Planning when user stories from ‘Sprint Backlog’ are estimated and assigned.
+*SG refers to specific goals of CMMI model
+Requirements Development (RD)
+Epic and User Stories
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Requirements Workshops
+Product Backlog
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 11
+While establishing the high level plan for the overall project, ‘InfyAgile Global’ focuses on ‘Standardized Estimation’, ‘Risk Management’, ‘Measurement Focus’, and ‘Quantitative Project Management’ practices. ‘InfyAgile Global’ process uses Quick Function Point Analysis (FPA) estimation method as a ‘Standardized Estimation Technique’ at proposal and post release stage for overall sizing and story point estimation at iteration/Sprint stage for user stories. FPA helps the project team in estimating overall schedule and effort at proposal stage, and gives an edge for publishing an organization capability baseline in Agile which can be leveraged by the development teams.
+‘Risk Management’, ‘Measurement Focus’ and ‘Quantitative Project Management’ practices are discussed in the subsequent sections.
+3.2.2.3 Project Monitoring and Control
+This process area provides an understanding of the project’s progress so that appropriate corrective actions can be taken when the project’s performance deviates from the plan. The Specific Goals defined for this process area are:
+ SG1 - Monitor the Project Against the Plan
+ SG2 - Manage Corrective Action to Closure
+In Agile projects, consistent involvement of client/end users in project’s activities is crucial for project’s success as it provides an understanding of the progress to all stakeholders. Thus, communication and collaboration within team members becomes important so that the team tracks the progress on daily basis to monitor any impediments and does necessary course correction.
+‘Burndown Charts’, ‘Daily Standup Meeting’, ‘Mid-Sprint Demo’, ‘Risk Management’, ‘Sprint Review’ and ‘Sprint Retrospective’ practices are enforced in the ‘InfyAgile Global’ projects to monitor and control the progress. Burndown charts are tracked both at Sprint and Release level. At Sprint level, the charts provide the representation of the remaining effort for a particular Sprint. At Release level, the charts show the overall progress of the Release. The ideal line of Burndown charts provides an indicator of deviations against which the appropriate actions need to be taken by the project team. Daily standup meetings have a key role in improving communications, identifying and removing impediments, highlighting and promoting quick decision making, and improving the teams’ level of project knowledge. Mid-Sprint demo to the stakeholders helps the team to monitor
+Project Planning (PP)
+Quantitative Project Management
+Risk Management
+Standardized Estimation Technique
+Product Backlog
+Sprint Backlog
+Epic and User Stories
+Release Planning
+Sprint Planning
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Measurement Focus
+Project Monitoring and Control (PMC)
+Daily Standup Meetings
+Mid-Sprint Demo
+Risk Management
+Sprint Review
+Sprint Retrospective
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Burndown Charts
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 12
+and control their progress and verify their work products by taking intermediate feedback. Sprint Review event involves client and relevant stakeholders, i.e. end users, on a regular basis to monitor progress of the project and collect feedback. Sprint Retrospective, which is done immediately after the Sprint Review, helps in taking corrective actions as required.
+3.2.2.4 Process and Product Quality Assurance
+The purpose of ‘Process and Product Quality Assurance’ is to provide project teams and management an independent insight into processes and associated deliverables. The Specific Goals defined for this process area are:
+ SG1 - Objectively Evaluate Processes and Work Products
+ SG2 - Provide Objective Insight
+The project teams operating in Agile environment tend to focus on immediate deliverables of the Sprint/iteration rather than the long term releases. An intermediate evaluation has to be planned and performed during iterations to assure the effectiveness of process and product/service quality.
+The practice of ‘Mid Sprint Demo’, ‘Sprint Review’, ‘Sprint Retrospective’ and ‘Measurement Focus’ in ‘InfyAgile Global’ enables to perform objective evaluations on important work products and processes. The output of this evaluation will be incorporated into tasks carried out by the team such as peer reviews, daily meetings and continuous integration.
+3.2.2.5 Risk Management
+The ‘Risk Management’ process area is crucial as it proactively helps to identify potential risks. The Specific Goals defined for this process area are:
+ SG1 - Prepare for Risk Management
+ SG2 - Identify and Analyze Risks
+ SG3 - Mitigate Risks
+Risks in Agile projects can occur from several factors such as contractual obligation, financial aspect, availability of teams across locations and bandwidth of Product Owner. The risk mitigation activities can be planned and invoked along the project lifecycle to mitigate such risks.
+Process and Product Quality Assurance
+(PPQA)
+Sprint Review
+Mid-Sprint Demo
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Measurement Focus
+Sprint Retrospective
+Mid-Sprint Demo
+Risk Management
+Definition of Done
+Sprint Planning
+Sprint Review
+Sprint Retrospective
+Risk Management (RSKM)
+Burndown Charts
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Daily Standup Meetings
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 13
+The ‘Risk Management’ practice recommended by ‘InfyAgile Global’ provides a systematic approach to manage the overall (technical and non-technical) risks at Project, Release and Sprint level.
+The risk management plan and risk profiling process of ‘InfyAgile Global’ expects the team to analyze the probability of occurrence, impact and mitigation plan, along with periodic monitoring of the plan and revision of the status.
+‘Mid-Sprint Demo’ is also one of the key practices in managing risks. This practice helps in getting an early feedback on ‘work in progress’ deliverables from client during execution of longer Sprints. ‘Burndown Charts’ and ‘Daily Stand-up Meeting’ practice helps the project team to highlight the impediments and risks associated during the project execution on a day-to-day basis. Other key practices in mitigating the risks, by integrating the systematic approach of ‘Risk Management’ practice throughout the project cycle, are ‘Definition of Done’, ‘Sprint Planning’, ‘Sprint Review’ and ‘Sprint Retrospective’.
+3.2.2.6 Measurement and Analysis
+The main objective of Measurement and Analysis process area is to create a mechanism for developing and maintaining the measurement capability of projects which is used for any management decision making. The Specific Goals defined for this process area are:
+ SG1 - Align Measurement and Analysis Activities
+ SG2 - Provide Measurement Results
+‘Measurement Focus’ is the key management practice which provides a robust mechanism to achieve the committed quality and performance by the project teams.
+This practice is deployed at Sprint, Release and Project level of ‘InfyAgile Global’ projects.
+3.2.2.7 Quantitative Project Management
+The ‘Quantitative Project Management’ as a process area provides a platform to:
+ Establish and maintain the quantitative understanding of project performance
+ Manage project quantitatively to achieve process and quality performance objectives
+The Specific Goals defined for this process area are:
+ SG1 - Prepare for Quantitative Management
+ SG2 - Quantitatively Manage the Project
+This process is adopted in ‘InfyAgile Global’ as a key practice aiming at improving predictability by quantitative planning, tracking and control. This is achieved through analyzing process variance at Release and Project level.
+‘Quantitative Project Management’ practice provides insight into stability of process parameters collected at the Sprint and Release level, and effectiveness of strategies deployed during planning activity. ‘Burndown Charts’ is also one of the key practices for understanding performance of project. It provides the plot of ideal line along with the actual line against which deviations can be tracked and appropriate actions can be taken.
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Measurement and Analysis (MA)
+Measurement Focus
+Quantitative Project Management
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Burndown Charts
+Quantitative Project Management (QPM)
+Measurement Focus
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 14
+‘Measurement Focus’ practice provides insight into the measurement of process performance parameters through the mechanisms of data collection and trend analysis at the Sprint and Release level.
+3.2.2.8 Requirements Management
+The purpose of ‘Requirements Management’ process area is to manage product/service requirements of the project and to align these requirements with the project plan and deliverables.
+The Specific Goal defined for this process area is to:
+ SG1 - Manage Requirements
+In Agile projects, requirements are maintained and tracked in the form of ‘Product Backlogs’, ‘Epic and User stories’ and ‘Sprint Backlogs’. With improved understanding and clarity of the project goal, requirements gradually evolve as work progresses. Traceability and consistency across requirements and work products are addressed through mechanisms of Product Backlog and the associated user story mapping to Sprint Backlog.
+‘InfyAgile Global’ recommends the practices of gathering and analyzing requirements in the form of ‘Epic and User Stories’ and maintaining the traceability and alignment of these requirements in the form ‘Product Backlog’ and ‘Sprint Backlog’. The consistency across the requirements and work deliverables are achieved also through the mechanisms of ‘Sprint Planning’, ‘Sprint Review’, and ‘Sprint Retrospective’. The commitments to the requirements are achieved by agreeing to the ‘Definition of Done’ by entire team collectively.
+3.2.2.9 Technical Solution
+The ‘Technical Solution’ process area helps the project teams to select, design and implement solutions to meet requirements. These encompass the lifecycle processes of the product or service. The Specific Goals defined for this process area are:
+ SG1 - Select Product Component Solutions
+ SG2 - Develop the Design
+ SG3 - Implement the Product Design
+Agile projects focus on early solution exploration. By making the selection and tradeoff decisions more explicit, technical solution process area helps in improving the quality of those decisions over time. Solutions are defined in terms of functions, feature sets, releases or any other components and are included as part of release information or maintenance logs.
+InfyAgile Global adopts the approach of ‘Simple Design’ and ‘Test Driven Development’ for designing and developing the solution for project requirements.
+Product Backlog
+Sprint Backlog
+Sprint Review
+Sprint Retrospective
+Requirements Management (REQM)
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Definition of Done
+Sprint Planning
+Epic and User Stories
+Simple Design
+Test Driven Development
+Technical Solution (TS)
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 15
+The ‘Simple Design’ in Agile projects is based upon the Agile design principles such as architecture envisioning, iteration modeling, model storming, test for design and refactoring. Using this approach, high-level design evolved during the initiation phase is elaborated further during each Sprint execution. Refactoring is done during every Sprint to make development of the product scalable to incorporate new requirements. ‘Test Driven Development’ is one of the advanced engineering practices. It is primarily intended to drive development from testing. This practice is very effective to eliminate functional defects at the earliest and reduce subsequent need for manual testing which saves huge time and delivers high quality code. This approach helps to design and develop the code in a predictable way.
+3.2.2.10 Configuration Management
+‘Configuration Management’ process area establishes and maintains integrity of configurable items and deliverables using
+ Configuration identification
+ Configuration control
+ Status accounting
+ Configuration audits
+The Specific Goals defined for this process area are:
+ SG1 - Establish Baselines
+ SG2 - Track and Control Changes
+ SG3 - Establish Integrity
+Configuration management (CM) is an important process area in Agile projects because of the need to support frequent change in the requirements, frequent builds (usually daily), multiple baselines and multiple CM supported workspaces (for example used by individuals or team members or for pair-programming). Teams may face issues, if the Agile projects do not plan for automation of CM activities.
+‘InfyAgile Global’ recommends automation of the configuration management process area and provides a list of standard tools to deploy the ‘Build Automation’ and ‘Automated Continuous Integration’ practice. The practice of automated build integrates the tools for code review, unit tests and code coverage and thus, ensures the quality at source. Another key practice recommended by ‘InfyAgile Global’ to establish the integrity is ‘Test Automation and Continuous Testing’.
+3.2.2.11 Product Integration
+‘Product Integration’ process area ensures that the product is integrated by all the software components and modules necessary as per requirements. It is intended to behave accurately and possess the required functionality and quality attributes to deliver the product.
+The Specific Goals defined for this process area are:
+ SG1 - Prepare for Product Integration
+ SG2 - Ensure Interface Compatibility
+ SG3 - Assemble Product Components and Deliver the Product
+Product integration is a very common and daily activity in Agile projects. The working software code is continuously added to the code base in a process called continuous integration.
+Automated Continuous Integration
+Build Automation
+Test Automation and Continuous Testing
+Configuration Management (CM)
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Implementing CMMI in Infosys Global Agile Projects Concepts
+Infosys Limited-Company Confidential Page 16
+‘InfyAgile Global’ recommends the continuous integration process as ‘Automated Continuous Integration’ practice. This practice helps teams to integrate the source code into a central repository frequently and continuously. This integration gets verified by the ‘Build Automation’ practice to ensure the stability of working software at all times. ‘Test Automation and Continuous Testing’ is one of the key essential engineering practices to satisfy the process area of ‘Product Integration’. In addition to automation and integration strategies, Product Integration should be established from the early stages of the project following the ‘Simple Design’ practice and should be revised to reflect the evolving and emerging solutions for work deliverables.
+3.2.2.12 Verification and Validation
+The ‘Verification’ and ‘Validation’ process area helps to ensure a systematic approach for:
+ Selecting the development work items to be reviewed and tested
+ Methods and environments to be used
+ Interfaces to be managed, which help ensure that defects are identified and addressed early.
+The Specific Goals defined for this process area are:
+ SG1 - Prepare for Verification and Validation
+ SG2 - Perform Peer Reviews
+ SG3 - Verify Selected Work Products
+ SG4 - Validate Product or Product Components
+The Verification process area ensures that the selected work items meet their specified requirements. Validation process area demonstrates that the product fulfills its intended use when placed in its intended environment.
+In Agile projects, because of client involvement at regular intervals, i.e. during Sprint reviews, and frequent releases, verification and validation mutually support each other. Automation in Agile projects is very important because the Sprint durations are short and the working software is to be generated in that short period of time.
+‘Build Automation’, ‘Automated Continuous Integration’ and ‘Test Driven Development’ practices are adopted in ‘InfyAgile Global’ projects for a systematic approach to ensure compatibility among requirements, solutions and consistency with how product will be used. ‘Test Automation and Continuous Testing’ practice helps in continuous delivery of the software. ‘Sprint Review’ helps in getting frequent feedback from the client for acceptance of deliverables at the end of every Sprint.
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Simple Design
+Build Automation
+Automated Continuous Integration
+Test Automation and Continuous Testing
+Product Integration (PI)
+Automated Continuous Integration
+Build Automation
+Key Process Areas of CMMI
+'InfyAgile Global' recommended Practices
+Test Automation and Continuous Testing
+Test Driven Development
+Sprint Review
+Verification/Validation (VER/VAL)
+Implementing CMMI in Infosys Global Agile Projects Application in Projects
+Infosys Limited-Company Confidential Page 17
+4 Application in Projects
+While assessing a project at high maturity level, CMMI mandates certain process areas to be complied, but it does not prescribe how these process areas should be satisfied.
+When executed in Agile environment, ‘InfyAgile Global’ practices satisfy these process areas at an implementation level, complementing each other by creating synergy that benefits the projects using them. Following sections provide a view on how synergy is created between CMMI and Agile, to achieve maturity Level 3 and Level 5 of CMMI in ‘InfyAgile Global’ projects.
+4.1 Achieving CMMI Level 3 Maturity in InfyAgile Global Projects
+Figure 6: Achieving CMMI Level 3 Maturity
+4.1.1 Defining Project Management Plan
+Project management plan is a placeholder where planning is done for entire scope of the project. This planning is done at the beginning of the project considering many aspects of project management and revised during key milestones or change in scope. Planning should consider historical data from similar project or PCB (e.g. effort, defect, risks, etc.), commitments from contractual documents or Statement of Work, any implicit/explicit assumptions during proposal stage.
+Following are the areas where planning is required for scope of the project:
+ Goals (for product and process quality) to be defined based on commitments made to the client
+ Estimation for overall project to be determined using standardized estimation techniques
+ Mechanisms for tracking defects, project issues and impediments
+ Deviations in process implementation owing to suit client process and Infosys process
+ Project training needs (Technical, Domain and Process) and assessing the effectiveness of training
+ Planning and tracking of tools implementation and reusable components
+ Mechanism to collect and analyze client feedback, and initiate improvement
+Implementing CMMI in Infosys Global Agile Projects Application in Projects
+Infosys Limited-Company Confidential Page 18
+4.1.2 Organizing Product Backlog
+Organizing and prioritizing requirements in Product Backlog is most essential for Agile teams to plan and execute development activities on an incremental basis. A common understanding of requirements between Product Owner and project team is crucial for the success of the project. Conducting a requirements workshop on frequent intervals provides a common platform for all the stakeholders to achieve common understanding of the requirements as well as commitment to these requirements by project team. These agreed requirements are recorded in Product Backlog in the form of Epics and User Stories, in an orderly manner. Changes in requirements can be expected in Agile projects. These changes in requirements have to be managed during every Release/Sprint planning and by Product Backlog grooming. The impact of accepting new requirements or modified requirements into Product Backlog has to be reflected in Risk Management plan, Quality Management plan and Configuration Management plan.
+4.1.3 Planning at Release and Sprint Level
+During release planning, requirements and risks related to requirements are analyzed, group-reviewed and validated by the team members and Product Owner. The Product Backlog is revised based on scope of the Project, Release and Sprint duration is defined. During Sprint planning, user stories and tasks related to the user stories are defined, estimated, group-reviewed and assigned by team members and Product Owner. Acceptance criteria are defined as part of user story form and are discussed and agreed upon by the Product Owner, for all the user stories.
+4.1.4 Engineering and Management Processes at Sprint Execution
+The activities executed during the Sprint are crucial for successful project deliverables and also for achieving project-defined goals and client commitments.
+Following is the list of activities essential for teams to adhere to achieve a high maturity behavior:
+ The team members should log the remaining effort daily, of tasks of user stories, which they are working on. This helps in providing the true picture of project status by representation of the Burndown chart. The review and testing defects also need to be logged into the available system or tracker
+ Discipline in timelines and adherence to the planned events such as daily stand-up meetings, project status meetings, mid-sprint demos has to be maintained consistently
+ Analysis and evaluation of deviation from goals has to be performed during Sprint retrospection for taking corrective and preventive actions
+ Simple design and continuous refactoring is performed during Sprint execution taking into consideration various needs like logical, technical, deployment and application functionalities
+ Deployment of design standards, coding standards, pair programming practices while implementing the design solutions
+ Implementation of continuous integration strategy like automated build, test automation and continuous testing from early stages of the project
+ Usage of automated testing tools and code profiling tools before conducting code reviews. Usage of testing tools for system, load, performance and regression testing
+ Risk-based and priority-based reviews are planned and conducted with the relevant stakeholders, for the work items (architecture, design and code) thereby ensuring that defects are identified and addressed early. Also, self-review, cross/peer review or group review is planned and conducted accordingly
+Implementing CMMI in Infosys Global Agile Projects Application in Projects
+Infosys Limited-Company Confidential Page 19
+4.1.5 Integrated Process
+It is important for Agile projects to have an integrated process institutionalized in the organization. The following should be incorporated into planning and execution activities:
+ Data is collected, analyzed and reported at the stated frequency (end of Sprint and Release)
+ Software quality assurance plan with the details of process and tailoring recommended. Findings of project compliance checks are recorded and shared with stakeholders
+ Availability of configuration management plan, implementation of tools, training and audits for evaluating the effectiveness of Continuous Integration and Continuous Testing practices
+ Identification and documentation of project risks based on the probability, impact and availability of mitigation plan of each risk. Status of each risk is monitored periodically and mitigation plan is revisited (during Sprint Review and Sprint Retrospective) and communicated to stakeholders
+ Decisions for critical areas, like prioritization of user stories, or finalization high level design architecture, are taken using standardized techniques (like MoSCoW, DAR) and are documented
+The below table provides a brief mapping of required artifacts to achieve CMMI maturity levels 2 and 3.
+Please refer checklist in PRidE for project maturity questionnaire. Path is given below:
+(SparshWebappsPRidEProcessesIT ServicesEngineering ProcessesDevelopmentAgile MethodologyInfyAgile GlobalChecklist)
+Table 1: Mapping of required Typical Artifacts against CMMI Maturity Level 2 and Level 3
+CMMI Maturity Level
+Typical Output from 'InfyAgile Global' recommended
+Practices (Artifacts)
+Product Backlog
+Project Management Plan
+Release and Sprint Plan
+Quality Management Plan
+Project Estimates
+Sprint Backlog
+Defect Tracker, Issue Tracker, Action Item Tracker
+Burndown charts
+Client Feedback, MoM or Mail Communication
+Sprint Retrospective, Release Closure Report
+CM Plan, SQA Plan
+Configuration Audit Reports
+Requirements Review/Validation Records
+Risk Management Plan
+High Level Design & Architecture
+Design Standards & Design Robustness, Coding Standards
+Working Software after every Integration
+Test data & scripts, Test Results
+Review Records, Defect Log
+Release Report Analysis
+Training Reports
+CMMI Level 2
+CMMI Level 3
+Implementing CMMI in Infosys Global Agile Projects Application in Projects
+Infosys Limited-Company Confidential Page 20
+4.2 Achieving CMMI Level 5 Maturity in InfyAgile Global Projects
+Figure 7: Achieving CMMI Level 5 Maturity
+4.2.1 Predicting the Process Performance
+The objectives defined at the project level should be aligned with Release and Sprint level planning. The sub-process needs to be determined to monitor and predict the process performance at both Release and Sprint level.
+For example, defect removal effectiveness and effort variance are captured at release level for monitoring the process performance. Stability has to be achieved for sub-processes based on the parameters collected at Release and Sprint level. Variation in sub-process performance should be analyzed and corrective actions should be taken accordingly.
+Root cause analysis has to be carried out for outliers. Decision making, during the course of the project at every retrospection, has to be done based on the actual data from Sprint retrospective reports (e.g. Velocity, Defect Density) and Release closure reports (e.g. Productivity, Effort Variance).
+4.2.2 Effectiveness of Deployed Strategies
+Strategies and its benefits are to be defined to meet the objectives at Sprint and Release level. The standard Agile practices need to be planned and adopted during the Sprint execution. During Sprint/Release retrospective meetings, goals and strategies need to be revisited. Effectiveness of deployed strategies has to be evaluated and monitored.
+4.2.3 Quantitative Control
+Quantitative control is achieved by quantitative project management. It is intended for quantitative planning, tracking and process control, thereby achieving the established objectives in ‘InfyAgile Global’ projects. Measurement of process through metrics is the key activity to be done for analyzing the process variance. By
+Implementing CMMI in Infosys Global Agile Projects Application in Projects
+Infosys Limited-Company Confidential Page 21
+controlling the project quantitatively, the predictability of processes can be improved and desired quality of work products can be accomplished. Usage of prediction models should be evaluated on a need basis.
+4.2.4 Improvement Plan
+Process improvement suggestions should be collected from project team during Sprint retrospective meetings to strengthen Agile practices and improve process and project performance. Benefits of suggestions implemented should also be measured and recorded. Improvement actions need to be identified based on problem analysis done on common root causes and should be implemented and tracked to closure.
+4.2.5 Problem Prevention
+Sprint retrospective meetings should include scope for defect and problem prevention activity. Problem analysis has to be conducted periodically along with the Sprint retrospective meetings. The standard techniques such as Pareto Chart, Fishbone/Ishikawa Diagram, 5-Why analysis, etc., can be used to analyze the common root causes. Analysis has to be shared with the entire team for improvement.
+The below table provides a brief mapping of required artifacts to achieve CMMI maturity levels 4 and 5 in ‘InfyAgile Global’ projects.
+Please refer checklist in PRidE for project maturity questionnaire. Path is given below:
+‘SparshWebappsPRidEProcessesIT ServicesEngineering ProcessesDevelopmentAgile MethodologyInfyAgile GlobalChecklist’
+Table 2: Mapping of required Typical Artifacts against the CMMI Maturity Level 4 and Level 5
