@@ -1,0 +1,431 @@
+1. Agile Overview
+Agile software development is based on the Agile Manifesto* introduced in 2001, as given below:
+ Individuals and interactions over processes and tools
+ Working software over comprehensive documentation
+ Customer collaboration over contract negotiation
+ Responding to change over following a plan
+That is, while there is value in the items on the right, we value the items on the left more.
+There are 12 principles, which are the pillars of the Agile Manifesto. They are:
+ Customer satisfaction by rapid delivery of useful software
+ Welcome changing requirements, even late in development
+ Working software is delivered frequently (weeks rather than months)
+ Working software is the principal measure of progress
+ Sustainable development, able to maintain a constant pace
+ Close, daily co-operation between business people and developers
+ Face-to-face conversation is the best form of communication (co-location)
+ Projects are built around motivated and trustworthy individuals
+ Continuous attention to technical excellence and good design
+ Simplicity
+ Self-organizing teams
+ Regular adaptation to changing circumstances
+Several Agile methodologies have evolved over a period and there is always a challenge to identify the right Agile method, which would suit the business context of the client. In addition, by Agile, it is often misunderstood as Scrum framework, which is the most popular among the Agile methodologies. There are other Agile methods such as Extreme Programming (XP), Dynamic System Development Method (DSDM), Feature Driven Development (FDD) along with Lean and Kanban which can be adopted based on the scenarios in which Agile adoption is intended. It is always important to understand the business context in which any particular Agile methodology can be adopted, and what the team and client want to achieve by adopting any of these methodologies.
+Hybrid Agile methods have also evolved over a period. Projects have started adopting hybrid Agile methods instead of pure Agile practices such as Scrum, XP, DSDM and FDD. The hybrid Agile methods typically choose select practices from Agile and other methods (such as waterfall, iterative and spiral) based on a given context. . This is not only true for pure application development projects, but also seen in other project contexts such as Enterprise package implementations, global rollouts etc. For example, in projects involving enterprise packages such as Oracle, SAP, hybrid agile practices are integrated into the package implementation, rollout methodologies to reap benefits agile practices have to offer. The trend is towards attaining higher maturity in Agile execution leading to predictability and faster time-to-market in varied project contexts in a globally distributed environment.
+* The Agile Manifesto was written in February of 2001, at a summit of seventeen independent-minded practitioners of several programming methodologies, where they agreed upon four main values of software development.
+Agile Overview and Methodologies Key Drivers for Agile Adoption
+Infosys Limited – Company Confidential Page 2 of 29
+2. Key Drivers for Agile Adoption
+In the current scenario, software has become essential for any business to improve efficiency. In a globally distributed environment, producing software faster with lower cost brings competitive advantage to businesses. Hence CxOs are increasingly looking at higher Agility from IT services to effectively run business to result in reduction in time to market as well as provide better cost efficiency.
+Also, the need for Agility is growing as IT services are becoming a lot more user-driven, which means that requirements are continuously evolving and thus require frequent feedback from users. Hence, the expectations of CxOs are moving towards bringing in predictability in a continuously evolving environment while effectively managing cost, quality and risks.
+It has been observed, that the key drivers for Agile adoption are:
+ Since user involvement is more, Agile attempts to bring in more synergy with business and IT
+ Cost advantage and availability of right sourcing across globe in the cases of distributed environment adding to the rapid development of Agile
+ In certain business context, shorter feature release brings competitive advantage
+ In complex enterprise project environments such as SAP or Oracle implementations, the need to reduce time-to-market and ability to adapt to evolving business needs over the project lifecycle is driving adoption of agile practices. Package vendors are coming out with enhancing their implementation methodologies with agile practices, ex: SAP’s Activate methodology which includes agile framework for implementing SAP solutions.
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 3 of 29
+3. Agile Methodologies
+Agile methodologies adopt an iterative and incremental delivery of working software. Each iteration follows a time-boxed* approach where working software gets developed and delivered based on the prioritization of the requirements.
+As per 11th Annual State of Agile report, published by versionone.com, Scrum and Scrum/Extreme Programming (XP) Hybrid continue to be the most common Agile methodologies used by several organizations. In this module, Scrum, XP, Kanban and Scrumban methodologies along with some of the Scaled Agile methodologies are detailed.
+3.1 Scrum
+Figure 1: Scrum
+Source: Scrum Primer V1.2 by Pete Deemer
+Scrum is an iterative and incremental framework for application or product development. The development of the project is achieved through iterative cycles known as Sprints. At the start of each Sprint, a cross-functional team selects items from Product Backlog and commits to complete the items by the end of that particular Sprint. Every day the team gathers for a short meeting to review its progress. At the end of the Sprint, the team reviews the work product with stakeholders and demonstrates what has been built. The feedback is then incorporated in the subsequent Sprint. At the end of each Sprint, Scrum emphasizes that the integrated working software is fully tested, and potentially made shippable. The Sprints are strictly time-boxed and occur sequentially. The end date of a Sprint does not get extended, irrespective of the completion of the work initially planned.
+* Time box – It means a fixed time is allotted for an activity. Certain deliverables are committed to get completed in this time.
+3.1.1 Scrum Roles
+Scrum team consists of three roles: Product Owner, Team, and Scrum Master. There are other contributors to the success of the project including managers, SMEs (Subject Matter Experts), architects, customers
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 4 of 29
+and vendors. These additional contributors facilitate the overall success of the project through their expertise and experience.
+Product Owner
+The product owner is responsible for:
+ Providing the vision of the project to the team
+ Maximizing the value of the project and the work of the Scrum Team
+ Managing the Product Backlog
+ Clearly expressing Product Backlog items
+ Prioritizing the items in the Product Backlog to best achieve goals and mission of the project
+ Ensuring that the Product Backlog is visible, transparent and clear to all about what the team will work on next
+Any team member recommending a change to a Product Backlog item’s priority has to discuss with the Product Owner.
+The Team
+Team turns Product Backlog into increments of potentially shippable working software at the end of every Sprint. Team is structured, self-organized and manages its own work.
+A team has the following characteristics:
+ Team size in Scrum should ideally be around seven persons
+ The team is recommended to be cross-functional with skills in analysis, development, testing, interface design, database design, architecture, documentation.
+ It is self-organized and decides what to commit and how best to accomplish that commitment
+ The accountability of the work product belongs to the team as a whole
+Scrum Master
+The Scrum Master is responsible for ensuring that the Scrum team adheres to Scrum values, practices, and rules.
+Responsibilities of Scrum Master are as follows:
+ Helps the Scrum team to adopt Scrum
+ Helps the team to learn and apply Scrum to achieve the desired objective of the project
+ Does not tell people what to do or assign tasks, but facilitates the process by supporting the Team to organize and manage itself
+ Serves the Team, protects them from outside interference, educates and guides the Product Owner and the Team in use of Scrum
+ Facilitates Scrum events
+ Coaches the Team to be cross-functional.
+ Removes impediments for the Team’s progress
+Scrum Master cannot be the Product Owner, manager of the Team or the Project Manager.
+3.1.2 Scrum Events
+Scrum uses time-boxed events to ensure that there is no wastage of time in the execution of the project. It has five events – Release Planning Meeting, Sprint Planning, Daily Scrum, Sprint Review and Sprint Retrospective.
+Release Planning Meeting
+The purpose of release planning is to establish a plan and goals, which the Scrum Team and the rest of the organization can understand and communicate.
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 5 of 29
+Release planning aims to come up with a strategy to:
+ Turn the vision into a successful project in best possible way
+ Meet or exceed the desired customer satisfaction and return on investment
+The release plan establishes the goal of the release, high-priority Product Backlog items, major risks and overall features and functionalities that the release will contain. A probable delivery date is agreed upon; the stakeholders can inspect the progress and make changes to this release plan on a Sprint-by-Sprint basis.
+Sprint Planning
+The work to be performed in a Sprint is planned in the Sprint Planning Meeting. This plan is created by collaborative work of the entire Scrum Team. The Sprint Planning Meeting consists of two parts, each one being a time-box of half of the Sprint Planning Meeting duration.
+ In the first part, team plans what will be delivered as part of the Sprint
+ In the second part, team plans how to build this functionality
+Daily Scrum
+The Daily Scrum meeting is a 15-minute time-boxed event for the Team to synchronize activities. During the meeting, each Team member explains:
+ What he or she has accomplished since last meeting
+ What he or she is going to do before the next meeting
+ What issues/obstacles are in his or her way
+The Team uses the Daily Scrum to assess progress towards achieving the work in the Sprint Backlog. The Daily Scrums meeting facilitates in:
+ Improving communication
+ Identifying and removing impediments to development
+ Highlighting and promoting quick decision-making
+ Improving the Scrum Team’s level of project knowledge
+This is a key meeting to monitor and track the daily progress of the project.
+Sprint Review
+A Sprint Review Meeting is held at the end of the Sprint. During the Sprint Review, the Scrum Team demo’s what was developed in the sprint to the stakeholders. The objective of this meeting is to receive feedback on the progress made so far and decide the next course of action.
+The Sprint Review includes the following:
+ Product Owner identifies what has been ‘Done’ and what has not been ‘Done’
+ Team demonstrates the work that has been ‘Done’ and answers questions about the increment
+ Product Owner discusses the Product Backlog as it stands
+ The entire group discusses on what to do next
+The Sprint Review provides valuable input to subsequent Sprint Planning Meetings.
+Sprint Retrospective
+Sprint Retrospective occurs after the Sprint Review and prior to the next Sprint Planning Meeting.
+Purpose of the Sprint Retrospective is to:
+ Inspect the last Sprint with regards to people, relationships, process and tools
+ Discuss what went well during the Sprint, what problems were faced and how they were solved
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 6 of 29
+ Identify and prioritize the major items that went well and those which could have been done differently. These include Scrum Team composition, meeting arrangements, tools, ‘Definition of Done’ and methods of communication
+ Create a plan for implementing improvements to the way the Scrum Team works.
+3.1.3 Scrum Artifacts
+Scrum artifacts represent work or value in various ways that are useful in providing transparency and opportunities for inspection and adaptation. Following are the Scrum Artifacts:
+Product Backlog
+The Product Owner articulates product vision at the start of the project. This evolves into a refined and prioritized list of features or requirements which is called as Product Backlog. The Product Backlog is continuously updated by the Product Owner to reflect changes in the needs of the end customer, new ideas, issues and risks that might appear.
+Release Burndown
+The Release Burndown chart reflects the remaining Product Backlog items across the releases. The Product Owner maintains an updated Product Backlog list that reflects Release Burndown, and it is available to all stakeholders of the project.
+Sprint Backlog
+The Sprint Backlog is a highly visible, real-time picture of the work that the Team plans to accomplish during the Sprint. It is the subset of Product Backlog items and associated tasks that the Team performs in a particular Sprint. It comprises of all the tasks that the Team identifies as necessary to meet the Sprint goal.
+Sprint Burndown
+Sprint Burndown chart is a graphical representation reflecting the remaining effort for all the tasks that were committed during the Sprint, versus time (no. of days remaining in the Sprint).
+3.2 Extreme Programming (XP)
+Extreme Programming (XP) is one of the popular Agile methodologies and it is mostly used along with Scrum framework to create a blend of both engineering and management practices in Agile projects. The term XP is conceptualized from the execution of traditional software engineering practices at extreme levels.
+For example, code review is a practice, which improves code quality. To manifest this practice at an extreme level, code review is performed as and when the code gets developed. Pair Programming, refactoring and test-driven development are some of the practices which have been evolved from these concepts.
+Extreme Programming is widely known for its technical practices, which can help developers to build high quality software, more productively. These practices fall under four key areas:
+1. Fine Scale Feedback
+2. Continuous Process
+3. Shared Understanding
+4. Programmer Welfare
+Proper adoption of all Extreme Programming practices requires great level of discipline, teamwork and skill.
+Extreme Programming recommends short Sprints, which spans around 1 to 4 weeks, and the project artifacts include story cards, code and unit tests.
+3.2.1 XP Practices
+Fine Scale Feedback
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 7 of 29
+ Planning Game: The key planning process of Extreme Programming is called planning game to ensure work is planned incrementally. It is divided into two parts –
+o Release Planning
+o Iteration Planning
+Release Planning: This is a planned meeting to shortlist requirements to be included in the releases planned and timeline of each release. It has three phases:
+Iteration Planning: This is a planning meeting by the Team to decide upon the tasks and activities, to accomplish requirements planned for the iteration.
+ Pair Programming: Extreme Programming emphasizes on each practice done at its extreme. Coding is generally followed with code review, and in the extreme case, coding and review can happen in parallel. Pair Programming practice entails the same wherein two persons work on the same code. While one programmer is doing the coding, focusing on the code and program level details, the other programmer has the big picture and continuously reviews the code. The pairs are not fixed and keep on changing thereby helping everybody to be aware of the entire system.
+ Test Driven Development: Test Driven development is an Extreme Programming practice in which, developer writes the automated test cases before the actual code is written. Automated unit test cases should inevitably fail at the first attempt of run. If it does not fail, it indicates the feature already exists or there are some problems with the automated test case. Then the code is written and the automated test suite is run. Based upon the result, the code is modified. The units are usually kept small and code is refactored as and when required.
+ Whole Team: In Extreme Programming, the entire Team functions as a whole. Team members are encouraged to be more generalized than specialized. Customers are included as part of the Team who are always available to respond to the queries and provide clarifications.
+Continuous Process
+ Continuous Integration: Continuous Integration (CI) is an Extreme Programming practice where the code base is integrated on a frequent basis from the start of the feature development. It is an automated process in which builds are created from the common source code repository. Continuous Integration helps in identifying integration issues much ahead in the lifecycle and hence, reduces much of the rework cost. Tools are available to facilitate the CI process by accepting the checked-in latest code, prepare build, build duration and build failures.
+ Refactoring: It is the practice of regular improvement of existing design and code without affecting the functionality. Agile development involves frequent releases over a span of time which may introduce design flaw, duplicate code and so on. Therefore, refactoring as a practice helps to
+improve the overall code quality.
+ Small Release: Frequent and small release is another XP practice which is common across various Agile development methodologies. The overall software development does not happen in one go; rather smaller releases are planned which provide customer the confidence of the overall
+Exploration
+Create User Story
+Commitment
+Team commits to date and functionality
+Steering
+Adjust plan and requirement change
+Exploration
+Create task cards
+Commitment
+Task estimation and allocation
+Steering
+Perform the tasks
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 8 of 29
+progress. Also, it helps customer to provide suggestions for any changes and helps to meet the overall goal.
+Shared Understanding
+ Coding Standards: In order to reduce defects in coding, protocols consisting of style and format for the source code are agreed upon by the Team. Rules need to be as per the standards defined
+by language vendors and/or customized by the Team.
+ Collective Code Ownership: Pair Programming practice of XP brings in the collective ownership of the overall code. Since the Team is cross-functional and entire team works in pairs which keep changing, all parts of the code are known to everybody. In case of error, any programmer is allowed to change the code. It may also introduce error because of unforeseen dependencies. To take care of such issues, there should be exhaustive well-defined unit tests available.
+ Simple Design: XP recommends the simple and best way to implement code. Refactoring also
+facilitates this process of achieving simple design.
+ Metaphor: It is usually a naming convention, which makes all the stakeholders understand what the functionality is all about in detail.
+Programmer Welfare
+ Sustainable Pace: Team members need not work for more than 40 hours per week (ideally) to meet project deadlines as it hampers repeatable, predictable and consistent delivery.
+3.2.2 XP Roles
+Customer:
+ Creates user stories and prioritizes user stories for each release
+ Addition/Modification/Deletion of user stories for each release
+Programmers:
+ Estimates for user stories along with the Team
+ Builds the users stories as per the standards
+Coach:
+ Monitors XP process implementation and issue resolution on XP practices
+ Mentors team members
+Tracker:
+Monitors the progress and alerts the Team
+3.3 Kanban
+3.3.1 Kanban Overview
+Kanban is a Japanese word where Kan means “Visual” and ban means “Card” or “Board”. It is a framework which helps organizations and teams to visualize the work, identify to eliminate bottlenecks and achieve dramatic operational improvements in terms of throughput and quality.
+Kanban is about envisioning the existing workflow in terms of steps. These steps can be created on white board. A limit on WIP can be decided at each stage before starting the execution. The prioritized work gets
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 9 of 29
+pulled as soon as the WIP drops. The goal of the Kanban execution is to ensure work items move to next steps quickly to realize business value faster.
+This is best suited where the dynamic and frequent changing requirements are to be delivered faster e.g. Production Support types of projects which deals with tickets.
+3.3.2 Kanban Principles
+Following are the key principles based on which Kanban is established:
+ Visualize work stages
+ Limit Work in progress
+ Measure and Manage flow
+ Setup Explicit Process and Policies
+ Implement feedback loop
+3.3.3 Setting up Kanban Board
+It is critical to understand visualization of workflow stages in the task execution pipeline. Kanban board provides a simple way to understand the process. Every request received is put on the Kanban board. A column on the board represents a stage during the lifecycle of bugs/ tickets. For instance Kanban board can have 4 stages – Received/ Acknowledged, In-progress, UAT & Done. Received stage could be called as “Backlog” also. Team could decide the names for the phases based on the terminology used by their respective teams.
+Kanban board could be a simple white board on which sticky notes could be used with ticket details or an electronic Kanban board could be used. ALM tools like Rally/ Jira could be configured to use the Kanban board.
+The board can give us signal in case the bugs/ tickets are struck in one stage for a long. For electronic boards we can configure the Kanban board in a way that tickets/ user stories along with the time stamp is visible. For white boards which is maintained manually, team can enter the date/ time.
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 10 of 29
+Figure 2: KANBAN Board
+Source: www.kanbantool.com
+3.3.4 Defining WIP limits
+By setting WIP limits, the pull system is created in the upstream and the Team need to follow “Stops starting and Starts Finishing”. After finishing a task in the current stage, team member can pull a task from the previous stage, thereby freeing up capacity in the preceding stage. This keeps going till the input of the bugs/ tickets.
+ WIP limits could be set based on history data and capacity planning
+ In case many tickets gets piled up in one stage other team members help their team members so that tickets movement is smooth, thereby increasing collaboration
+ WIP limits defined could be observed for 3 to 4 weeks and updated based on team’s experience
+Here is an example of setting up a WIP limit for project which takes up Bug-fix requests.
+Project Bank_ABC is a maintenance project with Bug fix in scope. This project needs to set up Kanban board with WIP limits for flow of Bug fixes. Let us try to understand how WIP limits are set for Impact Analysis phase.
+History data says team is spending on an average of 4 hours for impact analysis. There are 2 designers working in Impact analysis phase. They are allocated to this project for 5 hours a day. Capacity for this phase is 10 hours (No of hours/per day for each resource * No of resources). Hence, WIP limit should be 2 for Impact Analysis phase. (Capacity available / Average effort required). Similarly compute WIP limits for Development, Testing phases.
+As a preferred rule WIP limit should not be more than the number of people working on the stage.
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 11 of 29
+3.3.5 Manage Flow
+Kanban board gives insight into where work gets blocked and it helps in identifying opportunities to eliminate waste. Kanban board should be updated on daily basis. Analyze to check if there are any bottlenecks. In case there is a pile up in one stage, analyze the reasons for the pile up.
+3.3.6 Metrics
+Following metrics may be considered for projects following Kanban:
+ Cycle time / production lead time: This is time that elapses from the moment a team starts actively working on a task till the moment they are done
+ Customer lead time: Time that elapses from the moment a customer or a user submits the work item to a backlog to the moment they can use it
+ Throughput: A measure of productivity or efficiency which is typically a number of features delivered over time
+ Work in Progress (WIP): Number of work items that are currently in progress in the whole process.
+ Customer Takt: Available work time / customer demand during available work time
+Cumulative Flow Diagram (CFD): Cumulative Flow Diagram helps the team to visualize overall effort spent and the project progress. It is an important tool for the teams adopting Kanban.
+Figure 3: Cumulative Flow Diagram
+Source: www.kanbantool.com
+The different colors in the CFD diagram represents the number of tasks in the different columns of the Kanban board. The more wider the colored areas it shows the more number of tasks in that category. For example, the red area will be wide if there are more tasks in progress and hence it indicates some issues for the task in progress which may cause overall delay.
+3.4 Scrumban
+Scrumban is a hybrid of Scrum and Kanban and was originally designed as a way to transition from Scrum to Kanban. In service industries, where both development and maintenance projects exist, Scrumban is becoming very popular these days.
+Scrumban = Scrum + Kanban
+Scrumban integrates key principles of from Scrum and Kanban, which are Scrum’s prescriptive nature to be Agile and Kanban’s process improvements to let the team recurrently improve their processes.
+Doing so provides following advantages:
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 12 of 29
+ Improved quality
+ Short lead time
+ Kaizen (continuous improvement)
+ Minimizing waste (all that is not adding value to the customer)
+ Just-in-time approach to decisions whenever needed
+Scrumban is mostly getting applied in following types of work:
+ Maintenance projects
+ Event-driven work
+ Help desk/support
+ Hardening/packaging phases
+ Projects with frequent and unexpected user stories or programming errors
+ Sprint teams focused on new product development
+ Work preceding Sprint development (backlog, R&D)
+ Work following Sprint development
+ If Scrum is challenged due to workflow issues, resources or processes
+ To manage improvement communities during/after Scrum roll-out
+Figure 4: Scrumban Board
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 13 of 29
+Source: www.kanbantool.com
+Figure 5: Most popular Agile methods overview
+Source: https://goo.gl/images/9MmJfm
+3.5 Methodologies Comparison Scrum XP Kanban Scrumban
+Board / Artifacts Product backlog, Sprint backlog Release Plan, Metaphor, Iteration Plan. Clean Board for start of sprint Board mapped on process Board mapped on process
+Ceremonies Daily Scrum, Sprint Planning, Sprint Review, Sprint Retrospective Daily Meeting, Planning game on demand None required Daily Scrum, Other Scrum related events if needed
+Prioritization Part of backlog grooming done by PO Done by Customer Out of process, There should be a prioritized backlog Out of process, There should be a prioritized backlog
+Agile Overview and Methodologies Agile Methodologies
+Infosys Limited – Company Confidential Page 14 of 29
+Table 1: Methodologies comparison- Scrum, XP, Kanban and Scrumban
+Source: https://goo.gl/images/NVpPWj
+Who feeds the work in progress (brings new work) PO Customer Representative or proxy to the customer Depends on defined roles and necessities Depends on defined roles and necessities
+Iterations Yes (Sprints) Incremental Improvements No (Continuous flow) Not mandatory (Continuous flow), could have sprints
+Estimation Yes Yes No (Similar size) No (Similar size)
+Teams Must be Cross-Functional Cross-functional preferred Cross-Functional or Specialized Cross-Functional or Specialized
+Roles Product Owner, Scrum Master, Team Customer, Programmer, Coach As Needed Team + Needed roles
+Teamwork Collaborative as needed by task XP Engineering Practices Swarming to achieve goals Swarming to achieve goals
+WIP Planned for duration of Sprint Planned for the duration of the iteration Controlled by workflow state Controlled by workflow state
+Changes to Work scope Should wait for the next Sprint Swap with items of similar size Added/removed as needed (JIT) Added/removed as needed (JIT)
+Product Backlog Prioritized list of user stories (estimated) Prioritized no (JIT) no (JIT)
+Impediments Dealt with immediately Dealt immediately Avoided Avoided
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 15 of 29
+4. Scaled Agile
+Traditionally Agile methodologies like Scrum, XP etc. works best with a small team. But when there is a big program or bigger scope, it is not advisable to increase team members within the same team. Scaling Agile talks about executing large projects in agile mode.
+Typical scrum team size is 5-9 members. The big advantage is that communication and coordination is usually easy and effortless at this size. Increasing team members within one scrum team in not effective. Bigger size restricts the team to communicate and collaborate with other members. All the scrum ceremonies like Sprint Planning, Daily Scrum etc. go beyond the recommended time. More members mean more capacity which means more stories needs to be planned and synced in Sprint Planning, thus increasing the sprint planning session. Also, since more members are there, daily scrums will take more time. All in all, increasing members in same scrum team is not effective. In such cases, Scrum projects scale through having team of teams, i.e. multiple small scrum teams working on the same project/program.
+There is also a need to scale agile at portfolio or enterprise level. This scaling might have multiple programs across the organization, with or without dependency on each other. In such cases, it helps everyone from top management to individual core team members to extended support teams align with common goals and works towards the same purpose.
+Different Scaling Agile options are as below:
+ Scaled Agile Framework (SAFe)
+ Disciplined Agile Delivery (DAD)
+ Large Scale Scrum (LeSS)
+ Spotify
+4.1 Scaled Agile Framework (SAFe)
+Scaled Agile Framework from Scaled Agile Inc. is another agile scaling framework primarily intended at scaling agile at portfolio or enterprise level. SAFe is based on proven success patterns for implementing Lean-Agile IT, software and systems development at enterprise scale.
+SAFe, through different levels, allows organizations to adapt to its business needs, by supporting smaller-scale solutions to complex systems requiring thousands of people.
+SAFe is based on nine Lean and Agile principles, upholding four core values of Alignment, Built-in Quality, Transparency, and Program Execution. At different levels and across the framework, SAFe has defined Roles and their responsibilities providing complete guidance for scaled agile execution.
+Lowest level is Team level, where ScrumXP or Kanban is followed to deliver high quality output. Level above is Program level, where Agile Release Train (ART) operates with underlying teams from Team Level and other defined roles. ART is typically 50-125 persons including agile teams and stakeholders, who synchronize by delivering every iteration, and further every Program Increment (PI) which is typically 4+1 iterations. Levels above (as per SAFe 4.5) are Large Solution and Portfolio level which has multiple ARTs, and other roles together to deliver common enterprise level objectives, in line with strategic themes and budgets.
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 16 of 29
+The Scrum of Scrum (SoS) meetings continuously coordinates the dependencies among the Teams and provides visibility into progress and impediments. In the similar lines of Daily Stand Up meeting, in the SoS meetings followings are discussed:
+- What the Team accomplished since last meeting
+- What the Team will accomplish form now and next meeting
+- Any roadblocks
+Figure 6: Scaled Agile FrameworkV4.5
+Source: http://www.scaledagileframework.com
+SAFe 4.5 brings in the latest in Lean-Agile thinking and incorporated scalable DevOps and the Continuous Delivery Pipeline. It demonstrates advancements in configurability, implementation guidance, and enhanced capabilities for improving the user experience and accelerating time-to-market.
+4.2 Disciplined Agile Delivery
+4.2.1 Overview
+Disciplined Agile Delivery (DAD) is a process decision framework that is people-first, learning-oriented hybrid agile approach to IT solution delivery. DAD builds on the practices defined by exponents of agile software development, including Scrum, Agile Modelling, Lean Software Development, and others. It is non-proprietary, freely available framework. This model is being proposed and promoted by Scott Ambler and Mark Lines.
+DAD has been identified by many as a means of moving beyond Scrum. According to experts, the DAD framework provides a carefully constructed mechanism that not only streamlines IT work, but more importantly, enables scaling. It is also noted as an example of a hybrid agile approach to enterprise IT solution delivery that provides a solid foundation from which to scale. The framework has been evolved after many patterns in agile space that were applied to scale successfully.
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 17 of 29
+DAD Roles:
+4.2.2 DAD as Hybrid Framework
+Disciplined Agile Delivery framework builds upon the foundation of other methods and software process frameworks. The framework provides advice for when and how to apply them together. Methods such as Scrum, Extreme Programming (XP), Kanban, Agile Modelling (AM), Unified Process (UP) etc. provide the process bricks and DAD the mortar to fit the bricks together effectively.
+Figure 7: Frameworks and Methods DAD considers
+Source: http://www.disciplinedagiledelivery.com/
+4.2.3 Scaling with DAD
+The DAD framework provides a better foundation for scaling agile in several ways. First, it promotes a risk-value lifecycle i.e., the riskier work early in an endeavor in order to help eliminate some or all of the risk, thereby increasing chance of project success. Some people like to refer to this as an aspect of “failing fast” although it can be seen as we like to put it in terms of succeeding early. Second, DAD promotes self-organization enhanced with effective governance based on the observation that agile project teams work within the scope and constraints of a larger, organizational ecosystem. Primary Roles Secondary Roles
+Stakeholder
+Specialist
+Team Lead
+Independent Tester
+Product Owner
+Domain Expert
+Team Member
+Technical Expert
+Architecture Owner
+Integrator
+Scrum
+Agile Modelling
+Agile Data
+Outside-in S/W Development
+Evo
+Extreme Programming
+Kanban
+SAFe
+Add more…
+Lean Software Development
+Unified Process
+Traditional S/W Development
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 18 of 29
+Figure 8: Scaling model
+Source: http://www.disciplinedagiledelivery.com/
+4.3 Large Scale Scrum (LeSS)
+LeSS is Scrum applied to many teams working together on one product.
+Large-Scale Scrum (LeSS) isn’t new and improved Scrum. It’s about figuring out how to apply the principles, purpose, elements, and elegance of Scrum in a large-scale context, as simply as possible. Like Scrum and other truly agile frameworks, LeSS is “barely sufficient methodology” for high-impact reasons. Scaled Scrum is not a special scaling framework that happens to include Scrum only at the team level. Truly scaled Scrum is Scrum scaled.
+LeSS is applied to many teams like Cross-functional, cross-component, full-stack feature teams of 3–9 learning-focused people that do it all from UX to code to videos to create done items and a shippable product.
+It is about working together — The teams are working together because they have a common goal to deliver one common shippable product at the end of a common Sprint, and each team cares about this because they are a feature team responsible for the whole, not a part.
+LeSS is on one product here referring to a broad complete end-to-end customer-centric solution that real customers use. It’s not a component, platform, layer, or library.
+4.3.1 LeSS structure
+Structure the organization using real teams as the basic organizational building block.
+Each team is (1) self-managing, (2) cross-functional, (3) co-located, and (4) long-lived. The majority of the teams are customer-focused feature teams.
+Scrum Masters are responsible for a well-working LeSS adoption. Their focus is towards the Teams, Product Owner, organization, and development practices. A Scrum Master does not focus on just one team but on the overall organizational system. In LeSS, managers are optional, but if managers do exist their role is likely to change. Their focus shifts from managing the day-to-day product work to improving the
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 19 of 29
+value-delivering capability of the product development system. Managers’ role is to improve the product development system by practicing Go See, encouraging Stop & Fix, and “experiments over conformance”.
+There is one Product Owner and one Product Backlog for the complete shippable product. The Product Owner does not work alone on Product Backlog refinement; he is supported by the multiple Teams working directly with customers/users and other stakeholders.
+4.4 Spotify
+Figure 9: Scaling Agile@Spotify
+Source: https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf
+In this model, the approach is not about process or structure, it’s all about culture. The uniqueness lies in having few mandatory practices, and their pursuit of aligned autonomy. The core is autonomy of teams yet stay collaborative.
+This model is evolving fast and popularity of this scaled agile model is growing day-by-day
+The scaled agile model at Spotify has its own way of addressing and organizing its workforce as a community. The objective is to avoid a hierarchical structure. Teams structure and organization is explained below.
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 20 of 29
+Squad
+The basic unit of development at Spotify is the Squad. A squad is similar to scrum team – self-organized and cross functional and ‘autonomous’ Each squad is a vertical team focusing on one long term mission so that they become experts in that area Squads sit together, and they have end-to-end responsibility of the deliverables from design, develop, test and release to production. Each squads decide their own way of working - Scrum, Kanban, XP or mix of these approaches. Squads are encouraged to apply Lean Startup principles such as MVP (minimum viable product) validated learning and A/B testing.
+Each squad team spend some percentage of their time on hack day, trying out new ideas and sharing learning with their friends. Each squad will have product owner (PO) for prioritizing the work.
+Tribe
+Tribe is a collection of squads that work in related areas like client app, features, infrastructure etc. Tribe Size is expected to be less than 100 people. Each tribe will have tribe lead who is responsible for providing the best possible habitat for the squads within that tribe. The tribe can be seen as the incubator for the squad mini-startups, and have a fair degree of freedom and autonomy. Each tribe on regular basis hold informal get-together to highlight their products, tools and techniques.
+Chapter
+Chapter is group of people having similar skills and competency within the same tribe for example – tester chapter, developer chapter or database chapter. Each Chapter will have Chapter Lead. Chapter lead is like line manger handling all traditional responsibilities like people development, mentoring and coaching them. The chapters meet regularly to discuss their area of expertise and their specific challenges. Chapter lead is also part of a squad and is involved in day-to-day work
+Guild
+Guild is group of people having similar skills and competency across the tribes and organization for example – Developer Guild, Agile Coach Guild, Tester Guild etc. Guild usually are community of common interest cutting across the whole organization. Each guild has a Guild Coordinator, who organizes open space events were communities can discuss challenges and solutions within their field.
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 21 of 29
+5. Infosys Agile Methodology (Infy Agile)
+Figure 10: Infosys Agile Methodology
+Infosys creates its distinction in the market, by possessing best-in-class execution capabilities, such as:
+ Bring predictability
+ Deliver enhanced value
+ Ensure de-risking for our projects
+Towards this, Infosys has launched an Agile methodology to provide a more effective process towards Agile service which can be easily adopted by clients with varied experiences and expectations.
+This method is developed by evaluating:
+ Critical success factors of Agile
+ Execution challenges of Agile in global delivery model
+ Key risks associated with Agile and increased risk coverage
+ Cost and efficiency implications
+Infosys Agile methodology brings the best of Agile practice, leverage established practices of CMMI and amalgamate with rich experiences of Infosys practitioners so as to provide a best-in-class solution in this arena. It brings focus on set of Agile practices such as:
+ Usage of product and Sprint backlog for requirements
+ Burndown charts
+ Daily stand-up meetings
+ Test-driven development
+ Continuous Integration and testing
+It also brings focus on mature practices such as:
+ Upfront planning
+ Detailed measurements
+ Communication
+ Collaboration
+ Requirement prioritization
+ CICD (Continuous Integration and Continuous Delivery)
+This methodology introduces a thin layer of process and selects measurements to provide better execution and control of Scrum projects. It introduces risk management practice to cover key risks associated with the standard Scrum execution. It suggests usage of certain XP practices to improve engineering efficiency, while keeping core Scrum artifacts, ceremonies and roles intact. InfyAgile introduces regular collection and analysis of metrics information at a Sprint level, Release level and Project level to improve feedback loops and bring timely course correction. It introduces evaluation of Scrum projects at regular intervals against
+Agile Overview and Methodologies Scaled Agile
+Infosys Limited – Company Confidential Page 22 of 29
+adoption matrix to ensure that different practices adopted by project remain true to Agile spirit and mature over time.
+While Scrum projects focus on self-organized teams and proper collaboration, InfyAgile brings a process and engineering focus along with people in a subtle way.
+5.1 Addressing Challenges of Distributed Agile through Infy Agile
+Co-location is of core importance to conventional Agile frameworks as it maximizes the communication effectiveness and thereby increases the efficiency. With the change in business context, there has been increase in demand for global talents and reduction in cost through outsourcing. So there are challenges in Agile project execution in a globally distributed environment, such as bridging the time zone gap, communication modes, distribution of work, managing evolving requirements and Product Owner’s availability. InfyAgile methodology overcomes the above hurdles as mentioned below:
+Table 2: Challenges and Solution suggested
+Challenges
+Solution suggested Effective communication in offshore model - Prototyping and frequent demos to Product Owner - Prioritization of requirements - Distribution of teams as per functionality
+Effective Daily Stand-up
+- Leverage the time zone difference in the most effective way and conduct at a time as agreed upon by the team
+- Restrict the meeting to 15-20 minutes Collaboration among team - Building up trust among team members with frequent meetings - Help of Agile coach to bring in the initial change - Usage of collaboration tools for information sharing
+Improving predictability
+- Prioritization of requirements
+- Distinct task breakdown of user stories
+- Update and usage of daily Burndown charts
+- Usage of standard estimation techniques
+- Usage of metrics and measurements Grooming to a self-organized team - Mentoring by experienced coaches/project managers at the beginning of the project - Interaction with similar project teams
+Planning overhead for distributed teams
+- Additional bandwidth of project manager
+- Effective usage of communication and collaboration platforms Efficient Task Allocation and Reporting - Teams getting groomed to be self-organized - Clear understanding of requirements taken at the Sprint level - Education on importance of Burndown charts in Agile projects
+Overcoming the mindset of waterfall way of execution
+- Interaction with similar project teams and mentoring
+- Visualizing benefits on execution
