@@ -1,0 +1,539 @@
+1 Introduction
+Agile approach to software development follows the four Agile manifesto principles. It aims to deliver quality code to customers at frequent intervals enabling early return on investment (ROI).
+Quality code implicates:
+a) Code is thoroughly tested
+b) Code meets the needs of the customer
+c) Code can be changed easily
+d) Code is ‘clean’ (well-structured, self-documenting)
+The technical practices prescribed by Extreme Programming aid in creating quality code while adopting Agile approach for software development. Test Driven development is one such practice.
+Test Driven Development (TDD) is a technical practice consisting of short development cycles where test cases covering the new functionality are written first. Then code is written to pass the tests which are then refactored without changing the behavior of the code. Developers write automated tests before development. This means that development is driven from the tests. This ensures that no untested code goes into the software. Refactoring ensures that the code is ‘clean’.
+The main philosophy of TDD, as mentioned by Kent Beck, lies in Ron Jeffries’ phase – ‘Clean code that works’. TDD helps to design and develop the code in a predictable way by writing only code just enough to make the test cases pass. TDD works on a simple process of writing failing tests (written for a new functionality) first. When code is written and refactored to make the test cases pass, hypothetical coding is avoided. Only enough code to meet the functionality is written. It helps to create a simple workable code and greatly helps developers for generating a clear and simple, and easily maintainable code.
+Test driven development offers the following advantages:
+ Adds reliability to the development process
+ Encourages programmers to maintain an exhaustive set of repeatable tests which may be run selectively or exhaustively with the help of tools
+ Developers strive to improve their code without the fear associated with code changes
+ Makes programming more fun due to reliability on code
+ Remove/ Reduce dependency on the debugger and no postponement of debugging
+Test Driven Development Concepts
+Infosys Limited - Company Confidential Page 6
+2 Concepts
+2.1 Test Driven Development (TDD)
+Test Driven Development is a development approach where:
+ A comprehensive suite of automated tests is maintained
+ No code goes into production unless it has associated tests
+ Tests are written first
+ Tests determine what code needs to be written
+In simple terms, TDD suggests developers to write tests for a new functionality or feature and then develop code to pass the tests.
+This document incorporates the design concept from Agile modeling and Extreme Programming which can be leveraged for Agile development projects.
+Figure 1: Process flow for Test Driven Development
+ The developer first needs to understand the requirements to develop an automated test case and to achieve the desired result or feature
+ Test cases are written first and are then added in the automated suites for execution
+ When tests are written for a new functionality or feature, code would not be available for the same. Hence the tests tend to fail. These are called as failing tests
+ The developer starts adding code to make the tests pass during execution
+ When the set of tests passes, code is written for the new feature or developer refactors the new code as required to make it compliant with the acceptable standards and provides it for next stages of testing
+These steps are repeated for any new functionality or feature to be developed.
+Write Test
+Run Test
+Develop Code
+Run All Tests
+Refactor Code as required
+Test Pass
+Test Fail
+Test Fail
+All Test Pass
+Repeat
+Test Driven Development Concepts
+Infosys Limited - Company Confidential Page 7
+2.2 Why Test Driven Development
+Following are the key drivers for adopting Test Driven Development:
+ Design compliance is one of the visible benefits of TDD
+ Code maintainability improves
+ Acts as a safety net when a developer performs refactoring
+ TDD is adopted to deliver the work in a simple way to avoid complexity
+ TDD can be considered as both design and programming methodology which is based on simple rule of writing production code to fix a failing test
+ TDD converts normal cycle of design-code-test into a sequential activity cycle of test-code-refactor in which developer writes a test first (initially failing) and then writes the code to pass it and further refactor the code
+ TDD offers a simple and effective technique which helps to create high-quality software through the continuous design and test process and frequent refactoring. This way, the code becomes simple, less defective, better designed and of high quality. The developer gets confidence of writing code and becomes more productive.
+Adopting TDD practice helps the project teams to achieve the following benefits:
+ Faster Results: It provides an immediate feedback to reduce reversion errors. Developer writes only the code that is required resulting in faster results with clear, concise code
+ Simplicity: Clean work, modular and less complex code
+ Improved Quality: Automation is the biggest advantage in adopting the TDD
+ Flexibility: Flexibility is in-built due to quick commits, short cycles and automation
+ Offers shorter development cycles
+ Reduces errors
+ Has ability to respond rapidly to all the changing requirements
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 8
+3 Application in Projects
+TDD is an iterative and incremental procedure. TDD does not mean that the developer can start working on code only after writing all the tests. A developer can first build the basic and high-level tests and once those are passed, the various other tests may be added. Duplication must be avoided while completing the functionality and development.
+3.1 Steps for Implementing TDD
+3.1.1 Add Test
+New test gets added for every new story or task to be developed. This test is the basic requisite for that particular user story. This test should be written in an automated way using various tools such as JUnit or NUnit. Developer must thoroughly understand requirements of the story, before writing the test. This test will fail once developer puts it on the automated framework.
+3.1.2 Run Test
+Next step is to run the test. This helps serve two purposes. First of all, running of test assures that new code has been added, which is a criteria for passing the test. This also makes sure that the functionality is not already developed as part of any other story. Secondly, a failing test is the first attempt towards TDD efforts. Failure in first attempt implies that TDD development is in progress.
+3.1.3 Make Changes
+Next step is to make changes in the test and add the code in such a way that the test passes. Passing test includes the process of writing code and making changes. To pass this test, code written in the test should be isolated only for passing this particular test. No other code or functionality should be added.
+3.1.4 Run Test
+In case test does not pass in the first attempt, the test must be run again. Failing in the test proves that it is not covering the functionality required by story and it requires further changes.
+Passing of test assures that required functionality is covered. After passing test, further changes need to be done to refactor the code. Concept of ‘Refactoring’ can be described as cleaning of code, applying proper design pattern. This also assures that duplication of code is absolutely avoided.
+In one Sprint we may have multiple stories. To keep adding more tests and new features or functionalities, the cycle of tests explained above can be repeated.
+3.2 TDD Implementation with Case Study
+Following is an example of implementation of Test Driven Development approach using Bowling Game case study.
+3.2.1 Introduction of the Game
+Bowling is a sport in which players attempt to score points by spinning a bowling ball along a flat surface aiming to hit ‘10 pins’. Each turn of a bowling game is called a ‘frame’. Ten pins are arranged in each frame and a normal game consists of ‘10 frames’. The goal of the player is to knock down as many pins as possible in each
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 9
+frame. The player has ‘two chances’ or throws, to do so in each frame. The value of a throw is given by the number of pins knocked down in that throw.
+3.2.2 Rules for the Game
+Open frames are added normally. If a player knocks down 1 pin on their first ball and 5 on their second, the open frame would be worth 1+5, or 6 points.
+Points
+[1,5][3,6][7,2][3,6][4,4][5,3][3,3][4,5][8,1][2,6]
+Score
+81
+A strike earns you ten points plus the points for the next two balls thrown. For e.g. if a player got a strike then followed with a 3 then 6, their value for the strike would be 10+3+6, or 19. A complete game with strike would look something like this:
+Points
+[10,0][3,6][7,2][3,6][4,4][5,3][3,3][4,5][8,1][2,6]
+Score
+94
+A spare earns you ten points plus the points for the next ball thrown. If a player gets a spare then follow it with 3 pins down, their value for the spare would be 10+3, or 13). Next game contains spare at the beginning:
+Points
+[1,9][3,6][7,2][3,6][4,4][5,3][3,3][4,5][8,1][2,6]
+Score
+88
+Spare can be in the last frame of the game and in that case the player will be given a bonus throw.
+Strike can be in the last frame and in that case the player will be given two bonus throws.
+If the last frame of the game is spare and bonus throw is a strike, there are no additional throws.
+The maximum score in ten-pin bowling is 300. This consists of getting 12 strikes in a row in one game (one strike each in frames 1-10, and both bonus throws as strikes), and is also known as a perfect game.
+If any error exists in the calculation of the game, a returning score should be -1.
+•All ten pins down in the first ball throw
+Strike
+•All ten pins down by the second ball throw
+Spare
+•Missed pins still standing when the turn ends
+Open
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 10
+3.2.3 Steps for the Development Process using Java
+Following are the steps for the development process using TDD approach on Java technology. JUnit can be used for TDD if Java is used for development of code.
+ Open Eclipse and create a JUnit project
+ Create the following class files:
+o ‘BowlingGame.java’
+o ‘BowlingGameTest.java’ (class with test cases for ‘BowlingGame’ class)
+Please read the steps that need to be followed during development process:
+1. Write one single test-case based on specification
+2. Run this test-case. If it fails continue with step 3. If the test-case succeeds, continue with step 1
+3. Implement the minimal code to make the test-case run
+4. Run the test-case again. If it fails again, continue with step 3. If the test-case succeeds, continue with step 5
+5. Refactor the implementation to achieve the simplest design possible
+6. Run the test-case again, to verify that the refactored implementation still succeeds the test-case. If it fails, continue with step 5
+[First Test]
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 11
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 12
+[Second Test]
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 13
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 14
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 15
+3.2.4 Steps for the Development Process using .Net
+Following are the steps for the development process using TDD approach on .Net technology. NUnit can be used for TDD if the code is written in C#.
+ Open Visual Studio 2010 with .Net Framework 4.0. Come up with the IDE to perform TDD
+ Create a console application named ‘BowlingGame’
+ Add a MSTest project named ‘BowlingGameTest’ to the solution
+o Right click on the BowlingGameTest project and add a test. Choose the Unit Test and name it ‘GameTest’
+o Remove the unused namespaces at the top by right-clicking on a namespace and choosing Organize Usings -> Remove and Sort
+o Delete the comments and default constructor
+o Below is the output
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 16
+Please adhere to the following steps during development process:
+1. Write one single test-case based on specification
+2. Run the current test-case. CTRL+R, T runs the current test in context
+3. If the test fails, continue with step 3. If the test-case succeeds, continue with step 1
+4. Implement the minimal code to make the test-case run
+5. Run the test-case again. If it fails again, continue with step 3. If the test-case succeeds, continue with step 5
+6. Refactor the implementation to achieve the simplest design possible
+7. Run the test-case again, to verify that the refactored implementation still succeeds the test-case. If it fails, continue with step 5
+[First Test]
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 17
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+namespace BowlingGameTest
+{
+[TestClass]
+public class GameTest
+{
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+}
+}
+}
+Test Fails
+Game class is not present in of
+BowlingGame
+placing the cursor on the Game
+class that has the red underlines.
+I click CTRL+. Cchoose
+Generate new type…
+Change the Project to
+BowlingGame and click Ok.
+The new Game class will get
+created in the BowlingGame
+project.
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+namespace BowlingGameTest
+{
+[TestClass]
+public class GameTest
+{
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+}
+}
+}
+namespace BowlingGame
+{
+public class Game
+{
+}
+}
+Test Pass
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 18
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(0);
+}
+}
+public class Game
+{
+public void Spin(int p)
+{
+throw new System.NotImplementedException();
+}
+}
+Compilation error
+spin method not present in
+Game class of BowlingGame
+place our cursor on the red
+squiggly line and press CTRL+.
+Select to generate a method.
+Press ENTER
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(0);
+}
+}
+public class Game
+{
+public void Spin(int p)
+{
+throw new System.NotImplementedException();
+}
+}
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(0);
+}
+Assert.AreEqual(0, g. calculateScore ());
+}
+public class Game
+{
+public void Spin(int p)
+{
+throw new System.NotImplementedException();
+}
+public void calculateScore(int p)
+{
+throw new System.NotImplementedException();
+}
+}
+Test Fails
+calculateScore method not present
+in Game class
+place our cursor on the red
+squiggly line and press CTRL+.
+Select to generate a method.
+Press ENTER
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 19
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(0);
+}
+Assert.AreEqual(0, g. calculateScore ());
+}
+public class Game
+{
+public void Spin(int p)
+{
+throw new System.NotImplementedException();
+}
+public void calculateScore(int p)
+{
+throw new System.NotImplementedException();
+}
+}
+Test Fail
+expected:<0> but calclateScore method throws an exception
+[TestMethod]
+public void TestGutterGame()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(0);
+}
+Assert.AreEqual(0, g. calculateScore ());
+}
+public class Game
+{
+private int score;
+public void Spin(int pins)
+{
+}
+public int calculateScore()
+{
+return score;
+}
+}
+Test Pass
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 20
+[Second Test]
+[TestMethod]publicvoidTestAllOnes(){Gameg = newGame();for(inti = 0; i < 20; i++){g.Spin(1);}Assert.AreEqual(20, g.calculateScore());}publicclassGame{privateintscore;publicvoidSpin(intpins){}publicintcalculateScore(){returnscore;}}
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 21
+[TestMethod]
+public void TestAllOnes()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(1);
+}
+Assert.AreEqual(20, g.calculateScore());
+}
+public class Game
+{
+private int score;
+public void Spin(int pins)
+{
+}
+public int calculateScore()
+{
+return score;
+}
+}
+- Object creation is duplicated
+- spin loop is duplicated
+[TestMethod]
+public void TestAllOnes()
+{
+Game g = new Game();
+for (int i = 0; i < 20; i++)
+{
+g.Spin(1);
+}
+Assert.AreEqual(20, g.calculateScore());
+}
+public class Game
+{
+private int score;
+public void Spin(int pins)
+{
+}
+public int calculateScore()
+{
+return score;
+}
+}
+Test Fail
+expected:<20> but was:<0>
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 22
+private Game g;
+[TestInitialize]
+public void Initialize() {
+g = new Game();
+}
+[TestCleanup]
+public void Cleanup(){
+g = null;
+}
+[TestMethod]
+public void TestGutterGame(){
+for (int i = 0; i < 20; i++)
+{
+g.Roll(0);
+}
+Assert.AreEqual(0, g.Score());
+}
+[TestMethod]
+public void TestAllOnes(){
+for (int i = 0; i < 20; i++)
+{
+g.Roll(1);
+}
+Assert.AreEqual(20, g.Score());
+}
+public class Game
+{
+private int score;
+public void Spin(int pins)
+{
+score += pins;
+}
+public int calculateScore()
+{
+return score;
+}
+}
+- spin loop is still duplicated
+Test Pass
+No more creation of game
+object for each test
+case.
+Before a test runs, we
+initialize a new Game.
+When the test is
+finished we set the
+Game to null.
+[TestMethod]
+public void TestGutterGame()
+{
+int spins = 20;
+int pins = 0;
+RollMany(spins, pins);
+for (int i = 0; i < rolls; i++)
+{
+g.Spin(pins);
+}
+Assert.AreEqual(0, g.calculateScore());
+}
+public class Game
+{
+private int score;
+public void Spin(int pins)
+{
+score += pins;
+}
+public int calculateScore()
+{
+return score;
+}
+}
+- spin loop is duplicated
+Test Pass
+Used a variable to represent
+total number of frames
+The code is refactored without
+any change in behavior
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 23
+[TestMethod]publicvoidTestGutterGame(){SpinMany(20, 0);Assert.AreEqual(0, g.Score());}privatevoidSpinMany(intspins, intpins){for(inti = 0; i < rolls; i++){g.Spin(pins);}}publicclassGame{privateintscore;publicvoidSpin(intpins){score += pins;}publicintcalculateScore(){returnscore;}}-spin loop is duplicatedTest Pass Used a method spinManyto avoid duplication of loops The code is refactoredwithout any change in behavior
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 24
+[TestMethod]publicvoidTestGutterGame(){SpinMany(20, 0);Assert.AreEqual(0, g.calculateScore());} [TestMethod]publicvoidTestAllOnes(){SpinMany(20, 1);Assert.AreEqual(20, g.calculateScore());}privatevoidSpinMany(intspins, intpins){for(inti = 0; i < spins; i++){g.Spin(pins);}}publicclassGame{privateintscore;publicvoidSpin(intpins){score += pins;}publicintcalculateScore(){returnscore;}}-spin loop is duplicatedTest Pass Removed the temporary variablesThe code is refactoredwithout any change in behavior
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 25
+3.3 How is TDD Different from Unit Testing
+TDD is not similar to unit testing. TDD and unit testing use unit testing frameworks such as xUnit (e.g. Junit, Nunit), however, the purpose and way in which it is used is clearly different.
+The following table details the difference between Unit Testing and TDD.
+Unit Test
+Test Driven Development (TDD) Unit test is used to test a code in isolation TDD is used to imagine what functionality you need in production and express what it is supposed to do before the code is actually written
+Unit test helps in validating tests and boosting developer confidence about the accuracy of the code
+TDD, in essence, is used for ‘incremental design’ and ‘evolutionary design’ Unit testing is aimed at testing and verifying application performance. Unit testing is not used to design the application TDD is primarily used to design the application and its features. Rather than completely designing application in one-go, it is designed test-by-test in the incremental fashion
+Unit test method tests a single unit at a time
+Unlike unit test, TDD may test multiple units of code Unit test is a bottom-up approach that answers “what to do?” TDD uses top-down approach that answers “How to do?”
+Table 1: Difference between Unit Test and TDD
+[TestMethod]publicvoidTestGutterGame(){SpinMany(20, 0);Assert.AreEqual(0, g.calculateScore());} [TestMethod]publicvoidTestAllOnes(){SpinMany(20, 1);Assert.AreEqual(20, g.calculateScore());}privatevoidSpinMany(intspins, intpins){for(inti = 0; i < spins; i++){g.Spin(pins);}}publicclassGame{privateintscore;publicvoidSpin(intpins){score += pins;}publicintcalculateScore(){returnscore;}}Test Pass Removed the loop duplicationThe code is refactoredwithout any change in behavior
+Test Driven Development Application in Projects
+Infosys Limited - Company Confidential Page 26
+3.4 Test and Code Coverage
+While developing using TDD, the code gets tested rigorously and thoroughly. We can set some targets for line and branch coverage. For instance, let’s say for Line coverage it should be above 80% for new classes developed and for branch coverage it should be >85%
+Tools such as Cobertura should be used to measure the coverage.
+To measure the coverage (for example in J2EE environment), the process described below should be followed:
+1. Write the unit tests in iterative and incremental way
+2. Write unit tests only for the Java classes that are new or modified for that functional release
+3. Change the unit tests to fit the existing code before altering the code
+4. Alter functional class
+5. Run unit tests. Unit tests should run properly
+6. Run code coverage checker such as Cobertura
+7. Make sure that new class line coverage is >80% and branch coverage is >85%
+8. Refactor the code only when the code coverage is achieved
+3.5 How to Review Project Using TDD Approach
+Following things can be reviewed to check if the project is really following a TDD approach:
+Make sure that all the evidences listed here are available for every release and available to see in continuous integration dashboard.
+ >90% Automated for New Features (Unit Testing)
+o Have unit test for technologies added to continuous integration dashboard appropriate sections.
+ Unit Test should be written as Standard (No exceptions)
+ 80% Line coverage/85% branch Coverage (On new code/No exceptions)
+ Opportunistic re-factoring of legacy code
+o Unit test will be written for untested legacy code
+ A unit test needs to be written for any method that is altered in a legacy class/module of code.
+ 80% Line coverage/85% branch Coverage (No exceptions)
+ Per Release Review of Unit test on each component
+o Report to detail the following:
+ Are test being written using TDD?
+ Has there been an increase in Testing for a component
+ Defining where refactoring has occurred.
+Test Driven Development Tools for TDD
+Infosys Limited - Company Confidential Page 27
+4 Tools for TDD
+There are many tools which can help in developing a perfect test-driven development. Tests written in TDD are automated unit tests. There are unit test writing tools available in almost all the languages like JUnit for Java, CUnit for C language, NUnit for .Net, PHPUNit for PHP and VBUnit for Visual Basic.
+Listed below are some of the popular tools used in Java environment for creating the complete automated suite. These help to achieve continuous integration and test-driven development.
+Tool Name
+Details Hudson Server Used as a CI server
+ANT
+For automation using Ant scripts Checkstyle To check adherence to coding standards
+Findbugs
+Static code analysis tool. This is used to detect wide range of problems by analyzing the Java byte code PMD It scans the source code and further looks for potential problems, possible bugs, unused code, complicated expressions and duplicate code
+Jdepend
+Java package dependency analyzer which generates design quality metrics Cobertura Code coverage tool. It is used for Java code coverage analysis
+Junit
+Java’s unit testing framework JProbe Used for enterprise-class Java profiling
+Logmon
+Log monitoring tool
+Table 2: Tools for TDD
+Test Driven Development Misconceptions and Challenges
+Infosys Limited - Company Confidential Page 28
+5 Misconceptions and Challenges
+This section provides details on common misconceptions about TDD and the challenges faced while executing projects using TDD.
+5. 1 Misconceptions about TDD
+There are numerous misconceptions about TDD. Some of the commonly observed misconceptions are as given below:
+ TDD is theoretical term and may not be beneficial in actual practice This is a misconception as using test driven development has many advantages.
+ Independent or manual testing is not required with TDD By using TDD, user doesn’t need independent manual testing is a myth. Independent/manual testing is always essential to obtain quality software.
+ Unit tests make 100% design specifications Unit help in design specifications. As the developers think about the production code before they write the tests in TDD and assume that it helps in creating detailed design effectively tests.
+ One can achieve 100% coverage using regression suites In many Agile projects, it is observed that achieving 100% coverage is not possible because of third party components or framework in the code, which might not have source code or test cases. As user might be working on legacy functionality or systems, there might be user interface which are hard to test.
+5. 2 Challenges in Adopting and Executing Projects in TDD
+Some of the challenges which developers perceive while executing projects in TDD:
+ Changing developer’s mindset is challenging. Developers want to develop the code and not necessarily like to test it. Hence, in case of test driven development, writing test cases first and then develop the code in automated way, is found challenging by developers
+ It is a challenge to apply test driven development approach for legacy code bases
+ Applying TDD and writing automated tests for multithreaded environment is a challenge
+ Quite often, developers feel that writing test first and then to develop the product may slow down the development process
+ Another perception about TDD is that it is difficult to follow TDD in high-pressure work conditions or stringent timelines
+ It is challenging to apply TDD in long-running projects where the code base is already developed without using the test-driven approach. Applying TDD concepts to already developed untested code base is a challenge
+ Developers rarely estimate the effort required for TDD and this may pose to be a challenge
