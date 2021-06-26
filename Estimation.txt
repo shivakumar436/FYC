@@ -1,0 +1,299 @@
+1 Introduction
+Software projects are typically controlled by four major variables:
+ Schedule
+ Scope
+ Cost
+ Effort
+Unexpected changes in any of these variables will have an impact on a project. Predictability and De-risking of software projects is essential for the success of IT services organizations. Estimation is a process to forecast these variables to develop or maintain software based on the information specified by the client.
+There are three main challenges faced during estimation:
+ Uncertainty: How much do you know about what you’re building?
+ Self-knowledge: What do you really know about yourself and your team?
+ Consistency of Method: Do you have a process for estimation?
+Usage of standardized and scientific estimation methods for estimating size, effort and schedule, helps towards maintaining minimal variance between the planned estimates and actual values thereby achieving maximum estimation accuracy. This provides better client experience. Below diagram depicts estimation required at project level.
+Figure 1: Project Level Estimates
+InfyAgile methodology supports globally distributed teams, ensures high predictability and risk coverage. It brings high degree of project performance, leveraging Infosys best-in-class execution experience with CMMI as the backbone. It provides direction and support on adopting standard estimation methodologies for various phases of Agile projects. Since no single method fits all estimation needs, it is important to have different methods of estimation for different stages.
+Estimation in Infosys Global Agile Concepts
+Infosys Limited – Company Confidential Page 6
+2 Concepts
+2.1 Initial Project Size
+Software sizing is different from software effort estimation. Size estimation provides probable size of a piece of software while effort estimation calculates the effort needed to build it. Initial project size estimation helps significantly in early project planning needs. This initial project size might also be required for project scoping as well as comparison against historical data.
+2.2 Ideal Time
+Historically, developers had difficulty producing suitable estimates required to complete a development task.
+In addition to developing code, team members spent time in testing, documentation, designing, participating in meetings and reviews and sending emails. Compared to programming work, non-programming work was difficult to predict and control.
+For a given Agile project, even before the team estimates for programming or non-programming work, they know the work required to get different user stories done and can plan accordingly. That's why it is more typical for Agile teams to focus their estimation on what can be predicted and measured. This can be termed as Ideal Time. They focus on how much work each user story and technical task will need, compared to other features and technical tasks. Agile teams allow the amount of time spent by that non-programming part to become clear.
+2.3 User Stories
+Before estimation, the team needs to quickly draw up a list of as many potential User Stories for the project as they can. In Infosys Agile projects, a User Story is a high-level definition of a requirement or functionality that is being developed. It contains the details of the requirement in simple business language and describes a simple business process that an end user can complete in one sitting.
+It is helpful to organize User Stories based on:
+ Specifying categories
+ Higher-level functional groupings
+ Business value or priority
+ Risk
+After identifying User Stories, the team often works with key stakeholders to define estimates. Stakeholders involved in estimation may include architects, technical leads, developers, testers and managers. It is recommended to set up processes where team works together to provide initial estimates at the earliest. This step can help in initially determining whether User Stories should be broken down further.
+2.4 Team Involved in Estimation
+Team composition in InfyAgile estimation consists of:
+ Product Owner (Owns the Product Backlog and has complete context of functionality)
+ Scrum Master (Facilitates the process)
+ Project Manager (Manages resource, finance, risk and quantitative project management)
+ Self-Organized team where the team members share responsibility for managing their own work as below:
+o Design and build the application to meet the requirements
+o Test the application to ensure that it meets all the requirements and expectations set by the client
+Estimation in Infosys Global Agile Stages of Estimations
+Infosys Limited – Company Confidential Page 7
+3 Stages of Estimations
+Estimation is done at the following three stages for Infosys Agile projects:
+ Proposal or Project Level
+ Release Level
+ Sprint Level
+Figure 2 : Stages of Estimation
+3.1 Proposal or Project Level Estimation
+Function points, for their universal acceptance, are the easiest way to consistently calculate the size of software requirements. This is achieved by focusing on the basic building blocks of functionality found in all software projects. A function point is the metric which converts requirements or user stories into a number.
+During the proposal or initial stage of projects, it is recommended to adopt QFPA (Quick Function Points Analysis), in either of the below cases:  Detailed descriptions of functional requirements are not yet documented  The resources necessary for detailed Function Point (FP) counting are prohibitive in terms of cost and time
+Quick Function Points method is a unique approach for rapidly estimating FP when only high-level requirements are available. For conducting a thorough FP sizing exercise, details of the application’s DETs (Data Element Types), RETs (Record Element Types) and FTRs (File Type Referenced) are required, which may not be available early in the project lifecycle. Quick FP method can be used in the absence of such detailed functionality.
+Steps for Quick Function Point method are as follows:
+ Consult domain experts to understand possible functionalities of the application to be developed
+ Identify and list all the possible functionalities
+ Classify data storage functionality into ILFs (Internal Logical Files) and EIFs (External Interface Files)
+ Classify transaction processing functionality into EIs (External Inputs), EOs (External Outputs) and EQs (External Inquiries)
+ Do not count RETs, DETs and FTRs for any functionality
+ Rate each function as Average complexity and calculate its corresponding FP size
+ Calculate Total Functional Size by adding up FP size of all functions
+Estimation in Infosys Global Agile Stages of Estimations
+Infosys Limited – Company Confidential Page 8
+Note:
+ It is ineffective if used by a person without expertise in FP Analysis
+ At least 2 persons should independently calculate, match results and resolve differences (use the Wide Band Delphi method)
+ Assumptions and risks should be clearly documented
+Figure 3 : Project Level Estimation
+*QFPA: Quick Function Point Analysis; *’PROSO Plus: Tool for Calculating Infosys Cycle Time
+Note: For further details on Quick Function Point estimation methodology, refer to ‘Guidelines for Early Lifecycle Sizing of Development Projects using Function Points’ in PRidE (SparshWebAppsPRidE)
+Alternatives to QFPA for Proposal/Project Level estimation are COCOMO, COSMIC FP, Use Case Points, Complexity Based Estimation, etc.
+Note: For further details please refer to the below link on Infosys ESTEEM - Estimation for Proposals: http://sparsh/Initiatives/esteem/EModels.htm
+3.2 Release Level Estimation
+Release level estimation is done during Release Planning. It is the next activity after project level estimation. The prioritized requirements are taken from Product Backlog which is in the form of User Stories. The User Stories are estimated in terms of Story Points during Release planning which focuses on estimating the size of the software to be delivered for that particular Release. The other inputs considered are project-level size, effort, cycle time and available skills. Based on this estimation, number of releases and total number of story points in each release is planned for overall project.
+Estimation in Infosys Global Agile Stages of Estimations
+Infosys Limited – Company Confidential Page 9
+Figure 4: Release Level Estimation
+A Story Point represents the relative amount of work required to implement a feature, compared to other features. Story Points (also called as ‘User Story Points’) are unit-less and are intended for sizing the Product Backlog work items. It is an abstract unit of measurement for size, which defines volume of the work considering the scope and complexity of the feature.
+The estimate for the user story (as detailed in Product Backlog) is developed by entire team (mostly by ‘Wideband Delphi or ‘Estimation by Analogy’ approach), utilizing experience of all members. Planning Poker, also called Scrum Poker, is one of the consensus-based User Story estimation techniques, mostly used to estimate effort or relative size of user stories in software development.
+Note: Please refer ‘Appendix’ section for more details on ‘Wideband Delphi’, ‘Estimation by Analogy’, and ‘Planning Poker’.
+Suggested steps for Story Point Estimation are as follows:
+ Story sizing consists of all team members assembled around a table and going through the user stories present in the Sprint backlog. Team decides the meaning of one story point and approximate effort required for one story point
+ To start with, a member of the team reads out a story, team members are then asked to assign a size to the story. The size indicates a measurement of effort that is not classified in time but by a proportional comparison to the user story
+ For example, the first user story is sized as 1 and used for reference, and second user story is sized as 3. Then it indicates that the second user story is considered to be complex than the first user story which is used as a reference
+ If a team member’s sizing differs significantly from other team members, then team member will explain why he/she consider the story to be larger or smaller. After a discussion with the group a consensus is reached
+ Process is repeated until there is no major difference in the estimation by the team
+ Typically this exercise can be completed within three or four rounds
+ Sizing of stories helps in arriving at the decision as to how many stories will be taken up during a particular Sprint
+Estimation in Infosys Global Agile Stages of Estimations
+Infosys Limited – Company Confidential Page 10
+Note:
+ Story Points are revisited if additional information is received (complexity) and the Product Backlog is groomed accordingly. This is for future stories only and not the ones in the current scope.
+ Story Point estimation is meant for Release Planning and not to be used to determine how many hours it will take to do the Story or to know how many Stories (Story Points) the team can commit to while doing the Release level estimation.
+For projects which involve package implementation, Story Point sizing considers the following factors:
+ Number of business teams involved
+ Number of components impacted within/across application(s)
+ Complexity of configuration activities
+ Enormity of processing steps, business logic/rules
+ Impact on data
+ Testing preparation and execution of test cases involved
+ Performance related changes
+ Complexity level of the customization
+ Impact of external interfaces
+3.3 Sprint Level Estimation
+As part of Sprint Planning, Scrum Master, Product Owner and developers start with prioritized Product Backlog. The team together takes the highest priority User Story from the backlog and decomposes it into individual tasks that could be estimated.
+Tasks are estimated in ideal time. Estimation of Ideal Time for Tasks translates the size (measured in story points) to a detailed estimate of effort. This effort is typically measured in terms of actual days or actual hours. Task estimation is meant for Sprint Backlog and its existence is within the Sprint.
+For example, as the team does the Sprint Planning, they will pick a User Story which may be sized to 5 Story Points. Then they break it down into a number of smaller working tasks, such as separate work items for detailing, designing, implementing and testing. The purpose of this is to know how many User Stories the development team can commit in a Sprint. The development team must be comfortable with the commitment and the Product Owners must be confident that the team will deliver on that commitment.
+Figure 5: Sprint Level Estimation
+Estimation in Infosys Global Agile Stages of Estimations
+Infosys Limited – Company Confidential Page 11
+Ideal Time Estimation is based on Bottom-Up Approach where the business requirements are broken down into low-level activity by the team members and each activity is estimated separately. Team members are asked to sign up for the tasks and estimate the actual effort, measured in hours or days, for their tasks.
+When a team uses Ideal Time for estimating, they refer exclusively time required to get a feature or task done by the programmer compared to other features or tasks. The effort remaining (and not the effort already spent) is displayed in a common place so that the team is aligned to meet the target of the Sprint Burndown chart.
+Suggested steps for Ideal Time Estimation of tasks are as follows:
+a. Individual programmers pick up an activity, and provide estimates. If there is a disagreement in these estimates among the team members, then they discuss it and come to consensus
+b. If any of the tasks are bigger than six hours of effort, split them into smaller tasks
+c. Combine small tasks where duration <= 2 hours
+3.4 Post-Release/Closure Level
+Post the release of the product, the team calculates the detailed Function Point count for the application built using FP NESMA for overall productivity. For further information on FP NESMA, please go through FP NESMA DT video at http://digitaltutor/#/topic/395
+Estimation in Infosys Global Agile Estimation through Simple Example
+Infosys Limited – Company Confidential Page 12
+4 Estimation through Simple Example
+Below is an example of how estimation is done at three stages – Proposal or Project Level, Release Level and Sprint Level, as explained in the previous section.
+4.1 Proposal or Project Level Estimation
+Following illustrates a list of requirements for a project, detailed in a Product Backlog:
+1. A user should be able to log into the website by providing username and password
+2. Post successful login, a user should be taken to the main page with right and left panes defined
+3. A user should have a provision to log out of the web site
+4. A valid user should have a provision to change the password by providing current credentials
+The proposal team uses a Quick FP estimation to estimate the project size. Following is the analysis done:
+ The Data Function required to cater to the above requirement is to store login details which provide User Credential Information
+ Since this data function will be stored locally within the application boundary, this is considered as ILF (Internal Logical File)
+ The Transaction Functions required to cater to the above requirements are:
+o User login and display of main page
+o User logout and display logout screen
+o Ability to change password
+Following are the steps followed to arrive at the Project size using Quick Function Point Analysis.
+Note: In Quick FP, all the functions are given Average complexity and its corresponding UFP (Unadjusted Function Point) is taken from Caper Jones table.
+STEP-1: Listing down all the ‘Data Functions’
+Data Function
+Type
+UFP User credential information ILF 10
+Table 1: Data Functions
+STEP-2: Listing down all the ‘Transaction Functions’
+Transaction Function
+Type
+UFP Login and display main page EQ 4
+Logout and display logout screen
+EQ
+4 Change Password EI 4
+Table 2: Transaction Functions
+Legend: *ILF: Internal Logical File; *EQ: External Inquiries; *EI: External Inputs; *VAF: Value Adjustment Factor; *FP: Function Point; *UFP: Unadjusted Function Point.
+Estimation in Infosys Global Agile Estimation through Simple Example
+Infosys Limited – Company Confidential Page 13
+STEP-3: Deriving the estimated project size in Function Point
+UFP = Data FP + Transaction FP
+UFP = 10 + 12 = 22 UFP
+FP = VAF * UFP = 1 * 22 = 22 FP (Assuming VAF = 1)
+Productivity = 16FP/month (Sample Illustration)
+Effort = FP/Productivity = 22/ 16 month = 1.37 person month
+4.2 Release Level Estimation
+The first step during the Project Initiation is for the Product Owner to articulate the product vision. Eventually, this evolves into a refined and prioritized list of User Stories called the Product Backlog. Product Owner creates the Product Backlog and provides the business value for each of the items listed in the Product Backlog.
+Following table is the Sample illustration of Product Backlog:
+US ID
+User Story
+Acceptance Criteria US-01 As a User, I want to have a login screen which accepts my user name and password, So that I can log into the tool 1) A valid user should be able to open a login screen and provide the credential details 2) A valid user credential details should be validated after login to check authenticity
+US-02
+As a User, After successful Login, I want to have a main page with header, Left and right panes with Logout and change password options in header
+1) A valid user should be able to view their respective Home Page on successful login.
+2) For user, the objects below would be on the Home Page:
+ ‘Change Password’ link in the header
+ ‘Logout’ link in the header
+3) The user is able to access all the links on the Home page. US-03 As a User, I should be able to log out successfully after clicking the logout option on GUI. 1) A valid user should be able to access the Home Page after logging in and should be able to click on the ‘Logout’ link on the Home Page 2) The user should be successfully logged out on click of the ‘logout’ link 3) The user should be able to successfully login after successfully logging out
+US-04
+As a User, I should be able to change the password successfully after clicking the change password option on GUI.
+1) A valid user should be able to generate a new password
+Table 3: Sample Illustration of Product Backlog
+In order to get an idea of the size of Product Backlog items, a high level estimation is required. Providing a detailed or accurate estimate at this stage of project may not be feasible and the team may not have all items listed on the Product Backlog or not know exactly what the features are to be. As the requirements get clearer, the development
+Estimation in Infosys Global Agile Estimation through Simple Example
+Infosys Limited – Company Confidential Page 14
+team gathers and uses story point estimation for Release Planning. So a high level, indicative estimate has to be performed. The estimation at this stage should be done based on any of the below Story Point estimation methods:
+ Numeric sizing (1 through 10)
+ ‘T-shirt sizing’ where each requirement is classified into ‘extra-large (XL)’, ‘large (L)’, ‘medium (M)’, ‘small (S)’, ‘extra-small (XS)’
+ Fibonacci sequence (1, 2, 3, 5, 8, 13, 21, 34,......)
+Following table is a sample illustration of Story Points estimated against each User Story in the Product Backlog using Fibonacci sequence.
+Note: Refer Appendix-A for details.
+US ID
+User Story
+Estimated Story Points US-01 As a User, I want to have a login screen which accepts my user name and password, So that I can be logged into the tool 8
+US-02
+As a User, after successful login, I want to have a main page with header, left and right panes with logout and change password options in header
+3 US-03 As a User, I should be able to logout successfully after clicking the logout option on GUI 3
+US-04
+As a User, I should be able to change the password successfully after clicking the change password option on GUI
+5
+Table 4: Sample Illustration of Estimated Story Points
+4.3 Sprint Level Estimation
+First part of Sprint Planning Workshop is focused on clarifying requirements for the selected items from Product Backlog. Second part of Sprint Planning Workshop is focused on breaking the requirements into tasks and estimating the hours required to complete them.
+Each of user stories selected for the Sprint is broken into tasks. The team includes all tasks necessary to make the Product Backlog item potentially shippable. The team should ensure that tasks are small. Ideally, task effort should not be more than six hours.
+Following is a sample illustration of Task estimation at the Sprint level.
+Figure 6: Sample Illustration of Task Estimation at Sprint Level
+Estimation in Infosys Global Agile Principles, Practices and Challenges
+Infosys Limited – Company Confidential Page 15
+5 Principles, Practices and Challenges
+5.1 Principles and Practices
+ Agile team does not estimate too far into the future, if the future is unclear
+ Agile team follows iterative estimation with frequent delivery
+ Agile team understands how much it can deliver in a Sprint by its velocity (number of Story Points)
+ If estimation is difficult, Agile team increases the feedback with Product Owner
+o Shorten the time for estimation and increase it to take feedback about accuracy of estimate
+o Increase the frequency of estimating
+o Sketch out options and get feedback from the client before doing detailed estimation
+ If requirements and assumptions are unclear, the team develops multiple estimates:
+o Communicate the assumptions or constraints of the estimates rather than just the numbers
+o Discuss the constraints/assumptions with the client and the client can provide feedback to better align the team's understanding with the business drivers
+ Agile team validates estimates by comparing them with other estimates/experience, use simple rules, and intuitive decision making
+ Once the team has agreed on an estimating unit, they should ensure to implement it consistently and stick to its original definition. Especially in the project's initial Sprints, everyone should resist the urge to try mapping these units to time units with any exact precision
+ While one project team may say that a work item of a certain size is worth 5 point, it may so happen that other project team would estimate 10 points for the same size work item. This is fine, as long as team is consistent within the same project
+5.2 Challenges
+There are many challenges when moving from Conventional to Agile way of estimation
+ For the initial few Sprints, there is no correlation between Story points and Ideal Time estimation and hence, may cause over or under utilization
+ Since Story Point estimation depends on ‘who-shouts-loud’ during session, dominance of senior developers may lead to biased estimation
+ Mindset for new developers perceive estimation as a managerial activity, which is to be done by senior members of the team
+ If the team is adopting Story Point estimation, team may estimate based on scope and ignore buffering for complexity and unknowns
+ When the team is adopting Function Point (FP) estimation at Project Initiation stage, it is required for the team to be very familiar with the FP methodology
+ Team tends to forget re-estimation from time to time, based on information available, and take it as an overhead
+Estimation in Infosys Global Agile Practice Questions
+Infosys Limited – Company Confidential Page 16
+6 Practice Questions Question 1
+Among the following roles, who is NOT involved during estimation for Agile projects?
+a) Product Owner
+b) Scrum Master
+c) Scrum Team
+d) End user Question 2
+Which of the following is NOT an estimation methodology at Proposal Level?
+a) Quick Function Point
+b) COCOMO
+c) Story Point
+d) None of the above Question 3
+Story Point estimation is done for Sprint Planning:
+a) True
+b) False Question 4
+Which of the following is INCORRECT about Function Point Estimation?
+a) Can be used as a reference across organization
+b) Not an industry standard method for measurement
+c) Can be used for Agile projects
+d) Used to measure the size of the an application Question 5
+Story Point estimation has below properties:
+a) Consensus-based
+b) Can differ from team to team for same User Stories
+c) Is a Relative measure of complexity
+d) All of the above
+Estimation in Infosys Global Agile Appendix
+Infosys Limited – Company Confidential Page 17
+7 Appendix
+A. Planning Poker
+Steps for an iterative approach for estimating User Stories using Fibonacci series:
+ Each estimator is given a deck of cards; each card has a valid estimate written on it
+ Customer/Product Owner reads a story and it is then discussed briefly
+ Each estimator selects a card that’s his or her estimate
+ Cards are turned over so all can see them
+ Discuss differences, especially outliers
+ Re-estimate until estimates converge
+Planning Poker works because:
+ Those who will do the work, will estimate the work
+ Estimators are required to justify estimates
+ Combining of individual estimates through group discussion leads to better estimates
+ Emphasizes relative rather than absolute estimation
+ Estimates are constrained to a set of values so we don’t waste time in meaningless arguments
+ Everyone’s opinion is heard
+ It is quick and fun
+For further details, please refer to www.PlanningPoker.com
+B. Wide Band Delphi
+ Product Owner speaks to a group of developers, testers and customers about the L2 requirements/user stories
+ Individual member in the team estimates the number of person days required to develop functionality
+ Product Owner compares individual estimates and discusses it with the team
+ Process is repeated until there is no significant difference in the estimation by the group
+ Normally, this exercise can be completed within 3 rounds
+Estimation in Infosys Global Agile Appendix
+Infosys Limited – Company Confidential Page 18
+C. Estimation by Analogy
+Figure 7: Estimation by Analogy
+D. Infosys Story point sizing
+In Agile projects, Story Points have been used as the primary sizing technique to measure size of stories delivered. As IT organizations have started to scrutinize cost of Agile projects, analyze/compare productivity performance and negotiate price based on output of delivery rather than resource time, a need has arrived to ensure consistency and transparency in Story Point sizing.
+To understand the rationale behind standardization of story point sizing, let us consider this scenario - John wants to purchase a house. The builder offers a deal based on 100 sq.mt. Whereas, John found that the size of the house was 90 sq.mt. The builder insisted that the scale used by him was showing 100 sq.mt. In this example we see discrepancy in size of the house measured by John and Builder. As they were using different scale there was difference in size. Similar scenarios could occur while sizing user stories.
+To ensure consistency and transparency in sizing, team could use Infosys Story point sizing model.
+Infosys Story point sizing model encompasses 8 parameters, as given below, for sizing one user story:
+ Requirement Elicitation
+ Components Impacted
+ Business Logic/Rules
+ Data Related
+ External Interfaces
+ Performance
+ Test Data Preparation
+ Test scenarios to be executed
+These parameters determine the complexity of a story. The framework has associated guidelines for each parameter which helps in determining the complexity category. Based on the sizing guidelines, the complexity is determined by the Scrum team, which along with the weightage helps in arriving at the Story Point Size.
+Size represents the Volume and Complexity of output delivered. Key characteristics of the model are –
+ Repeatable - getting same result with same person in all attempts
+Estimation in Infosys Global Agile Appendix
+Infosys Limited – Company Confidential Page 19
+ Reproducible - getting same result with different people
+ Transparency
