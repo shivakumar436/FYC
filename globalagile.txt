@@ -1,0 +1,321 @@
+1 Introduction
+Agile methodologies recommend certain practices in order to deliver valuable software to the customer. These practices are related to project management and engineering, while others are related to people or teams. In this document, various Agile practices and their implementation in projects are discussed in detail.
+Agile teams are flexible to adopt the best practices irrespective of the methodology to suit the chemistry of the team, requirements of the project and customer’s adoptability. For example, teams following Scrum often adopt engineering practices of Extreme Programming (XP). Similarly XP team adopts lean practices of KANBAN and KANBAN team in turn adopts the people-related practices of Crystal. Details about Scrum, XP, KANBAN and other Agile frameworks/methodologies are discussed in ‘Agile Overview and Methodologies’ study material.
+Introduction to Agile Practices Challenges
+Infosys Limited – Company Confidential Page 6
+2 Challenges
+Agile practices are very important for the success of Agile projects. All the stakeholders are required to understand the essence of these practices. Effective adoption of Agile practices leads to development of high-quality software in an efficient and effective manner.
+Following are the key challenges faced towards adoption of Agile practices by the team and the organization:
+ Lack of understanding of the practice
+ Unavailability of cross-functional teams
+ Getting self-organized and disciplined
+ Collaborative team functioning rather than command and control
+Scrum Master or Agile Coach is required to play a vital role in emphasizing the common pitfalls and expected benefits of each of the practices.
+Different types of practices are detailed by different Agile frameworks and methodologies. For example, Scrum focuses on management practices whereas XP focuses on engineering practices. The team should decide which practices can be adopted that are best suited as per the business requirements. The hybrid practices which blend across different methodologies can also be adopted by Agile teams.
+Introduction to Agile Practices Concepts
+Infosys Limited – Company Confidential Page 7
+3 Concepts
+There are Agile methodologies and frameworks available in the industry which have been in use for several years. It has been observed that Scrum, Extreme Programming (XP) and hybrid of Scrum and XP, Scrumban are most commonly used Agile methodologies.
+Infosys has released a set of Agile methodologies which:
+ Can be adopted in global distributed environment
+ Has high-risk coverage
+ Brings higher predictability
+The key practices of widely-used Agile methodologies are given below:
+Agile Methodology/Framework
+Key Practices Scrum  Daily Scrum  Release and Sprint Planning  Sprint Reviews and Retrospectives  Burndown Charts  Product Backlog and Sprint backlog  Story Point Estimation
+Extreme Programming
+ Pair Programming
+ Test Driven Development
+ Continuous Integration and Testing
+ Refactoring
+ Simple Design
+ Release and Iteration Planning
+ Small Releases
+ Shared understanding through collective code ownership and metaphor Feature-driven Development  Domain object modeling  Inspections  Regular Build  Feature Teams  Development by Feature
+Dynamic System Development Method
+ Prototyping
+ Functional Modeling
+ Continuous Testing
+ Time Boxed development
+ Requirement Workshops
+ MoSCoW Prioritization Lean  Waste Elimination  Value Stream mapping  Pull system  Measurements
+Kanban
+ Limit work in process
+Introduction to Agile Practices Concepts
+Infosys Limited – Company Confidential Page 8
+ Visualize and manage workflow
+ Implement Feedback Loops Scrumban  Just-in-time cards  Daily scrum (planning, review, retrospective as needed)  Continuous Improvement
+Table 1: Key Practices of Agile Methodologies
+InfyAgile Methodology blends the mature practices of CMMI with the proven Agile practices to bring best-in-class delivery that includes:
+ Higher Predictability
+ Better Risk Coverage
+ Improved Efficiency
+They are nurtured with Infosys best-in-class execution experience in a globally distributed environment.
+Following table outlines how the key Agile practices and Infosys recommended best practices of the industry are blended together in InfyAgile.
+Table 2: Key Agile Practices and Infosys Recommended Best Practices
+InfyAgile Methodology
+Scrum
+Extreme Programming
+DSDM
+Infosys recommended Best Practice Requirement Workshops
+
+Burndown Charts
+
+
+Daily Stand-up Meeting  
+Mid Sprint Demo
+ Standardized Estimation Technique
+
+Quantitative Project Management
+ Risk Management
+
+Measurement Focus
+ Requirements in the Form of Epics and User Stories   
+Product Backlog and Sprint Backlog
+
+
+
+Simple Design
+ 
+Build Automation
+
+
+Automated Continuous Integration
+
+Test Automation and Continuous Testing
+
+
+Test Driven Development
+
+Introduction to Agile Practices Application in Projects – Management Practices
+Infosys Limited – Company Confidential Page 9
+4 Application in Projects – Management Practices
+This section discusses application of management practices, recommended by InfyAgile, in projects.
+4.1 Requirement Workshop
+Gathering requirements has been a challenge for the software development. Different organizations follow different ways of defining requirements hierarchy while implementing Agile practices.
+A typical hierarchy could be:
+Figure 1: Requirements Hierarchy
+Thus, it is important for all the stakeholders to have a common understanding of the requirements.
+Gathering requirements in a workshop mode is a key technique by DSDM which ensures common understanding among the stakeholders. It brings all the stakeholders on one platform to discuss about the project. Different models and techniques can be used for the effectiveness of the requirement workshops so that all the participants can put forward their ideas towards the project requirement and align them to the overall goal.
+The requirements are finally consolidated and captured in the Product Backlog.
+4.2 Burndown Charts
+Visual representation of work progress is very important for Agile projects. Since the development is time-boxed, roadblocks need to be monitored on a daily basis. Burndown charts are graphical representation of work or effort remaining to get completed against the time. Burndown charts can be tracked at a Sprint level as well as Release
+It is very important that the entire development team attends the requirements workshop. In case, the team is distributed, it is advisable for them to attend the workshops using virtual modes.
+Introduction to Agile Practices Application in Projects – Management Practices
+Infosys Limited – Company Confidential Page 10
+level. Sprint Burndown charts provide remaining effort for the particular Sprint against the number of days allotted for the Sprint, whereas Release Burndown charts show the overall progress of the release.
+There is an ideal line for the Burndown, against which deviations can be tracked and appropriate actions can be taken. Most of the ALM tools and also ‘InfyAgile l’ Process template in IPM+ provide the feature to generate Burndown charts from Sprint Backlog and Product Backlog.
+Figure 2: Sprint Burndown (Ref: Scrum Primer V1.2 by Pete Deemer) Daily Stand-up Meeting
+Communication and coordination among the team members is always important for any project.
+For Agile projects, it is expected that the team tracks the progress and necessary course correction happens on a daily basis. Due to the short span of lifecycle, there is less scope of deviation. Hence, accuracy of the data being tracked is very important.
+The Agile practice of having a short daily stand-up meeting, which is to be attended by all the development team members, plays a key role in improving communications. It also helps identify and remove impediments to development, highlight and promote quick decision-making, which in turn improves the teams’ level of project knowledge.
+Daily stand-up meeting is time-boxed to 15 to 20 minutes and should not be tracked as a typical status meeting. The Scrum Master helps to resolve the impediments that are discussed in the daily stand-up meeting.
+4.3 Mid Sprint Demo
+Mid Sprint demo is an Agile practice introduced by InfyAgile methodology. These demos are important when Sprint duration is little longer, example 3 or 4 weeks. During the Sprint execution, the development team can plan and show a demo in between. It is not same as Sprint review meeting, but an intermediate meeting to gain the Product Owner’s confidence of the working software.
+The development team needs to update the remaining effort for each task on a daily basis to ensure Burndown charts provide the correct information about the Sprint.
+The development team needs to conduct daily stand-up meeting at the same place and same time in front of the Burndown chart. All the team members are required to speak on the three broad items in crisp way.
+Mid Sprint demo needs to be conducted in agreement with the Product Owner by the development team and all stakeholders may not get involved like Sprint Review meeting. It takes care of status reporting to the Product Owner during Sprint execution.
+Introduction to Agile Practices Application in Projects – Management Practices
+Infosys Limited – Company Confidential Page 11
+4.4 Standardized Estimation Technique
+Story point estimation is done at the user story level by all Agile Methodologies. This being a non-standard approach, a capability baseline across the organization cannot be established on story point estimation. Function point (FP) has acceptance in the software industry and gives size estimation in a consistent way.
+InfyAgile Methodology recommends Function Point estimation at proposal and post-release stages for the overall sizing, whereas user story level is based on story points. The Quick Function Point method is a unique top-down approach for rapidly estimating FP when only high-level requirements are available to be adopted at proposal stage. Based on organization capability, it helps in estimating overall schedule and effort at proposal stage. Post-release, the team submits the size of the overall application being developed which again contributes to organization capability building.
+Standardized estimation technique gives an edge by publishing an organization capability baseline on Agile which can be leveraged by the development teams.
+To ensure user story sizing is consistent and transparent, Story point sizing template can be used.
+4.5 Quantitative Project Management
+Quantitative Project Management (QPM) aims at quantitative planning, tracking and process control, thereby achieving the established objectives in Agile projects. It provides understanding of various measures and metrics used in Agile projects, as well as provides insights into how baselines are used to set project goals. By implementing QPM, the predictability of processes can be improved and desired quality for work products can be accomplished. Project could use prediction model to predict Velocity improvement. Risk Management
+Risk Management is an integral part of software development and it plays a key role in project’s success.
+Risks are categorized based on:
+ Contractual aspect
+ Financial aspect
+ Scope
+ Skills/competency
+ Availability of development teams across locations
+ Availability of Product Owner throughout the project execution
+Risk management practice is ingrained with InfyAgile methodology from the initiation phase of the project. Risks are required to be identified at the start of the project by adopting different techniques and are logged in risk profiler. Risk profiler is monitored by the project team and support teams throughout the project execution.
+Figure 3: Sample Risk Management Plan IPM+
+Risk management is an important practice to be adhered to achieve successful execution of the project.
+A comprehensive risk profiling is available as part of the system support, which the development team can use to manage the execution-level risks.
+Introduction to Agile Practices Application in Projects – Management Practices
+Infosys Limited – Company Confidential Page 12
+4.6 Measurement Focus
+Software measurement ensures that the project meets the commitments made to customer, in terms of schedule,
+quality and productivity, as applicable. The measures are to be collected on a frequent basis during the project
+execution.
+Measurement is practiced for InfyAgile methodology at two levels – Sprint and Release. At Sprint level, the
+measurement focus is velocity and defect density. At Release and Project level, quality and productivity are
+measured. In the retrospective meetings, the measurements are analyzed and used for further improvement.
+Figure 4: Measurement Focus
+Metric Metric Category
+Stages of
+Measurement
+Purpose
+Story Point Variance=(No. of SPs delivered –
+No. of SPs committed)/No. of SPs
+committed)*100
+Plan / Schedule /
+Progress
+End of every
+Sprint and Release
+Hepls to understand whether the team was
+capable of delivering all storypoints
+committed to deliver at the end of the
+sprint/release
+Productivity = Number of story points per
+person day (i.e. Total no. of SPs delivered
+during that period*8.5 /(actual effort) where
+actual effort is, all the effort logged under P
+codes during that period.)
+Effort / Productivity
+End of every
+Sprint and Release
+Helps to understand the average number of
+storypoints a team member can complete per
+day
+Velocity = Number of story points delivered
+by the team / sprint
+Effort / Productivity
+End of every
+Sprint
+Helps to understand the number of story
+points a team can complete during a sprint.
+This varies when sprint duration varies. It
+makes sense to compare the velocity between
+sprint only if the sprint duration and team size
+are the same
+Effort Variance = ((Actual release Effort –
+Estimated release Effort)/Estimated release
+Effort)*100
+Effort / Productivity
+End of every
+Sprint and Release
+Ensures that our Estimation process is in
+control.
+Bug Fix - Productivity = Total No. of Bugs
+Fixed / Person Month
+Effort / Productivity
+End of every
+Release
+Helps to identify whether engineering
+productivity /efficiency is improving?
+Defect Injection Rate = Total number of
+defects from sprint review in 100 Phrs
+Quality
+End of every
+Sprint and Release
+Helps to understand the quality of the
+product getting delivered
+Residual Defect Density (Quality) = Total
+defects raised post UAT or in production in
+1000 Phrs
+Quality
+End of every
+Sprint and release
+This metric helps in indicating the defects
+leakage to the customer (production) with
+respect to the total story points delivered.
+The two-layer measurement focus gives a robust mechanism to achieve the committed quality by the
+development teams.
+Introduction to Agile Practices Application in Projects-Engineering Practices
+Infosys Limited – Company Confidential Page 13
+5 Application in Projects – Engineering Practices
+5.1 Requirements in the form of Epic and User Stories
+Requirements are gathered in the form of Epic and User Stories. Epics are high-level product or application development requirements which can be broken down into list of sequential user stories.
+These requirements can be captured by using the 3C technique which comprises of Card (User Story), Conversation and Confirmation (Acceptance Criteria).
+User Stories visualize the steps to achieve the functionality expected from the Epic. Further, the stories are layered, grouped by the team and planned incrementally (by release) to achieve the goal of the project. The User Stories can be prioritized based on desirability of the outcome, cohesiveness of the relation and value delivered to end customer.
+User Stories can be developed by adopting to INVEST technique which means User Stories should be:
+ Independent
+ Negotiable
+ Valuable
+ Estimable
+ Small
+ Testable
+5.2 Product Backlog and Sprint Backlog
+In order to meet the defined goals of the project, it is very important that the business clearly articulates requirements, scope, and how they are prioritized. Also, it is very important that development team understands these critical factors before the start of development. Product Backlog is a prioritized list of simplified requirements which is necessary to accomplish the intended delivery of the product/feature. Product owners often prepare the backlog with the consultation of business strategists and end users. The prioritization is often based on business value, release date, interdependency and is maintained in a common place such as centralized MS Excel file, ALM tools, etc.
+Product Owner takes business decisions with inputs from stakeholders and has complete ownership and appropriate authority on Product Backlog. Product owners prioritize the backlog using different techniques so that developers can pick up stories for the Sprint. Some of the techniques suggested are MoSCoW, Business Value, Certainty, Feasibility and Risk. In industry, there are some more techniques recommended such as Kano Model, Validated Learning, Cost of delay and Earned value which can be used for prioritization of User Stories.
+Based upon the prioritization of User Stories in Product Backlog, the Sprint backlogs are created. Sprint backlogs contain the User Stories which are to be developed in a particular Sprint. The User Stories are further broken down to tasks and the Team performs self-allocation of tasks. Progress of the Sprint is tracked through Sprint Burndown charts.
+*ALM – Application Lifecycle Management
+Epic and User Stories should be captured in Product Backlog with the help of any *ALM tool and (or) PROMT
+Introduction to Agile Practices Application in Projects-Engineering Practices
+Infosys Limited – Company Confidential Page 14
+Figure 5: Sample Sprint Backlog
+5.3 Simple Design
+Design in Agile is different from the traditional SDLC approach. While architecture is an activity performed in the early stages of a project in traditional methodologies, the main focus of Agile development is on emerging and iterative design. The idea of design in Agile development is based on the Agile design principles such as:
+ Architecture Envisioning
+ Iteration Modeling
+ Model Storming
+ Test First Design
+ Code Refactoring
+ Continuous Integration
+Architecture envisioning happens during the initiation phase of Agile development. The iteration modeling can be done at the beginning of the Sprint as part of Sprint planning to finalize the strategy for the Sprint. Similarly, model storming can be done with the team members for providing the solution approach just before the development. Also, code refactoring can be done to make the application scalable to incorporate new requirements.
+5.4 Build Automation
+Build automation is a key engineering practice by Extreme Programming which ensures that code is integrated from the beginning. Traditionally, it takes many hours for completion of each build which includes compilation of source files and packaging into compressed format, hence, it is difficult to do it every day. There can be errors which get introduced due to multiple check-ins. Build failure may go unnoticed.
+The automated build integrates the tools for code review, unit tests and code coverage, thus ensures quality at source. It is the initial stage of Continuous Integration. The build gets initiated when the developers commit their individual work/code to the version control repository system.
+The Continuous Integration (CI) server which is installed as part of the project environment, continually polls this repository (for example, the frequency could be every few hours based on need of the project) for detecting any changes done by the development team.
+The CI server then detects for any changes in the version control repository, initiates the process of retrieving the latest copy of the source code from the repository and executes the build script using Build automation tools to perform the integration of the software.
+Product backlog and Sprint backlogs can be maintained in any ALM tool and (or) PROMT
+Refactoring is the key to keep the design simple.
+Introduction to Agile Practices Application in Projects-Engineering Practices
+Infosys Limited – Company Confidential Page 15
+Sample Build Automation Tools
+ Maven
+ Apache Ant
+5.5 Automated Continuous Integration
+Continuous Integration with automation of test execution has seen wide adoption in recent years. The notion behind Continuous Integration has reformed how companies look at Build and Configuration Management, Release Management, Deployment Automation and Test Orchestration.
+Continuous Integration is a software development practice of integrating the source code into a central repository frequently/continuously. Each integration is being verified by the automated build process to ensure the stability of the project (working software) at all times. This happens throughout the day and ideally, it should trigger the automated build with every check-in. But, the frequency of the automated build can be decided by the team based on the project need (for example, every hour). It ensures that the team does not face integration-related challenges with other members or teams in later part of the delivery phase. To take this forward, many teams devise tools like Jenkins, Cruise control, Go, to create builds as soon as the code is checked-in. Team can associate unit test cases and integration test cases (automated) followed by code compilation process to ensure that new code does not break any existing functionality. Teams can also attach code quality scanners like Sonar to ensure the code conforms to the maintainability and consistency standards.
+Sample Continuous Integration Tool
+ Cruise Control
+ Jenkins
+Daily Build or frequent build is to be practiced by the Agile Development Team and it facilitates the Continuous Integration practice.
+Automated Continuous Integration practice plays a key role in achieving the Sprint goal.
+Introduction to Agile Practices Application in Projects-Engineering Practices
+Infosys Limited – Company Confidential Page 16
+5.6 Test Automation and Continuous Testing
+Automation in Agile projects is very important because Sprint durations are short and working software is to be generated in that short period of time. Build automation and continuous integration are the primary steps towards test automation and continuous testing. Once the build is created and deployed on the test environment, automated test scripts can run on it to test the functionality.
+The best possible scenario is the automated build after every check-in and automated integration and testing. There are tools available such as Cruise Control, Jenkins, Maven and Hudson which can provide end-to-end solution in this regard.
+5.7 Test Driven Development
+Test Driven development (TDD) is one of the advanced engineering practices where developers need to write one unit test case (using Junit, Nunit, Resp, MSUnit as applicable) for a single functionality before writing the actual code. Then the same developer is supposed to code just enough to pass the unit test case. Once the code passes the unit test case, developer writes the next test case and the same cycle is repeated. At a logical stop (depends upon the comfort level of developer), developer refactors the code so as to take care of the programmatic complexity and simplifies the code. This practice is very effective to eliminate functional defects at the earliest and to reduce subsequent need for manual testing which saves lot of time and delivers high-quality code.
+Test Driven Development means drive your development through testing. TDD is the main focus area and essence of Agile. It can be easily misunderstood as another testing methodology. It had started as a core practice of XP (Extreme Programming). Later, it emerged and was widely adopted as independent process to achieve Continuous Integration.
+TDD helps to design and develop the code in a predictable way by writing only code which is further required by failing test to pass. TDD works on a simple mantra of writing the code only if automated test fails and then refactoring the code to remove duplication. It helps to create a simple workable and easily maintainable code.
+Test automation and Continuous Testing help in continuous delivery of the software.
+TDD is a completely different approach for developing software and the team needs to have a detailed understanding of this practice before adopting it.
+Introduction to Agile Practices Additional Team-related Agile Practices
+Infosys Limited – Company Confidential Page 17
+6 Additional Team Related Agile Practices
+6.1 Team Readiness
+It is important that the team should be ready for the Agile development with defined roles and responsibilities and availability of the required infrastructure. The team may use ‘Definition of Ready’ checklist which encompasses the similar items.
+This practice is often recommended before start of Sprint development so that teams can:
+ Understand the basic requirement/objective of the project
+ Get familiar with fellow team members
+ Get acquainted with Agile methodologies
+ Do a mock Sprint
+ Ensure availability of necessary logistics
+ Define processes
+ Formulate basic architecture
+ Create user stories for Sprint 1…n
+It is essential for the Scrum Master or coach to explain the team regarding relevance of each of this ceremony and importance of artifacts to be used.
+6.2 Team Organizing Practices
+‘Team’ is the key ingredient of any successful Agile project. Team is expected to be self-organized, motivated and collaborative for the success. Since teams are formed with individuals of different personalities, work behaviors and members from different geographies, it becomes extremely difficult to bring resonance among each other.
+Self-Organization: It is a very important practice which every team is expected to follow irrespective of methodology for better team productivity and higher efficiency. This practice advocates equal and collective ownership of the team in the planning, designing, development and delivery of software product. There is no such role like a team lead that assigns tasks or responsibility to team members. However, it does not mean that team will not follow any rules. Once the team agrees to follow any standard Agile methodology (Scrum, XP, Kanban) and formulate the basic guidelines, team needs to adhere to the discipline unless the entire team feels the need to modify any of those rules. Team is also supported and often guided by senior team members such as scrum master, process anchors and others who help resolve the impediments, signal process-related deficiencies and educate the team to achieve the goal.
+Self-sufficient Team: This practice advocates that the team as a whole should be capable of conducting planning, design, development and testing without taking help from any external teams. This does not mean that every team member should be a generalist; rather it advocates team should work as one unit with a combination of specialists and generalists. There is no need for the team to depend on an external testing team or external architecture team. Testers must do the testing along with the developers to find defects so that those defects can be closed upfront rather than reporting to testing head. However, developers are expected to help the testers in order to prepare test cases or set up environments and sometimes, do basic testing. Unlike separate functional teams, single team approach reduces unnecessary delays due to documentation, knowledge transfer and coordination.
+Niko-Niko Calendar: This is a practice which teams follow to track the mood of team members. Every team member is expected to update their mood (smiley, frown and upset) in the team calendar at the end of day. This is an excellent metrics that shows how team perceives the work and how their individual problems could potentially affect the team. Although it is not necessary to counsel team members on daily basis about their personal issues, it is imperative to observe a pattern and take necessary action accordingly. For example, too many frowns may represent a bad working culture. Too many smileys but bad quality delivery may mean team is not serious. Continuous upset by a single team member may look like he is not getting enough cooperation from other teammates.
+Introduction to Agile Practices Additional Team-related Agile Practices
+Infosys Limited – Company Confidential Page 18
+6.3 Analysis and Research
+Agile does not recommend lot of analysis and research rather preaches for an inspect-and-adapt kind of process for analysis. It emphasizes more on creating POC (Proof of Concept) and directly putting it in production to see its impact and thereby, take quick actions. Below are some practices that teams follow for Analysis and Research:
+Spike: This is a method used when team follows ‘makeshift’ kind of development, which is meant for validating different technical approaches that are considered for developing another complex feature.
+Tracer Bullet: This is a process where a research development is done so that next developments are created on top of it. Basically, a new feature is introduced through tracer bullet to gauge the effectiveness of business/technical idea. Based on the feedback, people develop the entire feature; just like a tracer bullet.
+6.4 Knowledge Management
+The biggest challenge Agile teams face is knowledge rotation. Some of the practices are very different from traditional ways but are very effective.
+Social Knowledge Management: Team shares the knowledge through discussion forums, wiki, blogs rather than having dedicated classroom sessions. This is very effective and teams can participate in the discussion at their discretion without having any time constraints. Often, teams use fun-filled ways of knowledge interaction compared with stereotyped ways of presenting formally.
+DevOps transition: One of the challenges that large Agile teams (where we have separate teams for Ops and dev) face is the transition from development to support team. Due to short and frequent release cycles and lack of sufficient documentation, transition becomes a challenge. Hence, most of the teams follow this practice where, the Ops (support) team even participates in some of the Scrum ceremonies such as Sprint planning, demo, Release meeting, etc. This way, both Ops and dev teams interact frequently to resolve the documentation and operation related issues.
+Introduction to Agile Practices Additional Team-related Agile Practices
+Infosys Limited – Company Confidential Page 19
+7 Application of Agile Practices in Package-led Projects
+As described in sections above, Agile practices in projects are inherited from Agile methodologies most suited to the organization and project context, a case in point is InfyAgile being extended with best practices observed within Infosys context. One may tend to think that such practices are mostly applicable to application development projects and may not apply to other types of project such as enterprise package implementation due to its’ scale, complexity, dependency on package functionality etc. The appropriate question one needs to deliberate on is how does one bring in agility into such projects? Practitioners, clients, package vendors in this service line have been working on bringing more agility into such projects, with enhanced methodologies, practices and successful experiences of making package led projects more agile. For example, SAP has introduced Agile ASAP methodology that allows implementing functionality in short iterative cycles; in each cycle the team implements the most valuable and important functionality first; thus reducing the time-to-benefits cycle.
+Infosys is continually enhancing its’ methodologies in package space to bring more agility in project delivery to clients. In package led projects, there are predominantly 4 types of variants where agile implementations are of interest viz. – on premise implementation, cloud implementation, rollout and upgrade. In each of these variants, implementation methodologies are tailored given the unique characteristics of these variants; some of the salient features that are seen across these variants are:
+ Creation of product backlog considering package best practices and customer unique requirements early-on with ability to adapt in each sprint. Adoption of ‘ready user stories’ for off-the-shelf package functionality
+ Implementation sequencing for iterative deployment with most valuable functionalities deployed first.
+ Up front pre-sprint planning for agile practices implementation including process refinement and third party tools (for configuration management, automated testing, continuous integration etc.) adoption
+ Sprint 0 planning (product base configuration, conference room pilot, fit gap analysis) to set the stage for subsequent sprint execution and release planning for iterative deployment
+ Increased usage of pre-configured solutions, reference model templates for early visualization of solutions and accelerated delivery
