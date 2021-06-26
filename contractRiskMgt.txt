@@ -1,0 +1,274 @@
+1 Introduction
+Contract is an agreement with specific terms between two parties, who are involved in a transaction. The transaction will relate to completion of set of activities.
+The key objective of contract is to:
+- Have an agreement to form the basis of execution between service provider and vendor
+- Set terms and conditions between both the parties for project execution and completion
+- Document process for resolution of any disputes or for any other business implications
+- Define ways and means for addressing the risks by identifying right clauses or terms and conditions
+There are several types of contractual documents. Following is the list of some of the key contracting documents for software project execution.
+Letter of Engagement (LOE): It is an authorization document used to start work and avail services from vendor due to business urgency prior to the finalization of Master Service Agreement. It contains bare legal terms and first-stage project details.
+Master Service Agreement (MSA): It is an umbrella agreement that governs all services performed and also includes Non-Disclosure and/or Sub-Contractor Agreements as per business requirement. Generally, all the SoWs (Statement of Work) are issued under the MSA.
+Statements of Work (SoWs): Also called as Work Orders or Purchase Orders, is issued under an MSA which is typically drafted by vendor team. Follows the template provided in the MSA and guidelines on the template as provided by Legal.
+Non-Disclosure Agreements (NDA): The primary intent of NDA document is to protect the confidential information of both vendor and the client. NDA has to be signed at the initial stage of an engagement prior to disclosure of any information.
+Sub-Contractor Agreements: This document is used to engage third party vendors to assist provision of services to clients.
+Over the period of time, traditional way of software project execution has matured and the contractual documents are created to cater these types of projects. For example, the contractual documents are aligned towards sequential delivery, longer delivery cycles, sign offs at each stage and formal change management process. Some of these aspects in Agile context would lead to multiple risk avenues and hence it is very important to oblige risk management aspects while drafting and finalizing contractual agreements for Agile projects.
+As per Agile Manifesto, Customer Collaboration is considered as more valuable than Contract Negotiation. This is more suitable for small and collocated teams. In the recent past, Agile projects are mostly getting executed in distributed environment, with involvement of large teams and multiple stakeholders. This involves addressing certain challenges i.e. effectiveness of collaboration and communication practices, knowledge transfer and management, scalability, ability to measure and control project progress, etc. Hence, it is important to be aware of and document the contracting clauses to address the associated risks in distributed Agile project execution.
+This module familiarizes the reader with some of the key sections of contract documents (limiting to SoW) and highlights the associated risks and the mitigation clauses or terms and conditions in the context of distributed Agile project execution.
+Contractual Documents
+Examples
+Master Service Agreement
+Statement of Work
+Letter of Engagement
+Non-Disclosure Agreement
+Sub-Contractor Agreement
+Contractual Risk Management in Agile Challenges
+Infosys Limited – Company Confidential Page 2
+2 Challenges
+Most standard software development contracts were designed for use in traditional project execution taking into account a sequential approach. This was based on single delivery at the end of the project and distinct Software Development Life Cycle (SDLC) stages. The sections of contracts are created and understood for traditional development expecting completion of one stage before start of another stage.
+Following are the list of few typical characteristics of Agile projects which are different as compared against to traditional way of project execution:
+- Providing continuous deliverables in a globally distributed team environment
+- Accommodating changes in the course of execution
+- Accepting and adhering to changed roles and responsibilities e.g. Product Owner, Scrum Master, Cross functional and Self-organized teams
+- Availability or dependencies on Client/Product Owner and other stakeholders for every Sprint
+- Adhering to Definition of Done (DoD), Acceptance criteria and sign-off/agreement on the deliverables in a time-boxed environment
+- Realization of the business value at the early stages of project life cycle
+Therefore, during the contractual agreement phase for an Agile engagement, if sections of the contractual documents are not aligned in context of execution of Agile project, it is likely to get into challenges and risks. At a high level, the structural and legal aspects of Agile project contracts are the same as for contracts of traditional development styles. But the key difference is towards the approach of the operational process and delivery in the way it is done in Agile which needs to be captured in the contractual documents.
+Contractual Risk Management in Agile Concepts
+Infosys Limited – Company Confidential Page 3
+3 Concepts
+3.1 Pricing Models
+There are various types of pricing models for the contractual agreements. However ‘Time-and-Material’, and ‘Fixed Price’ types of models are most popularly used between the client and the software vendor contracts. The other types of models are mostly variants of these two.
+The type of the pricing model is primarily chosen by the Client based on the business requirements. Some of the common reasons on why client decides on a particular type of model, depends on business context, risk factors or the complexity of the work, availability or limited/fixed budgets, sequential or incremental or phase-wise approach for the milestones, etc.
+Following section describes ‘Time-and-Material’, and ‘Fixed Price’ model based contracts.
+3.1.1 Time-and-Material
+The ‘Time-and-Material’ (T&M) contracts are typically adopted when the project effort is not clearly predictable. In this type of contract, client pays the software vendor by total number of hours/days of effort put into the project. Vendor takes up the work for a specified period and at the end sends an invoice to the client for the billing. In other terms, it is an agreement of paying for efforts as it gets done. Both the parties in these contracts do not upfront focus much on what needs to be included and what not to be included in the project scope and are dependent on the resources deployed for the execution of the project. Resources in this context include both software engineers as well as the infrastructure resources that are required for the project execution. Application maintenance projects normally are contracted on a T&M basis. The T&M contracts can be deployed in the projects where the teams are globally distributed.
+3.1.2 Fixed Price
+A fixed price software contract specifically defines the service to be provided and states a single price for the project regardless of how much time and expenses the software service vendor incurs. For any client, a fixed price software contract is always preferable as it becomes easy for them to set the budgets for the projects accordingly. The service vendor prepares a contract based on the requirements taken from the Client. This describes the understanding of the project scope, execution steps, and the deliverables. When such contracts are being drafted for the projects, there would be several factors that would induce the inherent risks. These factors could be scope, quality of the delivered application, acceptance of the code or artifacts during various milestones or lifecycle stages of the project execution. Both the client and the service vendor would be aware of such risks. However, the vendor would be most impacted with such risks. For example, if the estimates are wrong, where the supplier had underestimated the effort which is unrealistic, or quoted low price, then there is higher probability that the vendor will lose the money. The Fixed Price contracts are most commonly deployed in the Development or Re-engineering type of projects.
+Fixed price contracts are generally with two subtypes:
+a) Fixed price for fixed amount of work in fixed schedule (amount work measured in story points/ function points). This model is used where Infosys has matured relationship and customers have good understanding of Agile
+b) Fixed price for fixed scope (applicable only if scope is very well detailed during the contract phase. By its nature, most Agile projects won’t have detailed scope definition available upfront during contract phase)
+Contractual Risk Management in Agile Concepts
+Infosys Limited – Company Confidential Page 4
+3.2 Key Sections in the SoW (Statement of Work)
+Following is the glimpse of key sections in the Statement of Work (SoW) followed by a brief description:
+Scope of Services
+Change Management
+Acceptance Criteria
+Assumptions and Dependencies
+Timelines and Milestones
+Post-Production Support
+Termination
+Roles and Responsibilities
+Deliverables and Sign-off
+KPIs (Key Performance Indicators)
+Scope of Services: Any contractual document contains the details of services to be provided by the software vendor based on the business need. These could include one or more of the following services:
+- Design and Development (e.g.design and architecture of application, build, validations, production deployment.), Test Planning and Execution (e.g.. preparation, execution, automation, deployment.)
+- Program management (e,g.Governance and Charter, Status and performance reporting, risks and issues management.), Management and Analysis (.e.g Requirements gathering, Impact analysis, Release/Sprint planning and schedule, Functional specification and reviews)
+Change Management: In traditional development of software projects, change management process is elaborated with change control board, scope changes approval process and sign-off process.
+Acceptance Criteria: For any Software project, an Acceptance criterion is an important aspect for validating the work products delivered by the vendor team in line with the requirements specified at the beginning of the project.
+Assumptions and Dependencies: There are assumptions and dependencies associated with most of the software projects. There are assumptions on availability of particular software, dependency of the third party on certain test environment and test data and so on.
+Timelines and Milestones: Timelines and Milestones are key in any contractual document. It provides the visibility of the deliverables in the time scale based on the fixed scope and the commitment of date and time of the interim releases.
+Post-Production Support: For any contractual agreement, there will be provision of free maintenance, support and upgrades during the Post-Production support and the duration of this period is specified.
+Termination: Captures the clauses for abrupt closure of the project in the mid of the project cycle.
+Roles and Responsibilities: Every member of the project team share a responsibility for the implementation and success of the project through assigned roles and responsibilities from both client and vendor teams.
+Deliverables and Sign-off: Agreement between client and vendor for the list of desired deliverables and the process of sign-off.
+KPIs (Key Performance Indicators): Identification of KPIs for monitoring, measuring, and reporting the project performance based on the business need.
+Contractual Risk Management in Agile Concepts
+Infosys Limited – Company Confidential Page 5
+3.3 Risks associated in the key sections of SoW for Agile projects
+Following is the list of key sections in the Statement of Work (SoW) along with the risks associated against each topic in the Agile context of the project execution.
+Key SoW sections Risk Associated in Agile
+Scope of Services
+In Agile way of project execution, requirements are volatile in nature and project scope gets evolved along with the progress of the project. Product owner and stakeholders gets more clarity and would redefine the scope as the project progresses. In Agile projects, it would be always challenging to freeze on the scope of services. Lack of clearly defined scope at the onset of the project leads to gap in understanding of the overall project vision and business values planned which is critical in any software project. Evolving project scope along with the progress of the project would lead to conflicts in agreeing scope, its schedule and cost.
+Change Management
+In Agile development, change management process varies with the type of pricing model of the project. In ‘Time and Material’, and ‘Fixed price for fixed amount of work in fixed schedule’ type of contracts, change management happens through product backlog revision. For change management in ‘Fixed price for fixed scope’ type of projects, scope is fixed for these contracts assuming it is very well detailed before the start of the project. Following are the two probable risks which would get associated with the project:
+- For ‘Time and Material’ and ‘Fixed price for fixed amount of work in fixed schedule’ type of contracts, changes are accepted during the execution of project. But, changes are not permitted in the ongoing sprint. If the scope gets changed in the midst of the sprint, this would lead to impacting the sprint goal or abandoning the current sprint which would impact the overall release plan, timelines, and costs.
+- For ‘Fixed Price, fixed scope of projects’, budget would be fixed. Hence change management is of high importance to monitor scope, budget, and effort.
+Acceptance Criteria
+In conventional software projects, acceptance criteria is defined in SoWs as an umbrella statement for all deliverables which are in the scope of the project. In Agile project context, it is aligned with ‘Definition of Done’, which can be applied at user story level, sprint level and release level. This criteria defines the completeness of the user stories as committed during the sprint planning event. It is important to have a clear understanding of Acceptance Criteria for each user story by both parties i.e. client and vendor team.
+Gap in the understanding or unavailability of Acceptance Criteria for each user story by either of the parties and non-compliance to ‘Definition of Done’ may lead to risk of non-acceptance of certain deliverables leading to effort overrun and impact on overall schedule.
+Contractual Risk Management in Agile Concepts
+Infosys Limited – Company Confidential Page 6
+Key SoW sections Risk Associated in Agile
+Assumptions and Dependencies
+Agile projects involve close collaboration with Product Owner (PO) which is mostly represented by client. E.g. Agile teams are dependent on PO for understanding requirements, clarifications, environments and test data for early testing in Sprints, etc. E.g. Agile teams assume that the end users (or required stakeholders) are available during the Sprint review meetings for providing continuous feedback on the deliverables at the end of every Sprint.
+The delay caused due to any such dependencies or assumptions would result to the risk of non-delivery of certain Product backlog items at the end of the Sprints.
+Timelines and Milestones
+In the Agile context, frequent deliveries are done in the fashion of time boxed sprints. With the varying scope, the timelines would be indicative based on the scope variation. Setting up a fixed timelines and milestones in the contract would lead to risks like penalty, etc.
+Post-Production Support
+In Agile projects, the working software is deployed in production in multiple releases based on the release planning done by the project team. Therefore the Post-Production support for a previous release may overlap with execution phase of another Sprint in the subsequent release.
+There would be risk of effort over-run, goal and schedule slippage for the time-boxed sprints because of the production support activities of the previous releases getting overlapped with the sprints in the subsequent releases.
+Termination
+Delivering high value and high priority requirements are key for Agile projects. Therefore it would be possible that the client may terminate the project abruptly at any point of the time, if the value is realized in the mid of the project cycle, given the flexible nature of Agile projects.
+There would be the risk towards cost and expenses which are already incurred in the project at the event of any unplanned suspension/ termination of the project.
+Roles and Responsibilities
+Agile projects generally have clear role definition for Product Owner, Team and the Scrum Master. Project Management is considered as overhead for co-located, self-organized teams.
+For large distributed Agile teams, it is very important to segregate the roles explicitly. There is large execution related risk associated in case Scrum Master plays the role of Product Owner or vice versa. These two roles need to be kept separate.
+Deliverables and Sign-Off
+The Deliverables in Agile projects are done in a lean fashion i.e. value added work products, just enough documentation, etc. It is very important to evaluate what deliverables to commit in the SoW document i.e. beyond the typical code and test cases and the signoff procedure. Else, if typical conventional list of deliverables are mentioned, then Agile projects have to deliver all the committed non-value added work items i.e. additional documentation etc. and take signoffs.
+KPIs (Key Performance Indicators)
+The SoWs for the Agile projects should gage the relevant KPIs that will be captured during the project execution. E.g. If Quality is critical for the project, then KPI for Defect density should be in the SoW else the overall quality of the deliverables will be impacted.
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 7
+4 Mitigating Contractual Risks in Agile projects
+4.1 Scope of Services
+In any software project, it is very important to understand the overall project vision and business values planned. However, in Agile projects because of the volatile requirements it would be always challenging to freeze on the scope of services.
+In Agile projects, the software is developed in an incremental and iterative way across multiple releases based upon the prioritization and business value. Release implementation will always be split up in small Sprints. Product Backlog would be revised before each Sprint. Following practices needs to be adopted to mitigate the risks involved in understanding and managing the scope of services during the execution of the Agile project.
+In Time and Material’, and ‘Fixed price for fixed amount of work in fixed schedule’ type of contracts, the Work Order should explicitly have clauses for providing flexibility in refining the scope for each release by both the parties i.e. client and the vendor. At the beginning of every Release and Sprint, the client (i.e. Product Owner) should prioritize requirements across epics and associated user stories. This will help and provide direction to the vendor teams for their Sprint planning and commitment thus refining the scope of each release and in turn mitigating the risk of unclear scope.
+For ‘Fixed price for fixed scope’ type of contracts, it should be ensured that such revisions will not increase the total agreed amount of work/effort. This can be done by removing/adding equal amount of scope during revisions which lead to addition/deletion of in-scope items. Thus such revisions may not lead to any change in the fixed price project (if applicable) and project milestones but may affect a switching of release content (based on overall project scope) from the current to the next release, as applicable. If incase the scope goes beyond the agreed capacity or agreed unit of work, there should a sufficient terms and conditions in the contractual documents for agreement by both the parties on continuously evolving scope, or agreeing on revision of price.
+4.2 Change Management
+In Agile environment, the contractual agreement should upfront capture the process for change management in the way it is done in traditional environment. For ‘Time and Material’ and ‘Fixed price for fixed amount of work in fixed schedule’ type of contracts, changes in the requirements are accepted through the Product Backlog items during the execution of project. But these changes should not be affecting the ongoing Sprint activities. If in case, the requirements for the current ongoing Sprint needs to be changed significantly, then the current ongoing Sprint should be abandoned and a new Sprint needs to be initiated. If in case, for minor changes in the requirements which cannot be accommodated in the current Sprint, a trade-off would be done on the scope. In this way, the new changes can be accommodated in the current Sprint and the existing scope or requirements with relatively less prioritization can be carried forward to the next Sprint.
+In Agile environment, change management process should be modified to make it integral part of Agile practices and should not be a separate overhead process. Following is one of the sample execution model for monitoring scope changes in a fixed price for fixed scope type of projects.
+• Product backlog (PB) should have additional columns as:
+• Is this a change? (y/n)
+• No. of changed story points (+ x or –x number)
+• Date of change
+• Final story points (original story points +/- change)
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 8
+• Practice of adding changes to Product Backlog could be
+• Any change should be added only with consent of Client or Product Owner
+• Whenever there is change in the original scope, Product Owner should either add a new row or update existing row based on new request or change to original.
+• All the change management columns would indicate appropriate values of change
+• Following are the advantages of tracking changes as Product Backlog items:
+• By tracking changes as integral part of Product Backlog, all Agile practices can be applied easily. Once change is added in Product Backlog, it can be treated as usual Product Backlog item and activities like prioritization of requirements, creating Sprint Backlog, monitoring Burn Down charts etc. can be performed in usual manner
+• Using the change indicator columns, change requests and size of changes in story points can be viewed any time.
+4.3 Acceptance Criteria
+It is important to have a clear understanding of Acceptance Criteria for each user story by both parties (i.e. Client and Vendor). However, any gap in the understanding of Acceptance Criteria for each user story by either of the parties and non-compliance to ‘Definition of Done’ may lead to risk of non-acceptance of certain deliverables leading to effort overrun and impact on overall schedule.
+Definition of Done (DoD) should be upfront agreed between the mutual parties. An example for DoD can be, “Requirements are built, code reviewed, tested, performance tested”. During Sprint planning meeting, it can be decided on how DoD can be applied for defined set of requirements for that Sprint in case of any special needs. Alternatively, DoD should be stable for a release or a quarter whichever is minimum. It should be upfront agreed by both the parties that any changes to Definition of Done (DoD) during the execution of the current contract (SoW) will impact the estimation baseline, efforts and subsequently cost for this SoW.
+Following are some of the activities for acceptance criteria that should be captured upfront in the contractual agreements so that they get implemented effectively during the course of the project execution.
+• Acceptance criteria for a Story is to be satisfactorily completed based on following factors
+– Acceptance criteria of Agile projects is not similar to acceptance criteria typically listed in MSA for the project.
+– Acceptance criteria in this case is an explanation attached to the user story which describes how a particular user story will be tested and accepted. It will be detailed out in each of the user stories by Client (Product Owner).
+– Acceptance Criteria should be testable
+– Definition of done will be treated as additional acceptance criteria and will be verified during iteration review meeting by Product owner
+– Client (i.e. Product Owner) will review and sign off the deliverables, as per project schedule.
+– Deliverable will be considered successfully accepted when
+• It meets acceptance criteria
+• It meets Definition of Done
+• Approved by Product Owner as complete
+• Acceptance criteria for Project should be explicitly stated as delivering high priority requirements of mutually agreed size /capacity/efforts in agreed schedule.
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 9
+4.4 Assumptions and Dependencies
+There are assumptions and dependencies associated with most of the software projects. If the dependencies are not met it will impact deliverables, schedules, etc. In Agile, the delay caused due to dependencies may result to the risk of non-delivery of certain Product backlog items at the end of the Sprints, as there are short cycle deliveries and very quick turnaround time. For this reason, following are the specific points which contractual agreements should be explicitly considering for the risk mitigations due to any assumptions or dependencies and then has to be implemented during the project execution.
+• It is assumed that Sprints will be continuous without any delays. In case of any delays due to dependencies on client or sign offs/approvals from Product Owner or SMEs, the subsequent Sprints should be started in mutual agreement between all the stakeholders. If Sprint is terminated mid-way or Sprint goals are no longer valid or completed stories are abandoned, vendor should be paid for the work/user stories completed.
+• Client should provide/identify the Product Owner for the project for the team to start with the discovery phase and identify the user stories. The requirements needs to be prioritized by the Product Owner during the Discovery Phase and ongoing basis. This would help the team to pick up the functionalities in the order of importance in each iteration to deliver higher business value.
+• Both parties agree to modify Definition of Done time to time for the betterment of program based on learnings at each stages in program. Both parties acknowledge that changes in DoD may result in impact on estimation baselines, schedule and cost. Periodicity of changes should be limited to releases or a quarter whichever is minimum
+• The representatives of the Business Users should be available at the end of Sprint to participate in the Demo, to perform UAT (User Acceptance Testing) and to verify the results. UAT at the end of Sprints (based on business context) should be done in the stipulated time to avoid impact on subsequent Sprints.
+• Business users and relevant stakeholders will need to sign off/approve on the deliverables within the mutually agreed time period after the delivery.
+• Client will help Scrum Master in getting quick impediment resolutions in order to meet commitment.
+• Product Owner will always provide detailed requirements with acceptance criteria before the start of iteration and ensures requirement prioritization is completed.
+• There will be no change to requirements during the Sprint execution.
+• Product Owner will conduct acceptance testing as per agreed schedule with no delay.
+Following are some of the illustrated points to be captured in the contractual agreements on ensuring that the indicative timelines are defined for every critical dependency.
+Dependency Timelines Development team will be dependent on product owner for: Requirement prioritization Before each release / iteration planning meeting Requirement Clarification / Details Available daily Clarification / details to be provided within 1 business day Review & acceptance of the developed features During Iteration Review meeting / At UAT Help in impediment resolution As and when it occurs Development team will be dependent on enterprise design/ architect team for: Enterprise architectural standards & considerations, decisions Before each release / iteration planning meeting At regular intervals as desired by team Review & Acceptance of the architecture decision and design ( if applicable) During release planning /Iteration planning/ Iteration execution or Iteration Review as application
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 10
+4.5 Timelines and Milestones
+In the Agile context, time boxed Sprints ensures there is frequent delivery throughout the project life cycle. The intermediate releases ensures, working software which is of higher value is available much earlier in the project cycle. The lack of planning and control during the project execution and continuous evolving of scope during the project execution would impact the Timelines and Milestones and there may possess the risks of slippage against the schedule and penalties (if any).
+The Milestones should be planned in line of Releases i.e. at the completion of every Release (or Sprint based on business context). The contractual document should capture the clauses for the payment process based on the “Definition of Done” for each Release (or Sprint) or with mutual agreement between the Client and the Supplier. Specific clauses should be mentioned for determining the size of the Release (or Sprint) which would be indicative. For example, one of the sample clause could be defined as ‘The number of user stories to be completed in each Release (or Sprint) will be decided during the Release (or Sprint) Planning in discussion with the Product Owner.’ Release wise scope details and the critical milestones can be captured in the below format (illustration).
+Release
+Scope
+Milestone
+Date
+Amount (USD)
+R1
+R2
+4.6 Post-Production Support
+By nature of Agile projects, it is a continuous feedback process and is expected that team’s take-up review defects during the Sprint review and improve on in further cycles. Agile projects will keep on accumulating technical debt and / or known defects. Projects will keep on progressing irrespective of known defects due to the time to market pressure. These defects will appear as post production defects after the release. Contract terms should have provision to safeguard against non-chargeable efforts to fix defects. To keep this essence of continuous feedback alive in Agile projects and maintain the list of known defects, following execution steps are recommended in contractual agreements:
+• Post production support for a period of equivalent to one Sprint/ two Sprint to fix defects induced by vendor with no additional charge
+– Any critical non-conformity identified by client during this period shall be remedied by the Vendor.
+– Maintaining defects from iterations
+• Features will be tested during iteration review phase. There will be known defect list created as a result of outcome of iteration review phase. Critical defects will be fixed immediately. Rest will be added to product backlog for fixing in upcoming iterations.
+• If enough time is not allocated to known defects lists in upcoming iterations then it may result in defects list which is known but not fixed before release.
+• Supplier will fix the defects post the release, with in one or two Sprints (based on business context). If defects or noncompliance to requirements are detected later, it will be considered as change order and get into the product backlog based on the prioritization.
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 11
+• Product Owner will accept the stories at the end of the Sprint which meet the ‘DoD’ and he/she may do UAT during Sprint Review meeting. Critical defects will be fixed immediately. Rest will be added to Product Backlog to get fixed in future sprints.
+• Defects emerging post release will be validated against defect list already agreed during previous sprint demos. Such defects will be excluded from post production support. Remaining defects will be fixed as below
+– After exclusion of known defects, based on criticality of defects post release and decision from Product Owner on priority to fix those defects either defects will be fixed immediately or will be added to upcoming product backlog as product backlog items.
+4.7 Termination
+If Sprint is terminated mid-way or Sprint goals are no longer valid and completed stories are abandoned, vendor should be safeguarded from the loss of agreed remuneration. Contractual agreements should have provision to save vendor from such loss where project gets abruptly closed and vendor gets financially impacted because of earlier investments. Terms and conditions has to be explicitly mentioned in the contractual documents on what specific process should be followed for the payment to the vendor.
+4.8 Roles and Responsibilities
+In Agile projects, some roles are also played by client and it is integral part of the team and project execution. E.g. Product Owner. Thus, it is important that all roles and responsibilities are clearly mentioned in contract and agreed by both parties. The SoW sets out indicative roles and responsibilities for personnel working on the project. Client and supplier will work together to determine the make-up of the project team and the roles performed by project team personnel from time to time during the course of the project.
+Typically, below roles and responsibilities can be agreed in contract. Each party must provide appropriately skilled personnel who have knowledge and/or experience with Agile projects and who are suitable and qualified for their specified role. Change of personnel clause will remain as per MSA.
+RESPONSIBILITIES OF PRODUCT OWNER
+Responsible for business value & ROI, requirement prioritization
+Specify overall project goal and vision
+Provide high level requirements, their priorities & business value
+Ensure overall release plan is in line with business requirements
+Provide detailed and well groomed requirements along with acceptance criteria before the start of every sprint.
+Review working software at every sprint end, Accept/Reject items
+Incase off tie-breakers between requirements in terms of priority /value, make decisions with regards to requirements
+Participates in requirements workshop
+Define the user stories for the software, work with team to decide iteration schedules and release plan
+As and when required, before and after every iteration, prioritize requirements and keep product backlog updated
+Work closely with the team and remain available for clarifications regarding product backlog items via one of the modes of communication everyday ( in person, on phone, on email)
+Commented [SP1]: Either use SoW or SOW, make it uniform in the document
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 12
+RESPONSIBILITIES OF SCRUM MASTER
+Works closely with the team
+Work closely with product owner to help maintain up-to-date product backlog
+Ensure adoption of Agile practices like daily standups, Continuous Integration, etc.
+Ensure progress tracking is available through Burndown charts, dashboards etc.
+Responsible for enacting Scrum values and practices
+Removes impediments and take proactive actions to resolve deviations
+Ensure that the team is fully functional & productive
+Enable close co-operation across all roles & functions
+Shield the team from external interferences
+4.9 Deliverables and Sign-off
+Agile contracts should carefully evaluate what deliverables are committed beyond the typical code and test cases. Also the signoff procedure. It should be further agreed that list of deliverables can be tailored during the course of execution based on clarity of scope. Impact of additional deliverables than those listed in SoW will be considered as impact on estimation, effort and cost. Alternatively it can be added as product backlog item to account for efforts using proper change control procedures. Following is the list of illustrated deliverables as part of SoW:
+ Vendor agrees to deliver following for every Sprint
+o Deliver as committed during Sprint planning in accordance with Acceptance Criteria and DoD
+o Documentation based on Mutual agreement between both the parties
+o Critical design and architectural decisions in documented form OR Functional and Technical specification documents
+o Unit tested build, etc.
+o Unit test results, regression tests, etc.
+o Deployment plans with deployment and Operations guide
+ Management and Status reporting
+o Templates and reports for status, Risk and Issue management, Resource management plan
+o Templates and reports for Quality Management plan, change control process
+o Release Plan - Signed of Schedule, Scope
+o Agile dashboards – Release and Sprint burn down/burn up charts
+4.10 KPIs (Key Performance Indicators)
+In any software project, vendor would generally comply with the Key Performance Indicators as set forth in SoW. Following are the list of illustrated KPIs applicable for the Agile project execution
+Contractual Risk Management in Agile Mitigating Contractual Risks in Agile projects
+Infosys Limited – Company Confidential Page 13
+ Business value related Metrics How to Measure
+Earned Business value (EBV)
+% of value delivered by % of cost consumed
+Cumulative Business Value
+Cumulative EBV trend across releases
+Running Tested Features
+RTF curve by plotting features that are running and tested against time
+Requirement Cycle Time
+Trend of avg. time taken from Req. identification to Deployment.
+ Customer satisfaction Metric How to Measure
+Customer Satisfaction
+Satisfaction Survey/index
+ Delivery excellence Metric How to Measure
+Burn Down
+Trend of Work remaining across time (for Sprint/Release)
+Velocity
+No. of work units (e.g. Story points) completed in an iteration
+Waste Avoidance per Release
+No. of features deployed to No. of features discovered ratio
+Potentially shippable iteration
+‘No of Iteration Accepted by PO/Business stakeholder’ to ‘No of Iterations’
+ Quality Metric How to Measure
+Escaped defects
+No. of Defects to size / effort ratio
+ For rapid Agile adoption/ large scale Agile adoption/ Agile governance
+Contractual Risk Management in Agile Agile Contracts – Key Practices
+Infosys Limited – Company Confidential Page 14
+5 Agile Contracts - Key Practices
+Some of the key practices which should be included as part of the contract document to ensure Agile projects are executed effectively in the outsourced global environments.
+1. Initial Product Backlog to be available during initiation stage for vendor to provide initial estimates. Product Owner has rights to add/update/modify/prioritize Product Backlog items to the overall scope, whereas items cannot change once they are under development in the ongoing Sprint.
+2. Sprint duration is specified and agreed by both the parties. The contract should also acknowledge duration of Sprint cannot be extended.
+3. The ‘Definition of Done’ is to get developed in parallel with release planning. The contract needs to contain how ‘Definition of Done’ will be applied during Sprint Review meeting. Impact on estimations or efforts due to any changes to Definition of Done during the execution of the project, should be mutually agreed by both the parties. Also contract should contain means to manage the dispute resolution process, if it arises.
+4. Once the Sprint is started, the work items identified for that Sprint remains the same throughout the Sprint.
+5. It has to be explicitly mentioned in the contract on identification of project closure and the required support during the post-production (warranty period).
+6. The contract must provide provisions to deal with either party’s right to terminate the project and consequences of the termination.
+7. Any SoW is governed by the MSA with the client. All the sections which are not elaborated in the SoW are governed by the clauses in the MSA. But, every Agile project should elaborate the clauses which needs to be explicitly mentioned,that it would override the MSA (e.g. Roles and Responsibilities in Agile).
