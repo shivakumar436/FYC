@@ -1,0 +1,422 @@
+1. Introduction
+DevOps is about the Development and Operations teams working together to meet a common goal of faster delivery and quicker time-to-market. Coined by Patrick Debosis in 2009, it has gained immense traction in recent times. DevOps emphasizes on closer collaboration amongst teams and better utilization of automation tools leading to enhanced efficiency in software delivery, faster time to market and higher client satisfaction as it ensures quality software being deployed. Many research reports endorse the popularity of DevOps becoming the mainstream of software development and the changing business paradigm needing software applications to be enhanced at a rapid pace.
+DevOps brings together the key aspects of software delivery, which are Continuous Integration and Continuous Delivery. These fundamental components of DevOps together help in increasing deployment velocity, time to market, and reduction in risk as well as improving release cycles. However, it has to be realized that DevOps is not just about build and deployment through a set of automated tools, it needs significant mindset shift and cultural change among team members while bringing alignment between people and process. There are three key aspects of adoption of DevOps namely people, process and technology. Different models can be adopted for the above aspects in terms of how the team is structured, what are the processes to be followed and the types of tools to be used for automation.
+In this module, People and Process models for DevOps, Continuous Integration and Continuous Delivery are discussed in detail.
+Introduction to DevOps Challenges
+Infosys Limited – Company Confidential Page 2 of 30
+2. Challenges
+While the Agile approach to software development has helped cut-down the application development timelines through incremental feature development approaches, it is not enough to ensure rapid delivery of the application into production.
+Below are the challenges or shortcomings experienced if agility is limited only to software development.
+2.1 Delayed Time to Market
+With rapid and incremental development methodologies, a potentially shippable product is available in every sprint or iteration. However, the real business value remains undelivered unless the functionality developed is also rapidly deployed into production without compromising on quality, reliability and stability of the application.
+Typically, the Development and the Operations team are separate teams working in silos, having different goals and measures. While development team may intend rapid delivery with frequent releases, the operations team may not be equipped to handle frequent releases as they need to plan for release checks, adequate knowledge transfer and support in production.
+So traditional handover methods for frequent releases and support induces delays, thus the agility gained in software development is not realized in production systems.
+2.2 Deployment Delays
+Frequent releases pose a risk of reliability and stability to the production environment and the Operations team needs to ensure that these are not compromised. The handover of application from development team to the operations team happens towards the end of the development and testing phases. This may be too late to resolve any impact due to changes discovered in the handover process to the operations.
+The operations team needs to spend considerable amount of time ensuring that these releases are adequately tested for performance and security, so that they do not compromise reliability and stability of the system.
+2.3 Prolonged Timelines for Service Assurance
+The frequent application releases are expected to be adequately supported in production so that the agreed service levels are met. For this the operations team, needs to acquire sufficient knowledge on the changes from the development team during the handover process; this is mainly due to delayed engagement of operations team in change deployment. Here again, traditional handover process may create delays and issues in frequent deployments.
+All of the above challenges have led to the adoption of DevOps practices to ensure that the benefits of agility are realized.
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 3 of 30
+3. Concepts
+DevOps helps achieve end-to-end agility in software delivery through seamless collaboration between the development and operations team through structured communication and streamlined processes. DevOps provides enhanced capability to deliver high quality software orchestrated by a set of integrated tools for a given technology stack.
+DevOps addresses challenges listed in section 2 through:
+1. Automation through Continuous Integration and Continuous Delivery
+2. Collaboration amongst development and operations teams for seamless delivery
+3. Streamlined processes across the delivery lifecycle from development to operations.
+This is summarized in the diagram given below:
+Figure 1: DevOps Key Tennets
+Automation through Continuous Integration and Continuous Delivery
+In the below section automation through Continuous Integration and Continuous Delivery is discussed.
+Continuous Integration
+Continuous Integration with automation of test execution has seen wide adoption in recent years. The concept of Continuous Integration has transformed how companies think about and implement Build and Configuration Management, Release Management, Deployment Automation and Test Orchestration.
+Continuous Integration is a software development practice of continuously integrating source code into a central repository wherein each instance of integration is verified by the Automated Build process to ensure the stability of the project (working software) at all times. Although the essential concepts existed earlier, Continuous Integration normally refers to the Extreme Programming practice.
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 4 of 30
+This process takes place throughout the day and ideally should trigger the Automated Build process after every check-in, although the frequency of the Automated Build can be decided by the team based on the project need (e.g. every hour, once in a day).
+The advantages of Automated Build and Continuous Integration are:
+ Automated Build integrates the tools for code review, unit tests, and code coverage and thus, ensures the quality at source
+ Continuous Integration eliminates last-minute integration issues and thus ensures cohesive build throughout the development lifecycle
+ Provides ability to completely rebuild and test applications frequently
+ Large projects often require a longer build and test cycle. Continuous Integration helps reduce effort and time as well as ensure quality
+Continuous Delivery
+Continuous Delivery (CD) can be considered as a logical extension to Continuous Integration. In this process, the software which is created in short cycles, i.e. new feature or enhancement or bug fix is rapidly and reliably made available to end users.
+The advantages of Continuous Delivery are:
+ Lesser deployment risk as smaller changes are deployed
+ Visible progress of value as changes are available in production
+ Early and quicker feedback
+Continuous delivery ensures that code can be rapidly and safely deployed to production by delivering changes to a production-like environment. Since every change is delivered to a staging environment using complete automation, it is easy to deploy the changes to production with a push of a button when the business is ready.
+Continuous Deployment is the next step of continuous delivery: Every change that passes the automated tests is deployed to production automatically.
+The following figure represents the difference between the two –
+Figure 2: Continuous Delivery and Continuous Deployment
+<Image ref https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff>
+Therefore, the teams which adopt Continuous Deployment, will ensure that every change goes through the pipeline and automatically gets into production. However, in Continuous Delivery, though Team is ready to do frequent deployments, the decision will be business driven. Continuous Delivery is a prerequisite for Continuous Deployment.
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 5 of 30
+3.1 Stages in Continuous Integration and Continuous Delivery
+The subsequent sections elaborate on the stages in Continuous Integration and Continuous Delivery.
+3.1.1 Stage for Build, Unit and Integration Testing and Quality Check
+In this stage, the following steps are performed:
+1. Build gets initiated when the developers commit their individual work/code to the version control repository system. The CI server which is installed as part of project environment, continually polls this repository (e.g. frequency could be every few hours based on the need of the project) for detecting any changes made by the development team.
+2. The CI server then detects changes, if any, in the version control repository, and initiates the process of retrieving the latest copy of source code from the repository and executes the build script using build automation tools to perform integration of the software.
+3. Once a successful build is generated, CI server triggers the process of validation of test cases/scenarios and code quality inspection. The process of validation and inspection is automated using the automation tools for unit and integration testing and inspection.
+4. Though these steps are automated, there would be some manual intervention required in these stages. Post this activity, feedback is generated by the CI server and is communicated to the team members through various mechanisms such as email and text message.
+3.1.2 Stage for System/Functional/Non-functional Requirement Testing
+In an automated development and delivery pipeline, integration will be done frequently as we saw in the previous section. Hence test cases need to be run frequently. The gate for developed software meeting the functionality are the test cases. This is possible only if the tests are automated.
+In the automated development and delivery pipeline, the following tests and their management are automated mandatorily. These tests are invoked in an automated fashion by the orchestrator – i.e. the continuous integration tool.
+Benefits
+ Increases the depth and scope of test coverage which helps in improving software quality
+Ensures repeatability of running tests whenever required and helps in continuous integration of valuable software
+Different categories of tests can run from a CI system. This includes unit, component, system, load or performance, security, and various other types of tests.
+ Component Tests: These tests verify portions of a system such as database, file systems, or network end points
+ System Tests: These tests exercise a complete software system including external interfaces
+ Functional Tests: These tests are executed to test the functionality of the application or product from the client perspective
+ Performance Testing: Ensures software applications will perform well under their expected workload. Provides information about the application’s speed, stability and scalability. Automated performance testing frameworks enables repeatedly building new load test agendas without
+Functional test automationTest managementTest data managementPerformance test automationSecurity test automation
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 6 of 30
+recording a new script, eliminating the additional work that may have been caused by changes to the UI.
+ Security Testing: Automated Security testing can be applied to tests that are done to check for known vulnerabilities. Other tests may still be manual.
+ Service Virtualization: These tools help in designing and executing automated unit, functions, regression, load and performance tests for distributed application architectures which leverage, SOA, BPM architectures. They help emulate the behaviour of specific components in heterogeneous component-based applications such as API-driven applications, cloud-based applications and service-oriented architectures.
+Component tests take a bit more time to run when compared with Unit testing because of multiple dependencies whereas the System and Functional tests take the longest time to run.
+The CI system would be configured to automate and run all these types of tests. These tests can be categorized into distinct buckets and run the slower running tests (example, Component, System) at different intervals than the faster running tests (example, Unit). The CI system Configuration would run each of these test categories with different staged builds. The slower running tests (example, System and Functional) can be automated through the tools interfaced with the CI server.
+3.1.3 Stage for Continuous Delivery
+Environment Provisioning and Configuration
+Continuous delivery is an extension to Continuous Integration for promoting builds through higher environments and performing incremental validation to assess production readiness.
+The various steps that we saw earlier (including environment provisioning, testing, deployments etc.) need an infrastructure to be in place for implementation. This infrastructure layer manages all these and the environment management tools help in managing all these environments.
+The infrastructure layer can be managed by tools like Chef, which help spinning of virtual machines, synchronizing them, help make changes across multiple servers etc. The virtual machines mimic servers including the complete operating system, drivers, binaries etc. They run on top of a hypervisor system which in turn runs on top of another operating system.
+In a continuous effort to streamline infrastructure, optimize servers and ensure stability of applications, cloud and virtualization are being used in DevOps. Containerization is complementary to virtualization and is playing a great role in shaping the cloud computing space. They provide dedicated environments for applications to run on and they can be deployed and run anywhere without creating an entire virtual machine setup for each application. Containerization virtualizes the operating system so that applications can be distributed across a single host. The application is given access to a single operating system kernel. Once the application is built and QA tested, the deployment can be done through containers.
+Infrastructure management (virtual/cloud) can be managed (allocation, de-allocation) through automated scripts and environment management systems. These can be used to configure, allocate and de-allocate test environments also. Thus, they provide on-demand infra and just-enough infra.
+Continuous Delivery allows constant flow of changes into production through an automated software production pipeline called CD pipeline. The pipeline provides feedback to the team and visibility into the flow of changes to everyone involved in delivering the new features.
+Continuous Delivery enables deliver working, deployable software at any point in time. By running a fully automated build including compilation, testing, inspections, packaging, and deployment, the team acquires the capability to release working software at any time and in any known environment.
+Following points should be taken into account for automated continuous delivery:
+ Reusable multi-tier application component models & deployment steps
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 7 of 30
+ Reusable application deployment templates for various application types
+ Orchestration of deployment workflow using such templates, components and associated deploy process
+ Ability to specify environment targets for each application component
+ Environment specific externalized app configuration setup like pre prod
+ Ability to auto rollback to defined stable version
+ Role based security for controlling who can deploy where
+Cross team dashboard providing status of deployments along with details of deployed application versions across environments.
+3.1.4 Release Management
+Software Release Management ensures all releases through different life cycles of software development is planned, scheduled and controlled. In the context of DevOps, Release management plays a critical role and can be called as catalyst for successful DevOps implementation. Automation is quite critical in Release management to get benefits of DevOps. Few factors can impact the Release Management such as unclear definition of roles and responsibilities, unavailability of test environments, improper roll back plan and lack of collaboration among stake holders for a unified release plan.
+Following are some of the key practices which contribute to the Release Management:
+ Communication about Release Plan by publishing the release calendar well in advance to all the stakeholders
+ Planning the dependency between releases of multiple applications
+ Definitions of workflow and approvals for releases through environments
+ More of Automation to ensure the process is seamless
+ Dry runs so that there are no last minute issues
+3.2 Benefits of Implementing Continuous Integration and Continuous Delivery
+Continuous Integration and Continuous Delivery offers the following benefits:
+ Reduced Overall Risk
+As the project is continuously built and integrated; defects in the code are found and fixed at the early stages of the development. This helps in reducing risk and rework because the majority of the problems are fixed as and when they occur. Also, it becomes much easier to create complete builds of the project very often as they are done on a daily basis rather than once in a fortnight or so. Most developers have their own project set-ups on their machines. Because the build is created on a centralized CI (or build) environment, it reduces dependencies on individual hardware set-ups.
+ Reduced Human Error by Automating Repetitive Tasks
+Converting the process of manual repetitive tasks (wherever applicable) into an automated system eliminates probabilities of missing out on certain steps and reduces human error. It also allows developers to focus on what they are good at in the project and making the tasks/work a better experience.
+ Continuous Creation of Usable Software
+At any point of time, usable build can be created; meaning, designers or developers do not have to depend on other teams for a new version of software. Depending on the type of CI environment, a new and working build should always be available and has to be up-to-date.
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 8 of 30
+ Improved Project Visibility
+By using CI, stakeholders will have a better idea of the existing status of the project. They will get information about:
+ Time required for creating stable builds
+ Current version of the build
+ Status of the last build instance and deploy jobs
+ Current problems and issue areas
+ Build Failure Detection Using Automated Developer Testing
+Developers who write tests more often use some x-unit based framework such as JUnit or NUnit. These tests can be automatically executed from the build scripts. CI enables automated regression tests to be run on the entire code base whenever a change is applied to the software.
+ Implicit Enforcement of Coding Standards
+Coding Standards are a set of guidelines that developers must adhere to while working on a project. In many projects, a manual process is performed through code review. CI can run the build scripts to report on adherence to the coding standards by running a suite of automated Static Analysis Tools that inspect the source code against the established standards whenever a change is applied.
+ Refactoring for Easy-to-maintain Code
+It is the process of changing the software system in such a way that it does not modify the external behavior of the code and yet improves its internal structure. It makes the code easy to maintain and identifies potential problem areas at every build.
+ Frequent Releases
+It allows the testers and users to get working software to use and review as often as required. CI works well with this practice. Once a CI system is implemented, release can be created with minimum effort.
+3.3 Collaboration between Development and Operations Teams for Seamless Delivery
+Agile software development has broken down some of the isolation between requirements, analysis, development and testing teams. The objective of DevOps is to remove the silos between development (including testing) and operations teams and bring about collaboration between the teams.
+However, since there are separate teams and also the fact the team may have niche skills rather than skills across the software development lifecycle, there could a phased approach to creating a pure DevOps team.
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 9 of 30
+Here are some of the possible team structures / models:
+Model 1: Separate Dev and Ops teams
+Key issue:
+Lack of collaboration between the teams as they are silo-ed.
+However, it may not be possible to merge the teams, so the key is to improve the collaboration through common interventions.
+As mentioned in the figure, the Development and operations (may even have testing teams separate) are separate
+ Interventions planned at regular intervals with no overhead processes
+ Teams keep separate backlogs but take each other’s stories in their backlogs
+ Ops team gets knowledge about upcoming features, major design changes, possible impact on production
+ Dev team understands what causes outages/ defects better, improves Dev processes to reduce impact (e.g. specific logging, performance testing for a cycle)
+ Dev team improves development process over time by understanding Ops defects/outages better
+Model 2: Pure DevOps
+The teams may be merged although DevOps skill set (end-to-end skills in a software lifecycle) may not be readily available
+ Embedded team can be created by hiring people with blended skills or cross-training/on the job learning by Dev & Ops teams for each other’s skills
+ Team has single backlog with both Dev & Ops tasks
+ Each team member is capable of selecting any item & work on it
+Model 3: One team with Ops Extension: Hybrid
+When a pure DevOps team cannot be constructed, a model closer to the pure DevOps team can be constructed.
+ A horizontal Ops team forms a backbone for all development teams. It provides 24X7 support and performs the tasks which have larger impact on IT e.g. patch deployment
+ Few Ops team members can become part of Dev team and perform tasks which are application specific. Ops team members can become part of Dev team. This Ops representative will focus on all the Ops activities which are this team/application specific while all centralized Ops activities will be taken by horizontal Ops team
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 10 of 30
+When speed is increased, deployments are faster. Then teams realize that support service levels start dropping. That is when teams realize the importance of collaboration between development and ops teams. Reduce the length of the release documents and hand over time.
+3.4 Streamlined Processes across the Delivery Lifecycle from Development to Operations
+Here are the possible process models:
+Process models
+Process is important because when teams are merged, the new process that needs to be adopted becomes critical
+Model 1: Dev and Ops separate
+The development team may be following an agile approach say Scrum as shown in the figure. The Ops team may be following another process, for instance, ITIL. Here is how the process can be adopted.
+ Dev in Scrum and Ops in any iterative model
+ Iteration duration matches with Dev iterations
+ Governance team (Program Manager) for conflict resolution
+ Few team members cross-participate in daily standups
+ Disadvantages of this model are:
+ Frequent conflicts and less appreciation for each other’s work
+ Cross skilling of talents is not possible
+Model 2: Dev and Ops separate but following similar processes
+The development and operations team may be following Agile approach say Scrum (by the development ream) and Kanban (by the operations team). Here is how the process can be adopted.
+ One group does Scrum and the other Kanban as ONE team
+ Two different product backlogs (PB), but single PO
+ Dev team works on user stories and Ops works on high priority Kanban PB
+ Any inter-dependent work items are prioritized by PO to resolve dependencies on time. Daily standup by both teams
+ Cross-skilling of talents is limited
+Model 3: Unified process
+When there is a unified DevOps team, they can follow a unified process like Scrumban as shown in the figure
+ Single PO with one PB
+ Based on history, planned vs. unplanned effort considered across
+ Team works on the prioritized user stories
+Introduction to DevOps Concepts
+Infosys Limited – Company Confidential Page 11 of 30
+ High priority is set for unplanned high severity incident
+ A team member having expertise in that takes up and resolves
+Cross skilling of talents is possible
+Introduction to DevOps Application in Projects
+Infosys Limited – Company Confidential Page 11 of 30
+4. Application in Projects
+Continuous Integration and Continuous Delivery is not just about the technical implementation but is also an organizational and cultural implementation. There can be many challenges faced by the Team while implementing the same. The challenges may come from client side where client is not conversant with the practices. Similarly with different people and process models, the Team may face issues with the capacity planning. There can be challenges related to access control or security with multiple groups involved. The Team has to take care of these challenges as they proceed with the DevOps implementations.
+4.1 Step-by-step Process of Implementing Continuous Integration and Continuous Delivery
+1. Use Version Control Repository
+This is the first step and is necessary to start implementing CI. The main objective of using a version control repository is to manage all the source code changes and other software artifacts using a controlled access repository. This provides the team with a “single source point”, so that all source code is available from one primary location.
+2. Configure the CI Server
+The CI server has to be configured within the project environment to continuously check for any changes in the version control repository. The main purpose of CI server is to run an integration build by retrieving the source files whenever a change is committed to the version control repository. The CI server should support hard-scheduling of the builds on regular frequency, that is, every hour and should provide a dashboard and feedback mechanisms where the results of the build get published.
+3. Build Script for Automation
+Next step is to perform build automatically. Build script must be developed and implemented (which could be a single script or a set of scripts) that will automate the software build cycle which includes compiling, testing, inspecting, and deployment processes. Developers from the teams that implement CI system should run different categories of tests which include Unit, Component, System, Functional, and Regression tests to speed up the build process.
+4. Use Code Quality Analysis
+This step is very critical in large projects. It helps in stabilizing coding conventions and constantly monitors code for:
+ Average code complexity
+ Coverage of code
+ Duplication of code
+ Performance requirements
+If any suspicious code is committed, server should generate and publish warnings.
+5. Configure CI with Automated Deployment
+After the creation of each build, new version of binaries should be automatically deployed to test servers. It helps in improving integration with customer systems. After each fix, customer may verify new versions.
+Introduction to DevOps Application in Projects
+Infosys Limited – Company Confidential Page 12 of 30
+4.2 Best Practices
+To reap maximum benefits of implementing Continuous Integration, it is advisable to follow the best practices listed here:
+ Commit Code Frequently
+One of the major advantages of CI is integrating early and often. So to utilize the advantages of CI, developers must commit the latest version of the code frequently. Waiting for more than a day to commit code may not be beneficial and prevent developers from being able to use the latest changes.
+ Don’t Commit Broken Code
+A precarious assumption in any project is that everyone knows not to commit code that would not work on the version control repository system. The eventual mitigation of such risk is to have a well-factored build script that compiles and tests source code in a repeatable manner. Team members should always run a private build before committing code to the version control repository. It is required to make this process a part of the development culture.
+ Fix Broken Builds Immediately
+Broken build is anything that prevents the build from reporting success. It may be a compilation error or a failed test. When operating in CI environment, these problems should be fixed immediately. Fixing a broken build should be done on high priority.
+ Write Automated Developer Tests
+Build should be automated in order to run tests for a CI system. It is essential to verify that the software works using automated developer tests.
+ All Tests and Inspections Must Pass
+In CI environment, 100% of the project’s automated tests must pass. For any build to pass, automated tests are as important as compilation. Codes that have error will not work and if we accept such codes, it will lead to lower quality software.
+ Run Private Builds
+To prevent integration failure, developer should run private build in local environment before integrating changes into repository. Any defects found in private build should be fixed before committing changes. This ensures less broken builds.
+ Avoid Getting Broken Code
+Failure of build will lead to wastage of time if developers get broken code from the repository. Developers should get latest code only when the build failure is fixed.
+Similarly to reap the benefits of Continuous Delivery, the delivery pipeline must be as smooth as possible. Some of the best practices that can be followed are listed below:
+ Production like environment
+Throughout the delivery pipeline, keep the Dev, QA, pre-prod/staging environment same or as close to production like environment. This helps is failing early and fixing fast.
+ Practice feature toggle
+Feature toggle allows the software to be delivered/deployed continuously, but the incomplete features/functionality remains inactive. This enables the business to take decision to go live anytime
+Introduction to DevOps Application in Projects
+Infosys Limited – Company Confidential Page 13 of 30
+ Strong configuration management
+Not just for code, have a strong configuration management for Test scripts, DB schema, deployment scripts, server configurations etc.
+ Automate, Automate
+Other than user experience and few areas of testing that needs manual intervention, all other tests, process, and deployments should be automated in delivery pipeline. Automatic promotion to higher environments should be practiced.
+ Same binary or deployable artifact across the pipeline
+Having same binary reduces surprises in every deployment.
+ Quick feedback from each stage
+Instant group chats/display boards can help in faster feedback and better collaboration. It is also very important to fix the issue with utmost priority.
+Introduction to DevOps Related Tools
+Infosys Limited – Company Confidential Page 14 of 30
+5. Related Tools Life cycle stage Activity Sub activity Java Tool usage
+Build
+Continuous Integration - CI
+ALM/ PM Tools
+JIRA, Rally, Mingle, Jira
+Application life cycle management tools to plan , track the work and integrate with other tools
+IDE
+Eclipse, IntelliJ
+Developer environment
+Version control (SCM)
+Git, SVN, ClearCase, Perforce, Bitbucket, Mercurial
+Source code configuration management
+Quality check
+Sonarqube, FindBugs, Checkstyle, JSHint, Pmd, Fortify
+After the code check-in to the SCM; static code quality tool is invoked and code is checked against set of guidelines/ vulnerabilities
+Unit Test
+JUnit, Jasmine, Karma, TestNG (for JS)
+Upon successful passing of code through quality check above, the unit testing tool is invoked to perform automated unit testing.
+Code Coverage
+JaCoCo, Cobertura, Clover, EMMA, Istanbul
+Upon successful passing of unit tests above; Code coverage tool is invoked which provides detail of % code getting covered in the unit tests
+Build Automation
+Ant, Maven, Grunt, ivy, gradle, Build Forge
+Once all the quality standards are tested and verified, build is created
+Build Repository
+Nexus, Artifactory, Archiva, Jfrog, Asset Manager
+The above build binaries created are stored in the build repository. It is the central location for the binaries to be picked and deployed into various environments
+CI Server
+Jenkins, Bamboo, Hudson, TeamCity
+All the above tools are integrated with CI server. It helps in orchestrating the tools in the CI pipeline and ensures quality is built at every stage in the system
+Test
+Continuous Validation (CV)
+Functional/Acceptance Test / Regression/ Performance/ Security
+FitNesse, Selenium, Cucumber, jbehave, HPUFT, LoadRunner, AppScan, Fortify, Veracode
+The build is then deployed into the test environments for functional, regression, performance, acceptance testing, etc. Each stage of testing is automatically invoked and upon the successful execution of test cases, the next stage of testing invoked. In case of failure, defects are entered into the defect management system, developers and testers are sent alert and the execution of pipeline stops. .
+Service Virtualization
+CA-Lisa, IBM RTV Server, SoapUI
+During the test cycles; the dependency on interfaces is removed by usage of service virtualization tools to ensure end to end testing is completed
+Defect management
+HP QC, JIRA, IBM Rational Quality Manager,
+As highlighted in the testing stages, defects are entered into the defect management system automatically in case of any test case failure during the test execution cycle.
+Test data management
+CA Datamaker, Optim
+Invoked automatically to create or manage the test data required for testing different scenarios. These tools are mostly used when huge volume of test data is required to test different scenarios
+Deployment and provisioning
+Continuous Delivery – CD
+Environment Management & Release Automation
+Chef, Puppet, XLDeploy, XLRelease, Udeploy, Docker, Ansible, CA Release Automation
+Environment provisioning tool is invoked to provision the environment on demand. These environments can be configured automatically based on the required configuration. This can help reducing manual errors during environment setup. Deployment tools are used to deploy application into different environments.
+Database Deploy
+LiquiBase, RedGate, DBDeploy, DBMaestro
+Database can be deployed automatically by these tools to avoid manual errors and improve the cycle time
+Monitoring, Log and Reporting/ Change Management
+Elasticsearch, logstash, Kibana, ServiceNow, Remedy, Nagios, Splunk, AppDynamics
+CD pipeline can also be integrated with monitoring tools in such a fashion that some of the events or incidents can directly create the tasks in ALM tool so that development team can take required actions
+Introduction to DevOps Related Tools
+Infosys Limited – Company Confidential Page 15 of 30
+Life cycle stage Activity Sub activity .Net IDP
+Build
+Continuous Integration - CI
+ALM/ PM Tools
+TFS, Rally, Mingle, Jira
+IDE
+Visual Studio
+Version control (SCM)
+Git, TFS, CVS, SVN
+Quality check
+Fxcop, Stylecop, Appscan, Fortify
+Code coverage
+Ncover, Cobertura, OpenCover
+Unit Test
+Nunit, Nmock , Xunit.net , MSTest;
+Build Automation
+Make, NANT, MSBuild, NUBuild;
+Build Repository
+Nexus, Artifactory, Archiva, Jfrog, NuGet
+CI Server
+Jenkins, TFS, Bamboo, TeamCity
+Test
+Continuous Validation
+Functional/Acceptance Test / Regression/ Performance/ Security
+FitNesse, Nbehave, Cucumber, VSTS, LoadRunner
+Service Virtualization
+CA-Lisa, IBM RTV Server, SoapUI
+Defect management
+HP QC, JIRA, IBM Rational ClearQuest,
+Test data management
+CA Datamaker, LISA
+Deployment and provisioning
+Continuous Delivery - CD
+Environment Management & Release Automation
+Chef, Puppet, XLDeploy, Visual Studio Release Management XLRelease, Udeploy,
+Database Deploy
+LiquiBase, RedGate, DBDeploy
+Monitoring, Log and Reporting/ Change Management
+Elasticsearch, logstash, Kibana, ServiceNow, Remedy, Nagios, Splunk, AppDynamics
+Table 1: Recommended Tools for Implementation of Continuous Integration and Continuous Delivery
+Note: Please contact Infosys Tools Group (Tools_Deployment@infosys.com) for further details on these tools
+Introduction to DevOps DevOps Maturity Model
+Infosys Limited – Company Confidential Page 16 of 30
+6. DevOps Maturity Model
+Figure 3: DevOps Maturity Model on People, Process and Technology
+Source; http://teamwiki/DevOps/CICDMetrics
+Figure 4: DevOps Maturity Model on CI-CD engineering practices
+Source; http://teamwiki/DevOps/CICDMetrics
+Introduction to DevOps Case Study – Continuous Integration
+Infosys Limited – Company Confidential Page 17 of 30
+7. Case Study – Continuous Integration
+This is a case study about developing a nursing application.
+7.1 Project Profile
+Project scope involves development of a nursing application, which is based around the functionality of an Electronic Health Record system. The application needs to be designed to train nursing students on medical documentation procedures. Students should be able to log into the application and complete the scenario that is being assigned to them and chart them accordingly.
+7.2 Problem Statement
+The development team of this application submits code to several branches. Each branch generates daily build and has to be released twice a month after undergoing through an integration process. The QA Engineers have to perform repetitive tests manually once in every two weeks (for every release).
+7.3 Challenge
+The challenge here is maintainability of the application that grows in such a way, that in a matter of weeks, all scripts that were used become obsolete
+7.4 Solution
+ Automate the build process
+ Include the code review tools in the build process for static code analysis
+ Include unit tests in the build process to make your build self-testing
+ Commit to the main branch of the source code repository every day
+ Build the main branch on integration machine frequently
+ Publish build results for everyone to see
+ Automate deployment
+7.5 Benefits
+ Saving 40% of test effort (compared against similar past projects from the same group)
+ 12.5% improvement in cycle time
+ Integration issues are detected upfront
+ Less deployment issues as the build is unit tested and integrated continually
+ Reduces person dependency and thus less error prone
+Introduction to DevOps Case Study – Continuous Delivery
+Infosys Limited – Company Confidential Page 18 of 30
+8. Case Study – Continuous Delivery
+8.1 Project Profile
+A leading bank in Australia wants to transform its online and digital channels. DevOps was one of the initiatives being implemented to accelerate the delivery.
+8.1.1 Context/Challenges
+ Frequent releases.
+ Environment contention leading to high cycle time.
+ External system dependencies leading to defer sprint goals.
+ Downstream system dependencies leading to delay in testing and hence the release.
+8.1.2 Solution
+ Continuous Integration: A fully automated build pipeline was orchestrated with integrated configuration management, service virtualization during development, automated unit test, code quality checks and code security checks.
+ Continuous deployment: Provisioned a cloud based staging environment with fit for purpose data, service virtualization and implemented an automatic deployment of successful builds on Azure cloud.
+ Progressive QA automation: Adopted progressive in-sprint QA automation incubated into the feature teams and integrated the end to automation with continuous integration deployments.
+ Fit for purpose service virtualization: for minimizing the dependency on downstream services, systems and external systems.
+ Infrastructure as a code implemented on Azure
+8.1.3 Benefits
+ Elapsed time from code check-in to testing reduce by 35% ~ 45%.
+ At least 30X amplification of business feedback for faster implementation of customer experience insights.
+ On demand environment reduced environment provisioning time from weeks to minutes.
+ Test Automation leading to reduction of work by 20%.
+8.1.4 References
+First level contact – Nishanth Hydru, DM - Arvind Balasubramanian
+8.2 Project Profile
+DevOps platform implementation for a leading NZ telecommunication company.
+8.3 Context / Challenges
+ Reduce the time to market (Feature releases every week & Production Hot-fixes every day)
+ Improve quality of each release and reduce technical debt
+ Efficient source code management and effective code reviews
+ Push button automated build and deployments
+ Improved productivity of software delivery team
+8.4 Solution
+ Infosys implemented DevOps in 5 applications and helped client in achieving the desired business value
+Introduction to DevOps Case Study – Continuous Delivery
+Infosys Limited – Company Confidential Page 19 of 30
+ Implemented Continuous integration and delivery pipeline using open source tools orchestrated with Infosys DevOps Platform for faster onboarding of applications.
+ Enabled developers to newly implemented CICD practices and source code management system with the help of training and detailed documents.
+ Automation of review, build, deploy and test workflow for application and Database changes.
+8.5 Benefits
+ 40%reduction in Build & Deploy time.
+ Reduced cycle time to 4 weeks for major feature releases.
+ Consolidation of Tools & massive reduction in licensing costs.
+ Deployment velocity increased to 10x.
+ Centralized CICD tool (Infosys DevOps Platform) for Build and deployment for all development teams.
+ 2x productivity improvement in Development, Testing and deployment team.
