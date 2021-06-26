@@ -1,0 +1,201 @@
+1 Introduction
+In Agile environment, co-location of teams is fundamental as it maximizes the scope of communication and thereby increases efficiency. With the change in business context, there has been an increase in demand for global talent and reduction in cost through outsourcing. The key reason for this demand is to develop high quality products at lower cost than co-located developments by optimizing the resources.
+This module focuses on various aspects of teams working in Agile environment and that are distributed across various geographic locations. By the end of this module, following points would be understood:
+ Key drivers for execution of work in distribution environment for Agile teams
+ Concepts of various aspects of globally distributed teams
+ Practices that will help in successful execution of Agile projects in distributed environment
+Agile in Distributed Environment Key Drivers
+Infosys Limited – Company Confidential Page 6
+2 Key Drivers
+The key drivers for Agile project execution in a globally distributed environment are as follows:
+ Scalability: To meet client need with higher efficiency by addressing the growing demand of work with multiple teams distributed across locations
+ Profitability: Makes the best talent and cost advantages available to the client
+ Achieving Cost Arbitrage: Reduces investments on large teams since various locations around the globe can deliver the same service as work happens across multiple locations in varied time zones
+ Talent Management: Availability of teams with varied skills for optimal composition, of developers, architects, DBA, QA and functional experts across locations
+Agile in Distributed Environment Concepts
+Infosys Limited – Company Confidential Page 7
+3 Concepts
+Executing projects globally in a distributed environment has become a tradition in the current era. This is an era in which information is communicated and work is conducted across borders, cultures, functions, companies, industries and locations. For distributed teams in different time zones, the teams need to have the basic understanding of concepts for working in a distributed environment.
+For example, if the team in US breaks the build and goes home, then the team in India who is about to start their work, will be forced to investigate and fix the issues. If they cannot identify the issues, they will need to wait for their US counterparts to be in office.
+The importance of understanding the concepts and adhering to the process becomes very crucial in such environment for successful execution of the project.
+3.1 Basic Elements of Globally Distributed Teams
+3.1.1 Cultural and Language Factors
+The important focus for each individual in contributing for effective teamwork in a globally distributed team should be to understand the meaning of each other’s culture and values. Often, even when cultures have the same values, they get prioritized differently and might be expressed differently from culture to culture.
+Understanding these concepts will affect the beliefs and behavior of individuals from different cultures and greatly increase the team members’ ability to work together.
+Another most apparent difference in diverse workgroups is language. Various research studies indicate that most employees are more creative and productive in their native language. But in a distributed environment, global communication would require the ability to translate the local cultural meaning behind the words and to
+comprehend the spoken or written words in a global culture manner.
+3.1.2 Importance of Infrastructure
+Proper planning and management becomes more important in distributed environment for Agile projects. Due to distributed nature and size of the project, availability of infrastructure and tools becomes even more critical. It is important to ensure that adequate infrastructure like hardware and software, tools, connectivity, testing environment, pre-production, security are planned. Most importantly, the need for adequate infrastructure for communication and collaboration between geographically spread teams must be addressed. Tools play an important role in large size projects as they reduce the burden of communication in a team and repetition of work such as integration or build activities.
+Agile in Distributed Environment Concepts
+Infosys Limited – Company Confidential Page 8
+3.2 Team Building
+3.2.1 Team Formation
+Global teams in multiple geographies face many challenges than co-located teams. Each team at every location usually requires extra support and administrative overhead. The following strategies can be adopted for building team to address such challenges in a distributed environment:
+ During the initiation of the project, the team should gather together in a workshop or offsite and must get to know each other. Roles are clearly established and the team understands tasks and objectives. If the Product Owner or any other key personnel of the team are at different locations, they should travel to meet the team in person during the initiation stage
+ The team begins to create norms, roles, and protocols for working together when distributed across the locations. Team cohesion may begin from this stage onwards
+ After the initiation stage, the team begins to perform by working together towards a common goal. Conflicts are handled constructively
+3.2.2 Building Trust
+Another key factor that defines the level of success is the trust level between the team members and Product Owner. One of the most critical steps towards this is that Product Owner and project team should come together in person at the beginning and spend quality time together by sharing key project information. Product Owner should share and explain the product vision, purpose and goals of the project with team. Providing this context helps both in relationship building as well as creating a solid foundation for the day-to-day work of the project team. Informal team outing will help everyone connect as a person than a mere coworker.
+This also helps bridging some of the cultural gaps.
+3.2.3 Optimal Distributed Work
+Functionality-based Distribution
+A project in a distributed environment is based on the principle of executing work from locations where it can be done best and bring out the most economic outcome. In a traditional environment (e.g. waterfall), typically the analysis and design phases are executed is done onsite (client location) and development at offshore. Thereafter, acceptance testing happens at onsite location. The performance of the projects will improve in a distributed
+environment if the offshore team handles activities like analysis and design as well. This can be done while distributing the work between various teams across all locations in terms of functionality rather than activity. For this, the system needs to be broken into broad modules and each location has to tackle these modules independently. Continuous Integration and Continuous Testing practices should allow evolving of interfaces between modules.
+Loosely-coupled Work Structures
+Distributed teams experience fewer coordination problems if there is less interdependence between members at distant locations. Dividing the task to allow different sites to work independently on different modules, may limit the need for frequent communication. This would lead in reducing delays when team members wait to hear back from one another, and minimizing miscommunications that might result from interactions about day-to-day details of work. Distributed teams that modularize their work by location can function more smoothly.
+Agile in Distributed Environment Concepts
+Infosys Limited – Company Confidential Page 9
+3.3 Engineering Approach
+3.3.1 Continuous Integration
+Using Continuous Integration with distribution teams, in terms of process and technology, is largely the same as in any other environment. The simplest approach from a technical perspective, and the most effective from a process perspective, is to retain a shared version control system and continuous integration system. Every team in the distributed environment will deliver simultaneously and have multiple branches of code ready to merge and move to the next stage.
+3.3.2 Development Environment
+It is very important for the teams that are split across the locations to have the same development environment i.e. same IDE’s, plugins, code quality checking configurations, etc. The teams should ensure that they have to work on the same test bed and production servers. This removes ambiguities and reduces problems caused by inconsistencies between locations.
+3.4 Management Approach
+All the standard practices of Scrum methodology, like Sprint planning, daily stand-up meetings, Sprint review and retrospective, are applicable in a distributed environment as well. However, it would be necessary to customize these practices while implementing them to overcome differences in time zones and geographic locations.
+Distributed teams need to be provided with the tools to maximize efficiency, and to bring about effective collaboration and communication. A common Application Lifecycle Management (ALM) tool provides visibility and traceability to achieve this by controlling certain process such as:
+ Managing project artifacts (Product and Sprint backlog items, source code, development documents, faults descriptions)
+ Managing reports (Sprint Burndown chart)
+ Following process guidelines (workflow, guidelines)
+ Tracking process information (who does what and when)
+ Ensuring traceability (which information is related to each other)
+Figure 1: Sample Illustration of Story Board in ALM Tool
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 10
+4 Application in Projects
+Working in distributed team environment requires more discipline and forward thinking. Team structure and project execution strategy should be defined based on the project type, availability of skills at each location and domain expertise. Various studies indicate that geographically distributed teams operate differently and experience different outcomes than co-located teams. Different disciplinary perspectives, various regional or national cultures, flexibility of sharing information and taking feedback have a good impact on successful execution of the projects.
+4.1 Project Execution
+4.1.1 Initiating a Distributed Agile Project
+Important activity that needs to be performed before starting the project is to do some modeling. It is important that whole team spends time together to understand the goals, vision and context of the project. It is highly recommended to co-locate the teams for this period. Product Owner travelling to offshore location and spending time with the team will helps in planning as well as relationship building.
+Following diagram depicts sample team structure for distributed environment during initial stage.
+Figure 2: Sample Illustration of Team Structure – Initial Stage
+At this stage, team analyzes the high-priority user stories, identifies major dependencies and milestones, and finalizes the initial scope and release plan. Based on the initial scope, team defines initial architecture model. This evolves with time as team progresses in Sprints and more clarity is obtained on the features/user stories. Defining initial architecture will help team to identify the subsystems/functionality of the system and inter-module dependencies. At this stage, the team should be ready with enough knowledge to start their Sprints.
+Note: For further details on Initiation please refer to ‘Planning in Global Agile’ module.
+4.1.2 Organizing the Team
+For the projects where multiple teams are involved, the teams should be organized around the functionality or module or subsystem. Initial architecture modeling helps in this exercise. It is very important for the teams to be organized in a cross-functional manner. If teams are organized around the job functions like design team, development team, QA (Quality Assurance) team instead of functional/feature team, then this would increase dependency. In this case, work will flow from one team to other which would lead to:
+ Challenges in traceability and cross-team reviews
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 11
+ More documentation
+ Misinterpretations/lack of information due to communication and collaboration gaps
+Figure 3: Sample Illustration of Team Structure – Execution Stage
+Source: http://teamwiki/InfyAgile
+Following are the key suggestions while organizing the team:
+ Its size should consists of 8 to 12 members per Scrum team
+ It should be technically skilled and possess good communication skills
+ It should be cohesive, responsive, self-motivated and not bogged down by rework on requirement changes or refactoring
+Challenges of teams with more than 12 members:
+ Larger team size reduces individual contribution in standup meetings. Only senior members or more vocal individuals highlight issues or provide inputs while junior members hesitate to contribute
+ Spirit of Agile gets lost and instead of being self-organized, team starts relying on assigned action items and documentation
+4.1.3 Executing the Distributed Agile Project
+Co-locating the teams in the initial phase sets the foundation for the projects in the distributed environment. It is important to ensure that Scrum teams have understood the process, appreciate the challenges of distributed environment, follow the best practices and identify processes that help them overcome these challenges. One of the biggest challenges that can be faced by the geographically distributed teams is effective
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 12
+collaboration and communication. Usual methods such as Burndown chart with sticky notes, whiteboard, index-cards do not work well in distant teams. Usage of collaboration tools is highly recommended in this scenario. Another useful practice is to identify ambassadors and boundary spanners who can travel from one location to the other to ensure the success of collaboration and communication. Brand ambassadors are usually the senior technical experts or business/domain experts who ensure the flow of information between dispersed Sprint teams of the project.
+Boundary spanners are the people who focus on enabling communication between multiple Sprint teams, ensuring that cross-team dependencies are identified and planned to avoid any blocking. They work very closely with the teams, with regular coordination meetings, as well as impromptu one-on-one meetings whenever required to resolve issues.
+The key for the success of distributed Agile projects is dependent on how successfully distributed teams can communicate and collaborate. Team should identify and adapt best practices for better collaboration and reduce risk. It may not be possible to follow all the practices from day one of the Sprint. Team can identify 3-4 key practices to start with and adopt new practices from the next Sprint. Sprint retrospective meetings are very useful in identifying the best practices and eliminating those practices that hamper work. It is important that whole team participates in Sprint retrospective.
+4.1.4 Multiple Vendor Scenario in Package Implementations
+Usually in Package Implementation projects, there are cases where package vendor and 3rd party vendors providing additional utilities may be involved. These are generally distributed across various geographies. In such cases, collaboration among all members becomes very crucial. The representatives of various vendors may be part of scrum team as well. The team should consider using various Collaboration tools that are relevant and available.
+4.2 Engaging Globally Dispersed Teams
+4.2.1 Work Distribution across Locations
+Distribution of work between various teams across all locations should be done in terms of functionality grounds rather than activity. Distributed teams should think about their work in the context of completing user stories of the functionality/modules committed by them. The system needs to be broken into broad modules and each location has to tackle these modules independently. Continuous Integration and Continuous Testing practices should allow evolving of interfaces between modules. Assigning tasks according to geography and/or skill sets should be avoided as this would lead to knowledge silos.
+It is a critical exercise to decide upon who will be responsible for what kind of functionality and user stories and at what location. This exercise needs to be carried out carefully during the Release and Sprint planning events. Some of the factors, which need to be considered during this exercise, are as follows:
+ Is client proximity required for the completion of user stories?
+ Does it involve frequent interaction with the client or other related contacts?
+ What are the timelines for completion of the activity?
+ What is the availability of resources (people, hardware, software)?
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 13
+Figure 4: Sample Illustration of Onsite Offshore activities
+Source: http://teamwiki/InfyAgile
+4.2.2 Roles, Responsibility and Setting of Expectation within the Team
+To facilitate a better understanding of roles and responsibilities of each member, it is important to maintain clarity in indicating expectations from various geographically distributed teams and from every individual in particular. This finally results in a better quality of work. This clarity is very important since it enables a team member to focus on his or her work better. In a co-located team, this could be done in an informal manner, but in a globally distributed environment, this needs to be done formally and usually during initiation of the project. The teams in a globally distributed Agile environment must be self-organized and must have problem solving capability. Below are key roles and responsibilities of team members in a global Agile team:
+ Product Owner: Responsible for business value and ROI (Return of Investment), requirement prioritization Specifies the overall project goal and vision
+ Scrum Master: Works closely with the Product Owner. Monitors tasks and progress and shields the team from external interferences and removes impediments
+ Scrum Team: Commits to deliverables and delivers independently while working in close collaboration
+ Senior Technical Architect and Designers: Involves in early stage of the project to decide code structure and design standards. Resolves key design issues and ensures implementation of standards across the teams
+ Integration Managers/Experts: Keeps focus on integration challenges from early lifecycle
+ Testing Experts: Creates test strategies to be implemented by all teams
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 14
+4.2.3 Using Infrastructure for Collaboration and Communication
+Distributed teams should move away from email communication as primary mode of communication. Live conversation must take place, whenever/wherever possible.
+Figure 5: Distributed Team Environment (Connected through Video Conference)
+Proper infrastructure should be enabled for various modes of communication such as teleconference, videoconference, and IM (instant messaging) conversations among the distributed teams without any interruptions such as slow network speed, low bandwidth or unreliable network. The teams should share their contact information with each other including phone numbers and available hours at given contact numbers. This saves time in locating/figuring out how to reach a team member when you need to talk to him or her. It is a good practice to share this information at a common location like wiki page.
+Key scrum meetings, like Daily Stand-up meetings, Sprint planning, Sprint review and Sprint retrospective, should be done on videoconference rather than telephone conversations.
+Figure 6: Communication Effectiveness
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 15
+4.3 Engineering Practices
+Key engineering practices, like Pair Programming, Refactoring, XP Practices, Continuous Integration, Test Plans and Automated Testing, are applicable and feasible for distributed teams. This leads to benefits of improvement in productivity, decrease in project risk and enhanced software quality. However, certain ground rules need to be defined for the entire team. For example:
+ While implementing Continuous Integration practice, nobody checks-in incomplete/non-working code. If the build fails, person responsible does not leave till the issue is fixed. This ensures that everybody gets latest and working code to start their work with. People do not have to waste time fixing others’ integration or build issues
+ The geographically distributed teams must make it necessary to define more elaborate communication processes for requirement communications. It is important to create the acceptance test plan/functional test plan ahead of the Sprint. The development teams find it much easier to understand the requirements through test cases
+ Automated testing is another accelerator for the success of distributed Agile. The key challenge with distributed teams and continuous integration is the effort required for regression testing after each change is committed and integrated with rest of the code. Creating automated test suit means that code can be validated anytime with a click. Team members need not spend their effort repeatedly on regression testing
+Note: The details of each of these engineering practices are explained in ‘Introduction to Agile Practices’ and the other related modules.
+4.4 Management Practices
+4.4.1 Accommodating Dependencies while Planning for Release
+Following factors need to be considered while doing the Release planning for the teams in the distributed environment:
+ Planning should be done with a vision and detailed roadmap
+ Primary basis for splitting of team should be functionality and not technical function
+ Team should be divided based on user functionality or modules and not on the basis of development phases
+ Release planning should consider various factors so that by managing number of Sprints and duration of Sprints, all tracks come to logical end for Release Sprint
+ Every release of each track should be planned such that it develops all the necessary integration items of all other tracks
+ Every release should include items that are mandatory for other tracks to start the future Sprints
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 16
+4.4.2 Sprint Planning Meeting
+Traditionally, Sprint planning meeting is divided into two parts:
+Part-1 happens between development team and PO (Product Owner) where goals and context for high priority items on Product Backlog are discussed. Team and PO also define/review the ‘definition of done’. Part-2 can be done without the PO. Team breaks the stories/features into detailed tasks and finalizes on the Sprint goals (e.g. Velocity), task level estimations, and available effort (e.g. Capacity) in a Sprint.
+For distributed teams, this approach needs to be tailored based on the time zone overlap. For example,
+Scenario-1: If PO is in Australia and development team in India, Part-1 meeting should be planned in the second half of the day for PO in Australia which means it will be in the first half of the day for team in India. Development team can continue with Part- 2 later in the day.
+Scenario-2: If PO is in UK and development team in India, Part-1 will be conducted in the second half of the day for the team in India and morning for PO in UK. Team in India can continue with Part-2 the next day. Scenario-3: In cases where PO and development team do not have any time overlap, like if PO is located in USA and development team in India, it becomes necessary to carry out certain activities (like analysis, preparation of list of queries/issues) in advance before the actual Sprint planning meeting. This approach ensures that meeting at awkward time like early morning or late evening for one location does not take much time for Product Backlog grooming and user story prioritization. All the prior preparation shortens the duration of actual Sprint planning meeting for Part 1. Development team can continue Part 2 meeting later on in the regular working hours for discussing the tasks, estimates and commitment for the Sprint backlog and update the PO accordingly.
+Note: For further details on Release and Sprint Planning, please refer to ‘Planning in Global Agile’ module.
+4.4.3 Daily Stand-up Meeting
+There are multiple approaches for performing daily scrum (stand-up meeting) when team is distributed across locations where there is no-overlap or partial overlap between working hours. Following are few sample scenarios which depict conducting daily scrums in various time zones.
+Scenario 1
+The team is distributed across India and US. For one week, the daily scrum can be scheduled early morning of US time which will be later in the evening for team in India and they may have to stay back. The Next week schedule can be planned in morning time of India which will be late in the evening for US team.
+Figure 7: Sample Illustration of Scrum process for IND-USA Time Zone
+*EOD: End of Day
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 17
+In another approach, the team in India can conduct their stand-up/daily scrum (Local Scrum) at regular working hours and then send across the recording to their US counterpart. This recording can be in the form of video (best option), audio or email. US team will follow same routine, thus enabling the teams to share their daily scrum updates.
+Scenario 2
+Following diagram depicts the distribution of team across India and UK. The daily scrum can be scheduled early morning as per UK time which will be noon for team in India.
+Figure 8 : Sample Illustration of Scrum process for IND-UK Time Zone
+Scenario 3
+Following diagram depicts the distribution of team across India, Germany and USA. The daily scrum can be scheduled early morning as per USA time which will be noon time for the team in Germany and late evening for team in India.
+Figure 9 : Sample Illustration of Scrum process for IND-EUR-USA Time Zone
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 18
+Scenario 4
+Following diagram depicts the distribution of team across Australia, India and UK. The daily scrum can be scheduled early morning as per UK time which will be noon for the team in India and evening for team in Australia.
+Figure 10 : Sample Illustration of Scrum process for AUS-IND-EUR Time Zone
+4.4.4 Sprint Review and Retrospective
+Sprint Review meetings are conducted with similar approach as Sprint planning to manage the time zone differences (all the scenarios mentioned above in Sprint Planning section would be similar for Sprint review as well). Sprint review meeting is conducted to demonstrate the features developed during the Sprint to PO, customer, other stakeholders and if possible, end users, and receive feedback on the work delivered. This should be conducted over videoconference or live meeting and scheduled during the time suitable to PO,
+customer and other stakeholders. Sprint Retrospective meeting is for the team to retrospect on the process and identify improvement areas. This meeting can be conducted during the working hours of development team after the Sprint review in their
+respective locations and can be share with PO if required.
+4.4.5 Status Tracking
+Tracking of project status, risks and issues can be done through any ALM (Application Lifecycle Management) tool. Everyone including senior management of the project has to get a real-time view into the status of Sprints and Releases. The below figure depicts sample of Sprint Burndown chart and a snapshot of trend for other business indicators of the project.
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 19
+Figure 11 : Sample Illustration of Project Dashboard for Status Tracking
+Traditionally, Agile methods stress more on face-to-face communication and downplay the documentation in comparison. Since the teams are distributed geographically and there are fewer opportunities for direct interaction, just enough documentation becomes more important. Useful/important information should be documented and shared on Wiki or MS (Microsoft) SharePoint. This could be related to documenting design decisions and knowledge transfer across locations.
+Agile in Distributed Environment Application in Projects
+Infosys Limited – Company Confidential Page 20
+4.5 Other Administration Aspects
+4.5.1 Risk Mitigation
+Risk Management is a critical project management activity. In a distribution development environment, this becomes more important. For example, conflicting cultural values increase the risk of creating misunderstanding, lowering the morale of teams. Some of the risk mitigation steps that can be taken during project execution are as follows:
+ A distributed Agile project includes issues related to coordination, problem resolution, managing evolving requirements and knowledge sharing. This can be mitigated using the state-of-the-art infrastructure, like fail-safe network connectivity or usage of advanced functionalities of ALM tools
+ Software defects become more frequent due to the added complexity, and in most cases, this is related to communication problems and lack of group awareness
+4.5.2 Addressing Cross-cultural Sensitivity
+A detailed process needs to be drawn out for better understanding of work culture differences, awareness and appreciation. Extensive cross-cultural training needs to be conducted, which should cover the following:
+ Cultural acclimatization
+ Client business and organization overview
+ Technical environment and processes specific to client
+ Creation of non-intrusive interactions for client
+4.5.3 Policies
+Implementation of consistent policies is essential for a knowledge-driven company. Consistent policies refer to the policies related to travel, infrastructure use, employee compensation and perquisites, employee welfare, and others. It is very important to have consistent policies for teams spread across different locations. The travel and related administrative procedures should be consistently implemented to avoid any feeling of discrimination among the team members based on location.
+Agile in Distributed Environment Practice Questions
+Infosys Limited – Company Confidential Page 21
+5 Case Study
+Figure 12 : Scrum Implementation for E-commerce Service Provider
+Figure 13 : Scrum Implementation for Apparel Retailer
