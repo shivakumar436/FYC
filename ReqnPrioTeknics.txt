@@ -1,0 +1,16 @@
+example of theme in this case would be:
+‘Increase inquiry to booking conversion by developing features that improves search efficiency and thus lets traveler get the exact results’ OR simply ‘increase inquiry to booking conversion’.
+Theme can be defined as a single or few words like enhancing user experience, workflow usability, social networking integration.
+‘Make traveler experience of visiting booking portal better by providing new personalized features that can encourage increased level of engagement and provide value’
+Requirements and Prioritization Techniques Appendix
+Infosys Limited – Company Confidential Page 21
+Themes as described above can be further divided into subthemes such as ‘finding all factors which can improve the conversion’ and then divide into Epics and stories.
+From ‘Theme’, an Epic can be:
+‘As a traveler, I want to search all hotel properties by their real time availability and selection criteria so that I get right search results and if I like the property, I can book it’
+‘As a hotel booking system, I want to provide search facility appear common at top or on left panel of all pages so that the traveler can easily search properties from all the pages and has better usability experience ’
+‘As a Hotel Booking system, I want to provide facility for travelers to login to their profile via Facebook or Google+ sign on so that they can mark favorite property, properties inquired on, and properties views.
+From ‘Epic’, there will be multiple small stories:
+‘As a Traveler, I want to see the selection criteria such as attractions, offers, amenities, type of rooms, etc. so that I can filter the property based on these criteria and try to satisfy my needs’
+‘As a Hotel Booking system, I want to allow traveler to publish the properties they ‘liked’ on their Facebook page so that they can share their travel experience with friends’
+As you can see, the user stories may not hold all the information which is why they are known as just the start of conversation to define more detailed stories. There is no golden rule to define Epics.
+Many times, Features and User Stories are referred as one and the same whereas in some organizations, Feature is considered as deliverable short increment and is a collection of stories. So, in a nutshell, these are generic terms and interpretation varies a lot.
