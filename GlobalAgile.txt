@@ -1,0 +1,184 @@
+1 Introduction
+‘If you don’t know where you are going, you will probably end up somewhere else’ – Laurence J Peter.
+Planning is important for software development. A plan provides guidance to manage project and helps to take corrective action to achieve the project goal.
+1.1 Need of Planning
+The need of planning is primarily to:
+ Achieve predictability in each delivery
+ Set a basic expectation to all stakeholders
+ Help in reducing risk
+ Strengthen decision making
+ Establish trust
+1.2 Planning for Infosys Global Agile
+Planning for Infosys Global Agile projects brings a lot of focus on preparation and forecasting rather than maintaining a plan document. It ensures that planning is done keeping business context in mind and measurable value delivery is committed to the client for each of the releases. Therefore, required planning is recommended by Infosys Global Agile, from the start of the project, to ensure better risk coverage and higher predictability.
+The objective of this document is to provide an insight on the importance of iterative planning and categories of planning suggested by Infosys Global Agile. This document also provides a view on each category of planning and how their combination ensures predictability.
+Planning in Global Agile Challenges
+Infosys Limited – Company Confidential Page 6
+2 Challenges
+Though planning is important, there are certain challenges which need to be addressed, otherwise planning may fail.
+The team is expected to understand the challenges and accordingly re-plan to avoid failures. Some of the challenges are outlined below which can distort the plan and create impediments in reaching the desired goal:
+ Lack of value delivery: The project execution consists of several tasks which together ensure completion of the project. The team, at times, plans towards completion of tasks driven by immediate visibility of the activity. Due to this, larger goals at Sprint or Release level may not get achieved even though planned tasks get completed. Hence, client may not get any value delivery at the end of the Sprint or Release.
+ Risks associated with uncertainties: There is an aspect of unknown in every plan. It needs lot of maturity to gauge the unknown and risks associated with it, while planning. The teams mostly ignore the unknown and uncertain items. Risks may arise due to these unknowns and it might impact the plan in a substantial way.
+ Frequently changing scenarios: The project scenario keeps changing; whatever gets planned initially may not hold value when there is a change in situation. It impacts planning and posts a challenge for the team to re-plan and get aligned to the overall goal of the project.
+ Dependencies on the tasks: There may be tasks which are dependent on one another. Delay in any of such tasks can impact completion of associated tasks and result in a failure of planning. The interdependencies of the tasks need to be analyzed to maximize value delivery of Agile projects.
+ Dependencies on COTS product architecture in package environments: Adopting Agile in package environments bring in additional challenges such as inter-module dependencies, applicable tools, package vendor support to resolve product bugs etc. which bring in additional challenges in adopting Agile.
+Planning in Global Agile Concepts
+3 Concepts
+3.1 Prerequisites for Agile Planning
+3.1.1 Charter Information
+As a prerequisite to Agile Planning, it is advisable to have clear understanding of the larger picture and vision of the project. It requires clarity of the overall business context and key business goals, client would like to achieve by completion of project. Infosys role and value-add to the client is required to be understood by the team. It helps the team to get aligned and involve dedicated effort to achieve the same.
+For Agile projects, PROMT template is created to capture these high-level details.
+Figure 1: Agile Project Charter
+3.1.2 Assumptions
+Planning is based on few assumptions which are discussed with the team and Product Owner. These assumptions need to be captured and revisited periodically as the project progresses.
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 8
+3.2 Categories of Planning
+Infosys Agile methodology has planning activities which takes a 360-degree view of the project in terms of:
+ Understanding the big picture, overall vision and value delivery
+ Achieving higher efficiency on a continuous basis
+ Planning for better risk coverage
+ Ensuring better predictability at each stage
+ Planning for better team co-ordination with clarity on roles and responsibilities
+ Communication and collaboration aspects related to stakeholders
+The below list reflects detailed planning recommended for InfyAgile projects which helps the Agile projects to execute at a higher level of maturity. These levels of planning are detailed in the subsequent sections.
+Figure 2: Categories of Planning
+3.3 Sprint 0 (Initiation/Discovery)
+Sprint 0 also known as Initiation or Discovery is the very first phase of the Agile Project life cycle, when the team organizes themselves, discusses the project vision and key success factors with the product owner. The high level planning for the entire project is discussed. Requirements are collected and product backlog is created and prioritized. Sprint duration, Definition of Done, Release Frequency are agreed. User Stories are estimated at high level and release plan is created. Typical duration of this phase is 1-3 weeks. In the case of projects where team has awareness about requirements and platforms (like the project is moving from waterfall to Agile) this phase will get over in a week. If it is a new project it may get extended till 3 weeks. It is recommended to have complete team participation in this phase and ideally co-located, as it will provide a very good understanding of the overall
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 9
+project requirement to every member. If physical co-location is a challenge, the Team can be virtually co-located through video conferencing.
+In the package context, Sprint 0 exercise may be little longer depending upon the type of work which is getting done. There is 4D framework defined and adopted by package implementation teams as a Sprint 0 activity. These four stages are Demand, Determine, Define and Decide. In "Demand" Fit Gaps Business processes, System Landscape, NFRs, Product defects and Information Architecture will be taken as inputs. Post collation and rationalization of inputs, the requirements will be listed. These rationalized list of requirements will be analyzed based on their business relevance during "Determine" stage and they will be mapped to Epics and Themes. In "Define" stage the User Stories will be derived by analyzing technical feasibility, business benefits and they will get updated in the Product Backlog. In" Decide" stage they will be groomed and prioritized in terms of risk and dependency and the groomed product backlog will be created.
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 10
+4 Application in Projects
+Team collaboration is the key to Agile Planning. All team members work towards a common goal and vision for the project. There are specific roles for the team and each role ensures that there is no hindrance, and this mindset encourages joint ownership.
+Also, the team needs to continuously inspect the progress and re-plan as needed. The knowledge gathered in each Sprint is used for planning for subsequent Sprints. Involvement of the entire ream in the planning activity helps in smooth execution of Sprints.
+4.1 Planning for Agile Projects
+For Infosys Agile projects, the high-level planning includes:
+ Creation of Product Backlog (Type I users will maintain product backlog as part of the ALM tool they use. Type II users can create & manage user stories in PROMT)
+ Creation of Release Plan by defining the releases
+ Creation of Sprint Plan by defining sprints
+ Planning for the Agile practices to be adopted in the project with the help of Adoption Matrix
+4.1.1 Product Backlog
+Product Backlog is created by the Product Owner and it contains set of prioritized requirements. It is a key input for planning. The set of requirements in the Product Backlog is converted into working software in Sprints. The team starts the planning activity with the available Product Backlog which contains list of prioritized requirements.
+4.1.2 Release Planning
+Release planning is an integral part of Agile software development. It is done at the beginning of each Release.
+It provides a broader perspective of the project. Unlike traditional software development the project is delivered on an incremental basis to the client. This helps the team to get an early feedback and future development effort gets more aligned to the need of the client. It is important to plan for the releases, as it provides clear picture to all the stakeholders, on what is expected to get into production, in due course of project execution. Release planning is based upon the historical data (if available) to do the initial sizing estimation of the release in terms of story points.
+To achieve a highly efficient release plan, it should be established based on the following:
+ Readiness to provide maximum business value and ensuring right sequence of releases
+ Capability of completion of the scope within the available capacity
+ Satisfying all the stakeholders
+Releases are recommended to be planned anywhere between three to six months based on business context.
+While doing the Release Planning, the team decides on the number of Sprints, for each of the Release. Sprints are time-boxed where a set of user stories get converted into the working software by the team. The duration of Sprints is usually two to four weeks.
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 11
+Along with the regular Sprints, as a best practice, team is expected to plan for the Release Sprints and Hardening Sprints. Release Sprints contain release-related activities (e.g. database set up, code migration from staging to production, creating scripts for data migration) which may be needed in certain business context.
+Hardening Sprints are dedicated to clear the technical debts which may have come up during each Sprint execution. It helps to clear the entire back log in terms of code fix and code refactoring.
+Release Planning in Package Implementations
+For Package Implementation projects, planning for releases needs to consider the limitations of the package. Here are some of the factors that influence Release Planning in package implementations:
+ At times, there are many dependencies among various modules of the package which should be captured
+ Data migration may need to be done before a completely functional package is released to users
+ Most packages have an in-built tool for Releases (e.g. Transport Manager in SAP) which may or may not be completely automated
+4.1.3 Sprint Planning
+Sprint planning is carried out at the outset of each Sprint. This helps the Team to bring focus on the Sprint goal. In Sprint planning, the team decides which User Stories they are going to develop in the upcoming Sprint and how they will build it. During Sprint planning, team velocity, previous velocity trends (if available) and available team capacity (Capacity Planning) is to be considered for effective planning.
+It consists of two parts:
+ Part 1 - Attended by both Product Owner and team to decide what is going to be built in the current Sprint
+ Part 2 - Attended by team (Product Owner’s presence is optional) to decide on how to build the desired functionality
+Part 1 Part 2
+4.1.4 Capacity Planning
+Capacity planning helps a Team to appreciate the total number of Story Points and hence the total User Stories they are likely to complete within a sprint. It takes into account the non-working days and personal time off during the Sprint for each of the Team member. It is a simple calculation of numbers of Team members * number of Sprint days * number of productive hours. However, it is important to understand the number of productive hours for each team member, keeping aside the time spent on meetings and discussions. Ideally, 70-80% of daily working hours should be considered as productive hours for capacity planning.
+4.1.5 Adoption Matrix
+ Product owner describes user stories to team
+ Details the interaction
+ Reviews infrastructure and interface
+ Explains the acceptance criteria
+ Team selects the User Story, Stories are sequenced especially in package
+ User Story is broken into tasks
+ Each of the tasks is estimated in hours
+ Team commits on user stories to be completed in the Sprint
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 12
+Agile planning is also about the planning of practice that the team needs to adopt for the project execution. There are several engineering and management practices recommended by Infosys Agile methodology. The team needs to plan how to implement such practices to get best benefit out of it. The Adoption Matrix provided in PROMT ensures that the team plans for these engineering and management practices.
+Figure 3: Planning for Agile Practices
+4.1.6 Planning for Package Implementation with Multiple Vendors
+In many Package Implementation projects, the package vendor and third-party vendors providing additional utilities may be involved. In such cases, it is important to note the following:
+ Roles and responsibilities of representatives from different vendors should be considered as part of scrum team
+ Some vendors may have representatives which may not be exclusively allocated to the project
+4.2 Infrastructure Planning
+Infrastructure planning is about hardware and software required for the project. For Agile projects, other than regular hardware and software, the right work environment is equally important. Agile work environment is different from traditional IT or software development work places. The Agile workplace allows employees to work in a manner that is ideally suited to their style of work while maximizing the utilization and effectiveness of available
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 13
+floor space. It brings people, processes, connectivity and technology together, allowing flexible working patterns and office space. For distributed Agile teams, work environment is equipped with video conferencing and teleconferencing facilities. ALM (Application Lifecycle Management) tools are available for seamless information sharing on the work product getting developed.
+Infrastructure planning at the start of the project takes care of all the above aspects. It ensures that the right setup is available for the Agile teams to be continually productive. Infrastructure planning is done in the project initiation phase.
+4.2.1 Additional Considerations for Package Implementation Projects
+Below are few additional points to be considered by package implementation projects during infrastructure and environment planning:
+Base Configuration Setup
+Most packages have a base configuration which is customized as per the identified gaps with the desired business process. To be able to plan an Agile project, this base configuration should be set up first along with required infrastructure. Once this is done, the additional customizations can be built and integrated with the base package in sprints.
+Tools Setup
+Most packages have a set of tightly coupled utilities available for solution build, testing and deployment. There may be additional third-party tools available which may integrate with the base package. While planning for continuous integration, these should be considered since the feature limitations in these tools may create difficulties during continuous integration.
+Dependencies among Modules
+Since the base package is tightly coupled, there are a higher number of dependencies among various modules compared to other technologies (where architecture may be defined by project team). Due to this, the customization requirements coming out of fit-gap analysis need to be properly prioritized so that all customization dependencies are implemented in earlier sprints.
+Conference Room Pilot
+Depending on the magnitude of customizations, many package implementations may have a need for conference room pilot to be done. These may be at fit-gap analysis stage, design or build stage. While CRPs during build may be part of sprint demo, the CRPs during fit-gap and design stages need to be built in as part of the entire plan.
+4.3 Build Automation and Continuous Integration Planning
+Build automation is a well-known practice adopted by Agile projects for generating code in a regular manner where source code is compiled with an automated build script. It builds the capability to ensure that quality software gets developed right from the start of the Sprints.
+The build is automated to the extent that these steps are repeatable and require no direct human intervention. It can be performed at any time with no information other than what is stored in the source code control repository. Build automation is a prerequisite to effectively implement continuous integration. The details on Build Automation and Continuous Integration are available in Continuous Integration study material.
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 14
+The team needs to plan towards these engineering efficiency aspects. Right set of tools should be procured or made available with proper dashboard features for reporting on build. The team should be equipped with scripting concepts.
+Build Automation and Continuous Integration planning is recommended to be done from early stages of the project.
+4.4 Planning for Quality and Productivity Management
+Planning for Quality and Productivity Management helps the team to define quality goals for the project and strategies to be adopted to achieve the goal. Infosys Agile methodology defines goals for Agile projects at three different levels:
+ Sprint level
+ Release level
+ Project level
+Figure 4: Goals section in Quality Management Plan
+Figure 5: Detail Goals in Quality Management Plan
+These goals help to achieve project commitments in terms of:
+ Efficiency improvement
+ Higher predictability
+ Risk coverage
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 15
+Goals are revisited at Sprint Retrospective meetings by the teams, to take corrective actions and plan for improvements, if required.
+4.5 Talent Planning
+Agile teams consist of cross-functional teams with different skill sets. The roles and responsibilities of all the team members along with the project manager and Scrum Master need to be defined at the beginning of the project. This structured staffing plan helps in issue management and conflict resolution in a timely manner. Talent Planning is done during project initiation.
+4.6 Risk Planning
+Risk planning is an important aspect of Agile project execution. It has to be planned against the outcome of a future event which is uncertain and unknown. Risk planning is a structured process where risks are systematically identified and analyzed. There can be several risks associated with the project related to customer relationships, contract, dependencies, finance, environment and infrastructure, quality of deliverable, scope of work and resources. In projects which involve packages - implementation, upgrade, rollouts, maintenance, there could be additional risks given dependencies on the product architecture and product vendor support.
+A comprehensive risk profiler comes in handy, if it is prepared at the project initiation stage. The Risk profiler should be monitored on a regular basis so that the risks are constantly tracked in the project. Following parameters are considered for profiling the risk associated with the Agile projects:
+ Client Relationship
+ Contract/MSA/SLA
+ Environment and Infrastructure
+ Finance
+ Geography
+ Governance
+ Project Profile
+ Schedule & Effort
+ Scope/Requirement/NFR
+ Staffing /Training
+Risk planning is done at Project initiation and continuously tracked and monitored throughout the project.
+Figure 6: Sample Risks Associated with Agile Projects (Source: SH@RP Portal in Sparsh->Web-Apps)
+Planning in Global Agile Application in Projects
+Infosys Limited – Company Confidential Page 16
+Few specific risks captured in SH@RP portal specific to package implementations are:
+ Good understanding of overall ecosystem needs to be well understood for sprint planning. If there are multiple upstream and downstream systems, dependent products, reporting systems and globally distributed teams as in large transformation programs, management will be difficult. Isolated sprint planning will not work.
+ Interdependencies across modules can bring in challenges; e.g. in Master Data Management (MDM) projects, a lot of dimensions across domains can be interlinked which makes it difficult to proceed on sprints without 80~90% of architecture defined.
+ Client may expect that we showcase complete integration for small set of data and integrate rest of data later, without considering the fact that functional and development effort needed might be same in both the cases.
+For more risks in Agile projects for package led projects, refer to SH@RP portal.
+4.7 Tools and Reuse Planning
+Infosys has a large collection of reusable artifacts and components which can be used. Similarly, there are sets of tools which can be used by the teams to improve engineering efficiency. InfyAgile Global projects recommend planning for tools and reusable components for the overall effort saving and efficiency improvement for the project.
+Figure 2: Tools and Reuse Planning
+There are several ALM tools available (open source/licensed) which can be used for Agile Project Planning other than PROMT template. Rational Team Concert (RTC) and Team Foundation Server (TFS) are the two recommended tools for Agile project planning and tracking.
+The Infosys Tools Team can be contacted for any information/support regarding RTC and TFS.
+Note: For more details on tools, please refer to ‘Tools for Agile Projects’ study material
+Planning in Global Agile Best Practices for Agile Planning
+Infosys Limited – Company Confidential Page 17
+5 Best Practices for Agile Planning
+ Involve the whole team for planning
+There can be certain planning activities in a project for which prime responsibility can be with one person or a group. However, the whole team should get involved in project planning. With higher involvement, commitment is more from team members and they are inclined for higher value delivery
+ Re-plan often, at start of Sprint or Release
+It is always better to re-plan at the start of each Release or Sprint. The relevance of the plan has to be evaluated at start of Release or Sprint and plan is updated. Keeping the relevance of the plan current helps achieve the target
+ Track and communicate progress
+There are multiple stakeholders involved in the project. It is important that they are informed about the project status all the times. Sprint and Release Burndown charts, indicators on build status, open defects, Sprint velocity of last few Sprints in dash boards help all the stakeholders keep informed about the progress
+Acknowledge the importance of learning
+ At each Sprint retrospective, there is learning about the project which is discussed by the team. The team must acknowledge learning and consider it while planning.
