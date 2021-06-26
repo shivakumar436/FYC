@@ -1,0 +1,310 @@
+1 Introduction
+Agile testing relates to the execution of testing activity from the early stages of the Agile projects. Agile Testing follows the principles of Agile software development methodology and ensures it is an integral part of software development. It comprises a cross functional team where testers along with developers together ensure business functionalities are delivered in a seamless way.
+This module explains various aspects of Testing at different phases in Agile projects. By the end of this module, following points would be understood.
+• Test Planning and Test Strategy required for Agile projects
+• Various Testing Activities in Agile context
+Figure 1: Testing activities in different phases of an Agile Project
+Recommended practices
+for Testing in Agile
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 6
+2 Challenges
+This section details out the key challenges which a team typically encounters while performing the testing activities in Agile projects.
+2.1 Mindset related
+• Most of the times, team members who are experienced in testing in waterfall methodology find it difficult to unlearn the ‘traditional’ way of testing and adapt to Agile Testing
+• Teams face challenges in adopting ‘One Team Approach’ because of the mindset of demarcation of development and testing team which is typical in traditional scenario
+• While performing the testing activities, teams fail in leveraging effective collaboration and communication mechanisms for providing frequent feedback, which is essential in Agile projects
+2.2 Process related
+• The team often fails to align the testing activities with respect to Agile methodology adopted in the project
+• Teams do not proactively create right Agile test strategy and planning for the project
+• Not much focus is given on testing of NFR (Non-Functional Requirements) as applicable across Sprints/Release
+2.3 Skill related
+• Lack of awareness about different Agile testing practices thereby making it difficult to adopt suitable testing practice
+• Lack of technical skills would delay the process of test automation which is important for Agile projects
+• Lack of domain skills to add value in the requirements gathering exercise, user stories creation and effective testing
+2.4 Generic
+• Requirements are generally captured with limited documentation in the form of Epics or Features and not in the form of elaborative business or functional specifications
+• Testing becomes challenge during the early Sprints, when code is available with limited functionality. In Agile, it needs to be conducted as early as practical and throughout the project lifecycle
+• Since the scope of testing gradually increases with each Sprint, it becomes a challenge to keep the regression test suite updated for maximum test coverage
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 7
+3 Concepts of Testing in Agile Projects
+3.1 Testing activities in different phases of an Agile project
+Typically Agile projects will have following key phases and activities. The table below mentions how team members performing testing are involved in these activities. Phase Activities Testing Activities Involved Initiation Requirement Elicitation Product Backlog creation User Story Prioritization Estimation of Project size and Release timelines High level architecture/design Analyze feasibility of Reuse, Tools, Automation Define Definition of Done Identify Key Risks Involvement of Testing experts during Requirement Elicitation Estimation of story point size and effort from testing perspective Identify test strategies, test data, automation areas, etc. Provide inputs on risks and infrastructure for testing
+Sprint Planning
+Select product backlog items for the Sprint
+Define Sprint goal. Identify tasks and estimate effort
+Participation of Testing experts for defining
+Sprint goal
+Identify required tasks and effort from testing perspective Sprint Execution Elaborate architecture/design Code and unit test the User stories. Integrate code and create working software Track daily progress Preparation of test cases and automation test scripts Perform system integration testing, and track progress on testing and defect status
+Sprint Review and
+Retrospective
+Conduct Sprint review meeting
+Demo and perform acceptance testing of the working software Conduct retrospective meeting
+Participation in Sprint review and retrospective meeting and give relevant inputs from testing perspective Release Sprint Conduct regression and nonfunctional testing and later user acceptance testing Release software into production Perform regression, non-functional, user acceptance testing, exploratory testing as applicable
+Table 1: Mapping of testing activities in different phases of an Agile Project
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 8
+Release Initiation
+Following are the list of integrated activities that are involved for analyzing and planning from testing perspective during the Release initiation phase:
+• Active and effective participation of testing experts in requirements elicitation, creating product backlog for functional and non-functional user stories, estimation and defining ‘Definition of Done’
+• Analysis of feasibility for reuse and automation from testing perspective and identification of tools and reusable components
+• Identification of test strategies and planning elements for testing approach, efficient practices, test data and defect management
+• Provide inputs to identify the infrastructure and key risks associated from testing perspective
+Sprint Planning
+During Sprint Planning, following activities are considered from testing perspective:
+• Inputs from the testing experts while deriving the Sprint goal by considering the factors of acceptance criteria of each user story and accomplishing the ‘Definition of Done’
+• Identifying the detailed tasks and estimated effort for each user story considering the testing perspective
+Sprint Execution
+During Sprint Execution, testing experts need to emphasize on following areas for achieving the Sprint goal:
+• After the Sprint Planning is done, analyze all the user stories which are mapped to the respective Sprint and get clarifications if any gap found in understanding the requirements
+• Prepare test cases and automation test scripts, in parallel, while the functionality of the user stories is getting developed
+• Perform system integration testing and regression testing as applicable by the end of the Sprint and track progress on the defects accordingly
+Sprint Review and Retrospective
+While Sprint Review and Retrospective meeting are conducted, testing experts need to actively participate in these meetings for:
+• Performing Acceptance testing of the working software
+• Providing relevant inputs from the testing perspective and validation of the defined requirements
+Release Sprint
+During Release Sprint, Testing experts have a major role in:
+• Conducting Regression testing, NFR (Non-Functional Requirements) testing, User Acceptance Testing and Exploratory testing as applicable
+• Analyzing Release level metrics, as applicable, for Testing
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 9
+3.2 How Testing is different in Agile
+Testing Ecosystem
+Agile software development follows an iterative approach and requires frequent testing, on a regular basis, maybe daily. Manual testing on a daily or weekly basis throughout the development process would be inefficient. Automated testing can run through a large series of test cases rapidly, efficiently and effectively.
+It is important to create the Testing ecosystem by incorporating a wide array of Testing tools and technologies for Agile projects. There is a well-known concept in Agile testing called ‘Agile Testing Quadrants’ as per below figure (Ref: Material of Lisa Crispin, Brian Marick, and Janet Gregory, 2009).
+These quadrants (Q1/Q2/Q3/Q4) help teams to accomplish testing goals by ensuring that business needs and technology needs are met through focus on collaboration, leveraging testing skills and evaluation of product/application. The first two quadrants (Q1/Q2) support the teams in performing test against the technology and business requirements and the last two quadrants (Q3/Q4) evaluates the product/application through technology and business needs.
+Figure 2: Agile Testing Quadrants (Source: http://lisacrispin.com/downloads/AdpTestPlanning.pdf)
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 10
+Test Estimation
+The integrated testing expertise team members participate actively during the project initiation while estimating the initial project size and release timelines. They provide their inputs from testing perspective for the overall estimation of the project as well as for the detailed tasks identified for the User stories during the Sprint Planning event.
+The standard test factors that get considered while estimating for Testing in an Agile project include Scope of testing, Risks associated, Key test focuses (functional or non-functional), Entry and exit criteria for every test activity, Metrics measurements, Test case preparation, Test tracking, Documentation requirements, Test Data needs, Environment needs, Overall team expertise, Training needed and Tools used.
+Acceptance Criteria for User Stories
+While executing the projects using Agile methodology, the features that are required for development are described in the form of a User Story along with the Acceptance Criteria for validating the completeness of each User Story. A User Story is a description of a system feature requirement which is easily understood by both Product Owner and the project team members.
+The associated acceptance criterion for every User Story defines the validation aspect of the feature. They are created by taking the inputs from relevant stakeholders, i.e. Product Owner, end users, etc., which provide a means for testing and ensuring that a User Story has been properly implemented. The team needs to accomplish the acceptance criteria to meet the expectation of Product Owner for the feature.
+Following is an example of a User Story and the related Acceptance Criteria: User Story Acceptance Criteria
+As a user, I want to have a login screen which accepts my user name and password, so that I can log into the tool
+1) A valid user should be able to open a login screen and provide the credential details
+2) A valid user credential details should be validated after login to check authenticity
+As a user, after successful login, I want to have a main page with header, left and right panes with logout and change password options in header
+1) A valid user should be able to view their respective homepage on successful login
+2) For user, the objects below would be on the homepage:
+’Change Password’ link in the header
+‘Logout’ link in the header
+3) The user is able to access all the links on the homepage
+Definition of Done
+‘Definition of Done’ provides a shared understanding among the project team members along with Product Owner on what it means a task or event is done. When someone in the team says that a task is finished, then everybody in the team has a common understanding of what it means. Through ‘Definition of Done’, the team adheres to quality standards.
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 11
+In Agile projects, ‘Definition of Done’ determines conditions to be considered when a specific task or event (i.e. User Story or a Sprint or a Release) is completed, validated and is ready for acceptance. The team agrees on and displays prominently a list of criteria which must be met before a task is considered "Done". If this criterion is not met, it implies that the work should not be considered for any acceptance/approval.
+For completeness and integrity of deliverables, project team would generally define various definitions of done. This could be for a User Story, a Sprint and a Release, or for a technical/functional doneness.
+Example: ‘Definition of Done’ for a User Story could have the following activities:
+• All the unit tests are implemented for new functionality and are in green
+• Code review completed, source code committed and all tests are green in CI server
+• Acceptance tests are written, executed and passed and Acceptance criteria is met
+• New integration have not caused any regression or impact and code coverage is above X%
+Example: ‘Definition of Done’ for a Sprint and Release could have the following activities:
+• All the User Stories included in the Sprint are closed and met the definition of done
+• All unit tests and automated acceptance tests have passed successfully. Regression testing has been performed on the product after the changes and no critical bug exists in the bug backlog
+• Product is tested and the configuration changes are done as per guidelines
+• All defects are fixed. A functional test to cover the bug is performed by a third party
+Teams should allocate time to review their ‘Definition of Done’ periodically, during Sprint Retrospectives, and determine whether there are opportunities for improvement. This can be followed by the revision of ‘Definition of Done’ based on the learnings and findings.
+Testing during Sprint Execution
+There are various testing activities that get conducted during the Sprint and Release level of the Agile project. At the Sprint level, key focus is on Unit testing, Integration testing and Regression testing. At Release level, during Release Sprint, focus can be on System testing, Performance testing, Exploratory testing and User Acceptance testing.
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 12
+Figure 3: Testing activities during Sprint Execution
+Execution Sprint
+At the Sprint level, there should be a strategic forethought on how each user story will be tested. The strategy should consist of testing every user story against the corresponding acceptance tests. The scope of testing at each individual Sprint is to check that the software code performs according to what has been defined as acceptance criteria for each closed user story of the Product Backlog. Based on the observations and results, frequent feedback has to be communicated between the teams for improvement during the Sprint which makes Agile testing successful.
+Release Sprint
+It may not be feasible to conduct testing of non-functional or performance related aspects within a Sprint. The Release Sprint, before the end of the Release, should include the scope for such types of testing. The testing activities within a Release Sprint should be performed for the required nonfunctional or performance testing along with the user acceptance testing, to ensure that the system behaves as per requirements. Integration and Regression testing may not be considered in the scope if the system was integrated and tested continuously during regular Sprints. However, based on the context of the project and the requirements, the team can plan required tests at this stage.
+3.3 Agile Test Strategy
+How it has to be done
+One of the key objectives of conducting testing in Agile projects is to perform tests at the early stages of the software project. This involves testing from the client or end user perspective often and early based upon the availability of code functionality or different logical modules.
+Any Agile project comprises of frequent builds, testing and quick feedback cycles. Extensive integration and regression testing is done in every Sprint for making sure that the defects are fixed and tested right from the early stages of the project cycle. Doing these tests manually would lead in spending lot of effort. Also, due to time constraints, it may lead to skip certain tests that need to be conducted during the Sprint. Having a clear understanding of what tests to execute while conducting integration or regression testing would help team to get more time to specify and execute test cases for the functionalities implemented during the ongoing Sprint.
+Therefore, automation of testing activities is important for Agile project. The areas which can be automated needs to be identified and planned at the beginning of the project. Involvement from everyone on automation testing increases the relevance of the tests and often helps in finding and implementing the right tests.
+Test Plan and Test Strategy
+Test plan is a strategic approach for driving the testing activities in a project by defining the objective, scope and the strategies for testing. In Agile, the requirements keep changing throughout the cycle of the project. A test plan is adopted to meet these changing requirements as the testing happens throughout the project. They are developed with the limited available visibility of the scope of the project. Test planning is done for different types of testing which includes core functionality, user story specific performance testing, based on the testing goals for individual Sprints and Releases,
+In an Agile environment, the contents of a Release get discussed with the entire team before starting the Sprints where each user story is thought through. The testing team gets to know about what the scope for the release is
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 13
+and what should be tested. They then begin to write scenarios to cover the multiple ways for testing the user stories. During the Sprint, the team does continuous testing of new code or feature. Test planning becomes a dynamic activity here as the priorities keep changing.
+Test Planning is an important activity in the entire development process. Following are few of the areas which need focus while doing Test Planning:
+Scope for Testing
+The Scope of Testing should be clearly defined on what type of tests to be executed during the Sprints at the early stages of a Release and the later stages of the Release. For example, during the early Sprints, many of the new functionalities would be under development and may not be feasible for extensive automation and regression testing. They could be accommodated during later Sprints of the Release with the availability of established software code.
+Refactoring
+Because the Agile projects have a tendency of changing requirements frequently, the planning for testing needs to be revised accordingly to reflect these changes. For example, certain functionality of the code may not be prioritized while defining the testing scope but later on gets included due to business reasons. The test planning needs to be revised to incorporate new types of tests like functional testing, to validate the added functionality.
+Risk Identification
+Based on the complex features, impact on the overall functionality and available time for validation, the risks needs to be identified for the Test planning. The mitigation steps needs to be planned accordingly for performing the testing activities effectively.
+Frequent Feedback:
+It is very important for the teams to plan for the frequent feedback to all the team members whenever the testing activity is performed. Testing team should be completely aligned with the relevant stakeholders to inform about the discrepancies identified.
+As per the nature of Agile execution, it may not be feasible for the team to identify the scope of entire functionality of software during the early stages of the project for performing various testing activities. A test strategy, which outlines the process applicable across the Sprints, is required. This test strategy can be implemented during requirements workshops, Sprint planning, manual and automated testing, test coverage, test reporting, test environment setup and staging. These are processes, activities applicable to every Sprint but have to be derived based on the project requirement and context. The Test strategy can include
+• What types of testing to be conducted during the Sprint and release, and at what stage
+• When does test data needs to be created and who needs to create it
+• How a Test environment is created and what is required for simulation
+• When should the automated tests be developed
+• What tools to be used for automated testing, interface testing and performance testing
+• Allocation of time and resources to conduct various types of testing types
+• Testing of product with external systems
+• Writing mocks, test drivers, data simulators and test frameworks
+Progressive Elaboration of Tests
+Progressive elaboration implicates continuously improving test plan and test strategy as more information and details are available through Product Backlog. Progressive elaboration allows a team to manage and perform the testing activity to a greater level of detail as the project evolves.
+Testing in Agile Projects Concepts of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 14
+Testing through Progressive elaboration devises an approach that features a gradual progression from the simplest criteria of testing, to more sophisticated criterion through planned and structured steps, each of which brings incremental benefits to the project as a whole.
+In Agile projects, the team ideally would not have the complete information of the project requirements right from the beginning. Understanding of complete requirements and the project outcomes can be elaborated as the project progresses which are most important for effective testing.
+Establishing Test Traceability to User Stories
+During the Initiation time, requirements are analyzed in detail and acceptance criteria are detailed out for every story. Agile testing is all about giving feedback early, not necessarily only by testing the requirements, but also by checking the feasibility of testing the requirements early on. Team needs to look at user stories description for clarity and testability to figure out requirements that are unambiguous and testable.
+Testability aspect of the story requires scan through the user story to see what needs to be done to test the story. These factors can generally help in finding hidden requirements, environment, test data, dependency on other requirement, etc. Getting these details early helps the story to be tested accordingly and allows smooth test execution of the story in the Sprint.
+Test Progress Tracking
+Right from the initiation of the Agile project, it is very important to monitor the testing activities, reporting the progress, finding the gaps in test coverage, and then identifying new test areas that may require additional investigation. Implementation of tools i.e. ALM (Application Lifecycle Management) is essential to understand how well the team is progressing in testing the User Stories from the Product Backlog.
+Following are the areas to monitor the progress of testing activities in Agile projects:
+• Test Activity: The Test activity report indicates the results for the Test Cases that are run for each test configuration and for all test plans. Spikes that might occur may be early indicators of problems in either the test activity or the quality of code that the team is developing. Team can then investigate on the metrics for recent builds, bug status and code churn to determine the root cause.
+• Test Failure Analysis: A healthy Test Failure Analysis report shows moderate numbers of new issues, known issues, and regressions. If any spikes occur in these areas, the team might need to investigate further. Spikes may indicate problems in either test activity or quality of code, the team is working on.
+Testing in Agile Projects Application of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 15
+4 Application of Testing in Agile projects
+4.1 Functional Testing (Manual, Automated, Pair-Wise)
+Identify (What)
+The scope of functional tests is to check that the system behaves according to what has been specified through the elements of the product backlog (the acceptance criteria). The tests consist of testing each new feature of the increment against the corresponding acceptance tests. These tests can be run manually or automatically.
+Plan/Design/Create (When)
+Various types of testing like functional testing (unit, system, integration, regression) and NFR (non-functional requirements) testing have potential to be automated and save time and effort in the subsequent test cycle. In Agile environment, it becomes extremely important to focus on test automation wherever possible across various types of testing. This is essential as by very basic nature Agile is an iterative methodology and tests get executed again and again in the project lifecycle.
+Pair testing is one way of approaching a test design process by having two people test the same thing at the same time and place, continuously exchanging ideas. Even without any special method or process, the dynamics of pairing enables to generate more different ideas than in the traditional way.
+Execute (How)
+The idea of test automation in Agile environment is to create the automated test suites for the most common test cases and add them as a part of daily build. All these cases are auto executed in every build and ensure that newly added code has not broken any other functionality and already unit tested functionalities are still intact. The features that are developed in the Sprint will be tested for its integration issues and end-to-end testing from functional testing perspective. At the test strategy phase, it is identified on what type of testing to be done at what stages, that is, during early Sprints and later Sprints of a release. If system and integration test cases for the Functional testing have to be done manually or have to be automated, then it will be decided on the basis of what is feasible in the project context. Accordingly, the automated test cases for system and integration testing are created and used either in progressive mode or regressive mode.
+4.2 Non - Functional Requirements (NFR) Testing
+Identify (What)
+The details of Non-Functional requirements to be identified right from the project initiation phase (Sprint-0) through various discussions with business stakeholders, like Business Analysts, Development team, Infrastructure team, architects and others. The primary activities that are involved in identifying Non-functional requirements are to understand business domain and objectives, participating in architecture/design reviews, understanding the performance SLAs (Service Level Agreements), gathering and navigating through business critical scenarios.
+Plan/Design/Create (When)
+During the early Sprints in a Release (Sprint-1), it is important to identify the tools appropriately for conducting the load tests and Performance Unit tests. The test harness environment should be validated; test scripts specific to business critical scenarios should be prepared on service virtualized harness component and method level
+Testing in Agile Projects Application of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 16
+information for each of business critical test scenario should be gathered from the development team to validate the SLA during execution phase
+Execute (How)
+In Agile environment (Sprint-2 to Sprint-N), NFRs can be tested in a 3-phase approach as mentioned below:
+• Code level: Execute performance unit tests to identify the code level bottlenecks and fix the issues at the code level
+• Component level: Execute tests on the service virtualized component within a Sprint and identify bottlenecks
+• Application level: Execute end-to-end step-up load tests, monitor various servers and identify the peak user loads and bottlenecks of various scenarios
+Based on the actual NFR requirements, individual or a combination of these three or all three approaches should be used appropriately. This approach can be decided at the time of project initiation when overall test strategies are being created.
+For example –
+• NFR is about code maintainability – Should be definitely tested at code level
+• NFR applicable only for certain feature/module – Component level approach can be used
+• NFR is about full application behavior in production environment with peak concurrent users – Application level approach would be the right approach
+4.3 Regression Testing
+Identify (What)
+Regression testing has an important role in Agile scenario due to its nature of execution, i.e. small incremental functionalities are built in each Sprint. In addition to its usual purpose of testing the stability of the software application, it helps the team focus on the functionality in each individual Sprint. Regression test suite should be constructed to reflect the most important business processes. The team should create a smaller, relatively stable set of regression tests. This set should be constructed on the basis of knowledge of the business functions and of the technical implementation, to ensure sufficient but not redundant coverage.
+Plan/Design/Create (When)
+Regression test scripts are updated in the Sprint when necessary. This is part of the User Story and should thus be taken into account when estimating. Some functional tests can be upgraded to regression tests, when they cover certain business functions better than existing tests. The product owner compiles a list of all business functions that should be included in the regression test. This can happen gradually over several Sprints while the team learns what functions are important. Creating the test cases can also be done gradually.
+Testing in Agile Projects Application of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 17
+Execute (How)
+It is important to realize the difference between functional tests and regression tests to avoid some common pitfalls. It could be very convenient to use the functional tests of the past Sprints as regression tests for the current Sprint. But following such approach will lead to an unmanageable regression test suite and distort its purpose by introducing a lot of duplication. Key perspectives of regression testing are:
+• Execute regression suites as many times as possible so that developers get rapid feedback of any break of code. It becomes easier to analyze the issue and fix the problem earlier rather than getting late feedback. Late feedback makes it difficult to track the source of error as the team might have moved to other set of features to be implemented
+• To achieve the above point, automate as much regression tests as possible, so as to save on the bandwidth of executing it several times manually
+• Go by risk-based prioritization of the test cases to be selected for regression suite as regression test suite should never be a blind consolidation of functional test suite. The purpose of functional tests is to explore the behavior of specific business functions and highlight flaws, whereas the purpose of regression testing is to check the overall essence of a feature is still intact after changes in the software in the same feature or other features. Their purposes are distinct and therefore functional test suites should not be used as regression tests
+4.4 Exploratory Testing
+Identify (What)
+Exploratory testing is a process of simultaneous learning, test design and test execution. It is structured, rigorous but still ad hoc way of testing with the intent of finding defects. It is a testing approach rather than a testing technique which guides the next set of actions based on what you are doing currently, in a dynamic way.
+Plan/Design/Create (When)
+Before starting Exploratory Testing, testing experts should have some idea of what to explore in the system and what kind of details to check for. This can come from a small ‘charter’. The charter can be generated by having some discussion with the teams to understand what information would be most useful to test and check. Charter can come from last completed user story or interaction of collected user stories or non-functional attribute of a story like performance or scalability.
+Execute (How)
+Based on type of feature being explored during exploratory testing, test experts can pick and choose most appropriate heuristic approach. While doing exploratory testing, teams should keep taking notes of what they have already explored and what more to go. These notes will come handy while performing exploratory testing in the future releases of the project.
+The key to success of exploratory testing is cognitive involvement of the tester and their ability for managing the time to complete the given features to be tested in exploratory testing way. It is directed from requirements and also based on exploring that happens during testing. Exploratory Testing focuses on investigation of the entire system and what test cases to execute are decided at run time during testing.
+Testing in Agile Projects Application of Testing in Agile Projects
+Infosys Limited – Company Confidential Page 18
+4.5 Release Testing
+Identify (What)
+Release testing comprises of variety of testing that the testers may conduct before releasing the features to production which were developed in last Sprint/s. It just serves as additional round of verification and validation before the system goes to production.
+Plan/Design/Create (When)
+Based on the strategy that the team has already adopted, there may be rounds of functional tests, nonfunctional tests and exploratory tests during last Sprint of the Release.
+Execute (How)
+In Agile environment, before reaching to release test the system has already passed rigorous and continuous testing in the form of unit testing, functional and non-functional testing and regression testing in each of the Sprints. So it is very important to choose the types of tests to be conducted while performing the release testing.
+4.6 Effective Defect Tracking and Management
+Defect management is often much simpler on Agile projects when compared to classical/traditional projects. With a whole team approach to testing when a defect is found it's typically fixed on the spot, or they are informed to developer and then developer fixes those defects almost same time. When a test team is working in parallel with the development team to validate their work, they typically use defect tracking system (or defect reporting tool) to inform the development team of what they found.
+Agile delivery teams combine their requirements management and defect management strategies to simplify their overall change management process. Defects are treated as work items and are taken up in order of their priority. Both requirements and defect reports are types of work items and are treated equally. They are estimated, prioritized and added to the Product Backlog. Hence, similar prioritizing techniques are used for defect prioritization as were used for requirements prioritizing.
+Testing in Agile Projects Recommended Practices
+Infosys Limited – Company Confidential Page 19
+5 Recommended Practices
+• Test Early – The key to Agile is iteration (developing, testing and developing again). To get the most out of an Agile process, the key strategy is to test early. This means that testing is planned and done at the beginning of development cycle and not just after the first couple of Sprints
+• Test Often – A good Agile process emphasizes frequent testing. Defects are identified early in the testing cycle. The longer defects wait in the code, it becomes more difficult and expensive to remove them
+• Refactoring/Regression – Stop every few weeks to focus on stability. Fix bugs, refactor old code and run extensive regression testing to make sure bugs are not escaped during the ongoing testing process
+• Test from Customer’s Point of View – As with any development process, it is important that testers and developers know customer’s point of view. That means having good stories with customer relevant material and then sharing those stories with the development team as well as testing team
+• Communicate – Having good communication between the testers, developers and product team is essential for a good Agile process. Even though the testers are isolated from developers, they should work closely to maximize the benefits of testing
+• Automate What you Can – The best Agile teams automate as much of their testing load as they can. Repeatedly testing the same case is a waste of time. Locating new bugs is far more valuable for any tester
+• In Agile, test experts need to do a balancing act between providing feedback to developers and business users
+Testing in Agile Projects Appendix
+Infosys Limited – Company Confidential Page 20
+6 Practice Questions (To check understanding) Question 1
+Which of the following activity is NOT applicable from testing perspective during the Sprint Planning event? a) Test experts participating for defining Sprint goal
+b) Test experts providing estimations from testing perspective
+c) Test experts preparing the Test cases and automation scripts
+d) Test experts identifying required tasks and effort from testing perspective Question 2
+Choose one of the below option which is NOT a challenge while Testing in Agile methodology?
+a) Adopting ‘One Team Approach’ for development and testing
+b) Performing integration testing and tracking progress of defect status
+c) Requirements are generally captured with only limited documentation
+d) Lack of domain skills to add value in the requirements gathering exercise Question 3
+‘Definition of Done’ determines if –
+a) A specific User Story or event is ready for client acceptance
+b) A specific User Story or Epic is ready for testing
+c) Acceptance criteria is defined for the User Story
+d) Development and Unit Testing for User Story is done Question 4
+Which of the following can be a Strategy for testing in Agile Projects?
+a) Identify what types of testing can be conducted during the Sprint and release
+b) Define when should the automated tests should be developed
+c) Analyze what tools can be used for automated testing, interface testing, performance testing, etc. d) All of the above
+Question 5
+Agile recommends functional test suites to be used for regression testing to achieve faster turnaround. a) True
+b) False
+Testing in Agile Projects Appendix
+Infosys Limited – Company Confidential Page 21
+7 Appendix
+A. Conditions Satisfying Doneness Criteria
+Situation where exit criteria/doneness criteria needs to be defined
+Remarks and sample doneness criteria When will the developer do gated check in of code on development shelf? Development shelf is an area where developer keeps his current copy of code with incremental changes even before moving the same on development box to get integrated with rest of the code. They call this as gated check in. The doneness criteria for moving code to development box can be - % of unit test coverage (typically 70-80%)
+When will software move from shelf development to development environment?
+Doneness criteria for moving from development shelf to development is on various code quality metrics like
+- Cyclometric complexity
+- % of redundant code and duplicate code
+- Maximum Number Of Levels
+So doneness criteria can be defined around identified targets for these parameters. When will software will from development to QA? When build sanity test run on dev box are satisfactory. e.g. - Pass% for automated regression suit on nightly build is >80%
+When software will move from QA to staging/pre prod environment
+Sample doneness criteria for QA to stage
+- Number of critical open defects is 0
+- Overall pass % of test cases is >90
+When can software move to production environment – Soft production? Soft production is where it is opened on production only for a limited set of users (typically from consulting firms) who validate and check the system from compliance OR regulatory norms. For ex HIPAA OR SOX compliance perspective. Doneness criteria for such soft production is - System is compliant to performance and security requirements - No open critical defects
+Situation where exit criteria/doneness criteria needs to be defined
+Remarks and sample doneness criteria
+Testing in Agile Projects Appendix
+Infosys Limited – Company Confidential Page 22
+B. Testing Metrics
+Defect Removal Effectiveness
+Defect Removal Effectiveness is a metric that tells that how many defects testers could identify in their testing and how many of them got passed to next cycle of UT/production/warranty. DRE is expressed as %
+Defect Removal Effectiveness (DRE) = (No. of in-process defects/ Total no. of defects)* 100
+Total number of defects = Total no. of defects = In-process defects + defects found in Sprint/Release review
+Tracking DRE metrics at Sprint and/or release level is mandatory. However, if some additional metrics are tracked, it gives multiple benefits, so tracking of these metrics is optional.
+Defects slipped from last build
+Normally in Agile scenario, builds are done on a daily basis with automated unit test and regression suite run on the same. It is also handed over to testers to do testing on the new features. It is extremely helpful if testers check the defects that automated testing/manual testing have found in this build and do a quick analysis of these defects to check if any of the defects should have been found in testing last build itself. Based on that, a quick root cause for the same should be done to find out reasons why these bugs could not get found in last testing, what was missing and how can we correct that for future testing. Feedback these learnings quickly into the process for next build testing. Defects slipped from last build are nothing but DRE at a build level.
+%Defects slipped from last build = (Number of defects found in testing the current build could have been found in previous build testing)/(Total number of defects found in the current builds testing)
+Ideally this metric should be 0, but we can set target values like 10-15% in the initial stage. Monitor the effectiveness of regular tracking of this metric and then set lower targets in subsequent releases.
+Test coverage (using code coverage)
+One important metric in case of testing is "How much of the source code is actually exercised by my test system?" Unexercised code can mean that your test system is deficient or the source has "dead code" (code that cannot be reached by any path), or extra code is there in the codebase that is not necessary (perhaps a feature was removed but not all of the associated code was deleted).
+When you test user stories in black box testing, you run the test and compare if the output is correct for given inputs. But when you have focus on test coverage, testers can look inside the black box code and see how much When can software move to production environment – Hard production? Hard production is where it is opened to all users Doneness criteria for hard production can be - Compliance tested software with no open issues
+When can we say that current Sprint is done and we can move on to next one?
+Output of every Sprint does not reach till soft production phase. Many of the times it will just reach to staging stage at the most. So doneness criteria for next Sprint is
+- When it meets all the doneness criteria till staging stage When can the next release be started? Next release can be started only when all of the above doneness criteria are met
+Testing in Agile Projects Appendix
+Infosys Limited – Company Confidential Page 23
+of the code was actually exercised by the test set. You can do this with Test Coverage tool available commercially like Semantic Design test coverage tool, BullEye Coverage.
+If there is focus on test coverage, it also expands view of black box testing to white box testing.
+This is how a high level process is
+• Compile the code with test coverage tool integrated
+• Use that code to test your test cases
+• After testing is complete, check the tool report to see the code coverage achieved by tests that you just run
+• Based on the report and discussion with developers, take decision to add/update test suit to have additional coverage of code where your tests did not even reach to as the tool report throws reports on which paths/classes/branches/files were run when we run the software to run our test suite. Based on the report and discussion with developers, decide if additional/updated tests to be created so as to have better code coverage through your tests and surety that each corner of the code is tested by your tests
+Many a times these tools provide additional details than just % code coverage. They are product quality metrics like memory issues, dead code, clone identification etc. That eventually helps developers in cleaning and optimizing code further.
+Thus using code coverage tools help testers to understand what part of code got tested and what more needs to be tested. And it helps developer to fine tune and refactors the code further.
+Simple formula
+Test coverage % = % of code covered through the test suite
