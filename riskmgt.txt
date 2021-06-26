@@ -1,0 +1,372 @@
+1 Introduction
+Risk management is a set of activities directed towards minimizing the probability of occurrence of a negative event and, managing and controlling the impact in case it occurs. Effective management of risk offers a reliable way to ensure objectivity for decision making. A structured risk management process, which is applied early, continuously and rigorously, provides a disciplined environment for decision making and for efficient use of project resources.
+In Agile approach of project execution, there are frequent deliverables and hence it is important to ensure the risk management practices are defined beforehand. Risk Management for Agile projects are taken into account while performing Sprint planning, execution, review and retrospection, emphasis on continuous integration and continuous testing, automation, and continuous delivery. These practices help the teams to handle the project risks right from the beginning and at every stage of the project. The scope of risk management practices is not limited only to the frequent or continuous delivery in the project. In large enterprises like Infosys, risks are categorized as contractual risks, financial risks, estimation and scope-related risks, visa availability risks and client (or product owner) availability risks.
+A formal approach is the only effective method to prioritize several risk events. This approach allows the project team:
+ To identify risks and their interrelationships
+ To determine critical risks
+ To identify cost-effective ways to reduce those risks
+ To be consistent with overall project objectives
+Formal risk management refers to a structured process whereby risks are systematically identified, analyzed, monitored and controlled. Risk Management is not the responsibility of project manager, but all the relevant stakeholders including the project team.
+This module provides a brief on risk management concepts and application of related best practices in Infosys Global Agile projects.
+Risk Management Challenges
+Infosys Limited – Company Confidential Page 7
+2 Challenges
+Risk management practices are essential within the Agile projects to address the following list of challenges:
+ Assumption validation: Assumptions made at the beginning of the project, if not revalidated at periodic intervals, might have high impact on project objectives.
+ Monitoring of risks effectively: Risks identified initially are often not tracked effectively during the project execution. The risk exposure can change during the course of a project and can have high impact on its objectives. e.g. Dependencies on third-party stakeholders, if not monitored continuously, might spring up surprises that may impact the project.
+ Comprehensive risk identification: In a multivendor scenario, there are many stakeholders, dependencies and sources. It is difficult to arrive at a comprehensive list and hence the list may be incomplete or the risks identified may be generic in nature, primarily tailored from similar prior projects.
+ Not aware of all sources of risks: Focusing too much on internal risks and not paying attention to the changing external environment. e.g. Contract is a potential source of risk. Unawareness of SLA compliance, penalty clauses or liability clause details, could potentially expose the project to high risk.
+ Distributed Teams: For effective management of globally distributed teams, adoption of certain best practices is a must. Failure to follow such practices might result in risks.
+Risk Management Concepts
+Infosys Limited – Company Confidential Page 8
+3 Concepts
+The success of a project depends on how effectively risks are identified, planned and managed. In Infosys Global Agile projects, risk management practices are recommended to be planned during the Project initiation and also during the Release and Sprint planning. During this activity, the team should allocate some time for risk identification, analysis, prioritization and implementation of the risk response strategies.
+The process of risk management for Agile projects is not significantly different from the traditional projects. There are various underlying concepts in risks, which helps in improving the process of risk management in a project. Risk management refers to a structured process wherein risks are systematically identified, analyzed, monitored and controlled, so that impact of risks on the project is kept to minimum.
+Figure 1: Steps in Risk Management
+3.1 Risk Identification
+Risk identification involves identifying problems and their sources by applying appropriate techniques. There are various methods/techniques available for risk identification as mentioned below. Depending on the project nature and complexities, one or more of these techniques can be used in identifying risks.
+ Checklist: A questionnaire/checklist that is available based on the similar projects done in the past can be used to identify the sources and categories of risks.
+ Review of Key Documents: Reviews of important project documents like contract, statement of work and scope document help in identifying various risks.
+ Assumption Analysis: Every project is conceived and developed based on a set of hypotheses, scenarios, or assumptions. Project assumptions are analyzed to identify risks in the project due to their inaccuracy, inconsistency or incompleteness. This analysis allows the project team to decide whether some of these assumptions are better qualified as risks.
+ Decomposition: Decomposition method, like work breakdown structure, is used to drill down the project scope, in order to identify project risks due to scope change, dependency and constraints.
+ Brainstorming: This technique is used to generate questions leading to different scenarios and risks associated with it. It is also possible to generate list of additional risks by posing unwanted future situations and identifying their root causes. The team essentially includes subject matter experts (SME) within or outside the project.
+Once all risks are identified, they are grouped into categories based on their sources. This categorization is to understand the nature of the risk, to identify relevant stakeholders and to define cost-effective mitigation plans. All these identified risks are logged into risk tracking system, i.e. risk management plan in IPM+.
+Risk Management Concepts
+Infosys Limited – Company Confidential Page 9
+3.2 Risk Analysis
+Once risks are identified and categorized, risk analysis begins with a study of the risks (typically, during the Release and Sprint planning event). The objective is to gather enough information about the risks to classify, evaluate, and prioritize based on the risk exposure on key project goals (e.g. cost, schedule, performance).
+Qualitative analysis and Quantitative analysis are the two approaches to analyze risks and determine the impact on the project objectives. In Qualitative analysis, impact of a risk is assessed on subjective basis using either numbers or level of impact such as high, medium, low. In Quantitative approach, impact of a risk is assessed in terms of cost of impact on the project objectives.
+3.2.1 Qualitative Analysis
+There are several methods available to do the Qualitative analysis of risk. One of them is Numeric Scaling which is recommended by the process defined by Infosys. Using this method, the risks can be prioritized based on the descending order of risk exposure.
+The probability of a risk event is generally measured on a percentage scale of 0 to 100% but for calculation purpose, given in decimals. An event that would occur rarely gets a score nearer to 0 and an event that has very high chance of occurrence gets a score nearer to 100%. A probability value is associated with each risk item. A guideline to pick a probability value for a severity is given below. The impact of each risk is measured on a scale of 1 to 10, 1 being very low impact and 10 being very high impact. A guideline to pick an impact value for a severity is given below.
+Table 1: Guideline for Measuring Probability and Impact of Risk
+The probability and impact of a risk event is measured on a numeric scale and risk exposure is calculated as the product of probability of the risk and its impact. Thus, ‘Risk Exposure = Probability * Impact’. Based on the risk exposure value, risks can be prioritized as high-priority risks requiring immediate attention and low priority risks for keeping on a watch list.
+3.2.2 Quantitative Analysis
+In this approach, impact of each risk is measured in terms of cost on the project objectives. ‘What if scenario’ model is a very commonly used technique that explores different possible scenarios along with the available choices on a logical path to arrive at the project objectives. The best alternative can be quantitatively arrived through a comparative analysis. The following is an example of the ‘What-if’ technique:
+Risk Management Concepts
+Infosys Limited – Company Confidential Page 10
+Table 2: Quantitative Analysis
+At Infosys, a hybrid approach is followed. For those risks which are above threshold, quantitative analysis of risks is performed and for other risks which are below the threshold values, qualitative analysis would suffice. As project progresses, periodic updates needs to be done to impact and probability parameters which will change the overall risk score of the project.
+Note: For further details (i.e. threshold values, etc.), please Refer to ‘Risk Management Guidelines’ in PRidE
+Path: SparshWebAppsPRidEProcessesIT-ServicesManagement ProcessesProject Management
+3.3 Risk Response Plan
+Risk response planning involves taking a decision on how to respond to the analyzed risks. Typically, risks scoring on the higher scale of exposure can be planned for prevention, mitigation or transfer whereas risks scoring on the lower scale of exposure can be planned for acceptance. It also depends on tolerance level of stakeholders who are getting impacted by the risk.
+The following are different risk response strategies for managing risks.
+Risk Category Risk Description
+Probability Impact
+Risk Exposure Schedule Impact (person days) (A)
+Cost impact due to schedule
+(USD)
+(B) Other costs (USD) (C)
+Cost of risk
+(USD)
+(D=(B+C)) People/Personnel/HR Manpower attrition resulting in schedule impact 0.9 6 5.4 7 700 1000 1700
+Infrastructure Lack of infrastructure in time to simulate the business scenarios
+0.4 8
+3.2 8
+800 800
+1600 People/Personnel/HR Low motivation to work on specific platforms 0.6 7 4.2 NA NA NA NA
+Risk Management Concepts
+Infosys Limited – Company Confidential Page 11
+Table 3: Risk Response Strategies
+3.4 Risk Monitoring and Control
+As the project moves into execution phase, the risk response strategies are implemented as per the plan and the health of the project is continuously monitored. The objectives of risk monitoring and control are:
+ To gauge the effectiveness of risk response strategies implementation
+ To monitor the indicators and triggers for identifying new and emerging risks
+ To retire or remove focus from the risks that are not relevant any more
+3.5 Risk Communication
+Risk communication refers to providing information and feedback to the project stakeholders (internal and external) on the risk management activities. Adequate communication regarding risks helps managers to make informed assessments and decisions.
+The risk communication should take care of the following points:
+ Highlight key risks in the daily stand-up meeting activity. For example, top 3 risks could be highlighted
+ Seek timely feedback from key stakeholders like client and senior management during the Sprint review meeting for assuring the progress and status of overall project
+ Escalate risks as and when required
+ For successful implementation of risk management process, the team members should be aware of all the risks and their mitigation plan
+Strategy
+Description
+Example Risk Avoidance This involves placing a project in a situation such that it is not subjected to a particular risk thereby avoiding its impact on the project. Planning to have manual testing technique, than procuring specific testing tool which may not arrive in time.
+Risk
+Mitigation
+This involves defining measures to handle either the probability of occurrence of a risk or its impact or both on a project.
+Planning a group review of the project architecture by independent SMEs to mitigate potential design problems. Risk Transfer This involves transferring the responsibility of a risk either to an internal or external party, which is more capable and willing to manage the risk. Executing a project by a third party vendor is a mechanism for risk transfer to a third-party.
+Risk
+Acceptance
+The assessment of certain project risks may lead to their acceptance as a continuing factor, especially for those risks which cannot be avoided or where the cost of risk response is not justifiable.
+Some SLAs may be missed but no escalation from client is expected, making this a low-risk situation
+Risk Management Application in Projects
+Infosys Limited – Company Confidential Page 12
+4 Application in Projects
+Risk Management is a structured way of dealing with risks throughout the life of the project for achieving the project objectives. It is a systematic process of identification, analysis and response to project risks with continuous monitoring and control. The key objective of Risk Management is to ensure there is a continuous focus on risks.
+4.1 Risk Profiler
+In order to bring structure in risk identification and analysis, it is important to identify broad categories in which the risk would be identified for the project. Typically a detailed risk assessment questionnaire is used to identify and categorize risks. In Infosys, this risk assessment questionnaire is termed as ‘Risk Profiler’ and is integrated as part of IPM+ Risk Tracking section. Following parameters are considered for profiling the risk associated with Infosys Global Agile projects:
+ Client Relationship: For example, Client is new to Agile projects resulting in lack of confidence and high risk to cordial customer relationship in this project
+ Contract/MSA/SLA/Legal/IPR: For example, There are few unrealistic commitments made to the client during the proposal/contract stage
+ Scope/Requirements/NFRs: For example, NFRs are either not defined or team is not sure about the performance requirement or how performance testing will be done
+ Environment and Infrastructure: For example, The team is distributed across locations and there is no appropriate infrastructure for Collaboration and Communication during the scrum events
+ Project Profile: For example, Product Owner was not available during project initiation phase and hence the team does not have clarity on project vision and objectives, and has no clue on what to deliver in the first few Sprints
+ Geography: For example, The team is geographically distributed across locations and there are lot of issues in collaboration and communication because of cultural and language differences
+ Dependencies: For example, There is a dependency on another vendor of client for final integration in the target environment, but there is no service from this vendor which is affecting the schedule and quality of end deliverable
+ Quality and Process: For example, There is no automated build process for this Agile project because of which there is a chance that it will impact the schedule and quality adversely
+ Finance: For example, The contract has penalty clauses against missing milestones and there have been misses in the past. However, there is a high risk of missing future milestones
+ Governance/Program Management: For example, Lack of proper governance/PMO may lead to communication gaps, delayed decision making and dependency/issues not being resolved in timely manner
+ Staffing and Training/KM: For example, The Agile team with more than 12 people has made the project very challenging in terms of self-organization
+ Schedule & Effort: For example, Poor estimation of task effort associated with user stories at Sprint level may lead to impact on overall schedule at the Release level
+Risk Management Application in Projects
+Infosys Limited – Company Confidential Page 13
+4.2 Source of Risk Identification
+Successful risk management depends largely on how well the project is able to identify potential risks. Project risks can be identified by both the team internal to the project and by the team external to the project. Some of the sources of risk identification are:
+ List of risks available in risk database
+ Risks from similar projects executed in the past (PDB - Process Database, Process Assets, Closure Reports)
+ Risks identified in the Proposal/Contract/Master Service Agreement of the project
+ Assumptions made in the proposal, which have a likelihood of becoming a risk
+ Risks specific to the project like decisions made in the project for design choices, choice of tools, process deviations or tailoring-related
+ Brainstorming within the team
+ Risks identified in reviews by senior management or from internal audits during project execution
+4.3 Risk Description in Agile Projects
+The following points provide risk description and appropriate mitigation steps in few of the scenarios which are commonly observed across Agile projects.
+Note: The source for all the below mentioned points is from ‘SH@RP’ portal in ‘SparshWebApps’
+4.3.1 Risk in Fixed Price projects
+Risk Description:
+Agile projects being executed in Fixed Price (FP) mode are prone to risks as scope is not clear and is expected to change during the course of the project. This may result in risk of cost and effort over run.
+Proposed Mitigation Action (at Proposal/Contract Stage):
+ When proposing to new clients or clients where Agile has not been done before, it is wise to first assess the capability of the team in T&M mode before exploring FP way of working
+ When agreeing to FP contract for Agile projects, User Stories need to be clear at the start of the project and contract would be drawn for short time duration, e.g. For a Quarter
+ Team could also agree to execute the project based on the story points depending on velocity rather than user stories. e.g. ‘Assuming that the velocity in a two week Sprint is approximately 10 to 12 story points. The team can commit to a minimum of 100 story points in 10 iteration project
+4.3.2 Risk of Contract Termination Clause
+Risk Description:
+Contracts/MSA not covering the termination clause for Agile projects.
+Proposed Mitigation Action (at Proposal/Contract Stage):
+ If Agile execution is decided beforehand, the termination clauses in the contract should safeguard the interest of Service Provider - especially for fixed price contracts
+ If the decision to move to Agile is taken at a later stage, then the termination clauses should ensure the deal value is covered
+Risk Management Application in Projects
+Infosys Limited – Company Confidential Page 14
+4.3.3 Risk in adopting Agile Methodology for all kinds of projects
+Risk Description:
+Without proper analysis of the business context, adopting Agile methodology is a potential risk for the project..
+Proposed Mitigation Action (at Proposal/Contract Stage):
+ New development and large enhancement projects can be done in Agile mode
+ Projects where there are external dependencies for 2 or more interfaces which are also undergoing changes simultaneously will have challenges of executing in Agile manner. The client needs to be explained about this at proposal stage and a mitigation plan drawn up-front to mitigate the associated risks
+ Projects that have multiple groups working, should work in end to end Agile mode with a common way of working and have close collaboration between the groups
+4.3.4 Risk of Distributed Teams
+Risk Description:
+Large distributed teams in Agile Projects can lead to multiple risks such as ineffective communication and collaboration, culture issues, time zone difference.
+Proposed Mitigation Action (at Project Execution Stage):
+ Plan to minimize on the extent of distributed teams during project execution. Onshore & offshore with offshore in one location is something that can be managed without too many complexities related to collaboration
+ Ensure that adequate arrangements are made with daily standup calls setup and ensure that a War room is available on request
+4.3.5 Risk of In-experienced Team
+Risk Description:
+Inexperienced team runs the risk of slippage of schedule and team may get stressed and exhausted due to constant delivery pressure.
+Proposed Mitigation Action (at Proposal and Project Initiation Stage):
+ All phases of project to be outlined in detail in the proposal so that the customer is aware of the Agile processes
+ Propose and push for collaborative approach for execution of projects
+ Detailed training plan for Agile approach to be included so that the inexperienced team can understand the benefits of Agile and implement them in true spirit
+Proposed Mitigation Action (at Project Initiation and Execution Stage):
+ Detailed plans for conducting retrospectives, user demos, backlog grooming, hardening Sprints to be included in the overall project plan. Absence of these activities will result in achieving half output
+ Having a pool of trained Agile developers will provide flexibility to the managers to rotate the team members in case of very stringent Sprint deliveries. Phases like backlog grooming, hardening Sprints and retrospectives provide an opportunity for a quick relief for the developers
+Risk Management Application in Projects
+Infosys Limited – Company Confidential Page 15
+4.3.6 Risk of Incomplete Test Coverage
+Risk Description:
+Frequent changes to User Stories may result into inaccurate test scenarios. This may lead to incomplete test coverage.
+Proposed Mitigation Action (at Project Initiation and Execution Stage):
+ Testers working in Agile projects should have good communication and probing skills to understand the requirements in the lack of the documentation by asking the right questions
+ Testers should be involved in the project from the story definition phase itself so that they can understand the details based on formal and informal discussions within the team and they can also contribute by highlighting the requirements that cannot be tested
+ Testers need to understand the features by other modes like scrum meetings, communication with developers and business analysts
+ There should be a good understanding of scenarios, constraints, validation rules and ancillary functions like auditing, logging and design positive and negative tests accordingly
+ Use the business process testing methodology, so that the test cases are built modular. Since, change is the norm in Agile projects, this will help in quick updation of the test cases, according to the updates in the requirements/design
+ Maintain the test scenarios at high levels to ensure complete coverage
+ Create reusable checklists for testing. Also create traceability and dependency between each story as this may help to do the changes quickly
+4.3.7 Risk of Compromising on Quality
+Risk Description:
+There is a risk of compromising on quality due to stress on agility and quick turn-around time.
+Proposed Mitigation Action (at Proposal and Initiation Stage):
+ During the proposal phase, estimate for the buffers to account for unplanned requirements
+ Plan for a pre-release Sprint to do additional regression testing post integration
+Proposed Mitigation Action (at Project Execution Stage):
+ Team may need to re-estimate based on the changes in requirements or user stories that may come in during the course of project execution. The estimation should also keep in mind the team rate of progress (Velocity) as observed in the past. If defects are carried over from one Sprint to another, fixing those defects should be treated as a user story in the next Sprint
+ Strategies to improve quality of deliverables include continuous integration combined with automated testing, automated regression testing at the end of each Sprint. Apart from that, steps like pair programming ensures that for complex assignments, when one person is coding, the other is looking for mistakes and thinking about the next steps
+ Test environment availability and feasibility to test along with other interfaces (where applicable) is critical to ensure better quality of deliverables
+Risk Management Application in Projects
+Infosys Limited – Company Confidential Page 16
+4.3.8 Risk of Overlooking Non-Functional Requirements (NFRs)
+Risk Description:
+With a lot of emphasis on faster time to market and functionality implementation to derive business benefits, there may be a tendency to overlook non-functional requirements (e.g. performance and security related expectations) in Agile projects. Because of this reason, performance bottlenecks may be identified very late.
+Proposed Mitigation Action (at Project Initiation and Execution Stage):
+ Plan for logical points where performance or security related testing would be done as part of a release. Generally hardening Sprints should be planned to take care of these issues
+ Non-functional requirements should be captured as the acceptance criteria against the user story if possible
+ Explore the possibility of developing a performance pack that will capture system load information during regression testing. This will help to identify the potential areas where performance may have deteriorated
+Note: For more details, please refer Risk Repository section available in ‘SH@RP’ portal (SparshWebApps)
+4.4 Classifying a Project as High or Critical Risk
+Certain engagements or projects because of their size or complexity face many challenges. The risks in such projects are likely to be higher. There is a need for higher level of attention from senior management for such projects and hence are classified as High Risk projects or Critical Risk projects.
+Identification of a project as high or critical risk happens mainly through the Delivery and Quality network. Once a project is classified, DRM (Delivery Risk Management) comes into play to do reviews and suggest mitigation steps. DRM is an independent group with the prime responsibility of monitoring high risk projects and prevent it from getting into Critical Risk.
+When a project is created, based on certain characteristics, a project may be classified as high risk. Some of the characteristics are:
+ Very stringent SLAs
+ Complex technology
+ Inadequate skills or unrealistic demand-supply map for resource ramp up/down
+ Unsigned Statement of Work (SoW) where the delay in signoff is not due to administrative reasons
+ Multi-vendor/multi–unit scenario
+ Penalty clauses in contract
+ Possibility of revenue loss or penalty payment
+ High effort overruns with no control on re-estimation
+ Schedule slippages beyond 10%
+Note: For more details, please refer ‘High Risk Guidelines’ in PRidE (SparshWebApps)
+Risk Management Recommended Practices
+Infosys Limited – Company Confidential Page 17
+5 Recommended Practices
+Risk Management is one of the most critical aspects of large project management. A successful project manager is essentially a successful risk manager.
+5.1 Risk Management Practices
+5.1.1 Understanding Business Context
+The risks should be evaluated against a planned set of objectives or outcomes. It is therefore imperative that the strategic objectives and the business/management context, within which the project operates, are established. These would include financial, schedule, functional performance and technical objectives as well as other key objectives depending upon project context.
+It is then important to determine the measurable criteria for each objective against which the risk is to be evaluated. e.g.
+ In a critical client project, if the objective is to deliver the project with X% of quality level (say zero defects), then the risk would be different than a project which is a normal MIS (Management Information Systems) application and does not require strict quality requirements
+ For a critical maintenance application, the criticality of the SLA’s (Service Level Agreements) like downtime and response time. would also influence the risk status of the project
+ If an application is tied up with the client’s product launch and has a hard date for delivery, then delivering on time becomes a critical success factor
+ If the achievement of an objective cannot be measured then the consequence of a risk will be equally difficult to determine
+5.1.2 Establishing Commitment for Risk Management
+Risk Management is the ‘business of everyone’ in the Team. It is a basic requirement for all levels of management involved in decision-making. The responsibility for risk management with respect to policy, process, reviews, reporting and communication should be clearly defined and communicated to relevant stakeholders.
+A formal risk management process and training helps in standardizing and streamlining risk management practices. It is also important that risk management is tightly coupled with other project management processes and engineering processes. The effectiveness of risk management is largely improved by using a tool with in-built workflow and feedback mechanism like Risk Management Plan and Risk Profiler features in IPM+. The tool usage also helps in maintaining process integrity, rolling up information and leveraging on knowledge earned from past experience. The reference risk database could be easily maintained using risk management tool.
+5.1.3 Identifying Key Stakeholders
+It is important to identify the key stakeholders who have a role in managing the project and are involved in decision making which could significantly influence the desired outcome. This may include external as well as internal stakeholders such as:
+ Key service providers
+ Statutory bodies involved with critical approvals
+ Client representatives
+ Teaming partners
+ Senior management
+ Internal auditor
+ Quality manager
+Risk Management Recommended Practices
+Infosys Limited – Company Confidential Page 18
+The above stakeholders can be of help in identifying potential risk to the project.
+5.1.4 Categorizing Internal and External Risks
+Risks are also categorized as internal risks (involving internal stakeholders) and external risks (involving external stakeholders). Categorization of risks helps to identify the relevant stakeholders so that they can be involved in risk response planning and implementation. It also helps in:
+ Risk prioritization
+ Communication
+ Reporting
+ Creating a reference database for future projects
+5.2 Techniques to Improve Effectiveness of Risk Monitoring
+Risk monitoring should help in providing early warnings for potential problems to enable management actions. Risk monitoring is not a problem-solving technique, but rather, a proactive technique to observe the results of risk mitigation actions and identifying new risks.
+The different risk monitoring techniques include:
+5.2.1 Earned Value Management
+This helps in monitoring the effectiveness of the actions taken to manage risks. It provides periodic comparisons of the actual work accomplished in terms of cost and schedule with the work planned and budgeted. The periodic EV data can provide indications of risk and the effectiveness of mitigation actions.
+5.2.2 Technical Performance Measurement
+It is a technique that compares estimated values of key performance parameters with achieved values. The parameters should help assess the progress and effectiveness of risk response strategies. This also helps in strengthening/revising the risk response strategies and also brings out the new risks before there is a critical impact on the project in terms of cost or schedule or any other objectives.
+5.2.3 Integrated Planning and Scheduling
+Integrated planning identifies key events, milestones, reviews, integrated tasks and risk response actions along with accomplishment criteria. It helps in providing a definitive measure that the required maturity or progress has been achieved. Integrated scheduling describes the detailed tasks that support the significant activities identified in integrated planning and timing of tasks. The integrated schedule also includes the resources planned to complete the tasks. When the events and tasks are related to risk response actions, this linkage provides a significant monitoring tool. One of the key aspects of integrated planning and scheduling is also ‘Dependency management’. The planning process should include list of all dependent tracks, third party dependencies, dependencies of client deliveries (in case of collaborative development), client reviews and sign-offs. These dependencies should be monitored and reviewed regularly to assess the risks to the projects.
+5.2.4 Watch List
+This is a listing of critical areas which management should pay special attention to during project execution. It is a document that is derived from a prioritized list of risks. It may include the priority of the risk, how long it has
+Risk Management Recommended Practices
+Infosys Limited – Company Confidential Page 19
+been on the watch list, response actions, planned and actual completion dates for response actions and explanations for any differences.
+If a considerable number of new risks are significant enough to be added to the watch list, it may be an indicator that the original assessment was not effective and that risk is greater than what was initially thought. It may also indicate that the project is on the verge of becoming out of control. If a risk has been on the watch list for a long time because of a lack of risk response action progress, a re-assessment of the risk or the handling approach may be necessary.
+5.2.5 Reports
+Reports are used to convey information to decision makers and team members on the status of risks and the effectiveness of risks response actions. Risk-related reports can be presented in a variety of ways, ranging from informal verbal reports to formal summary-type reports presented at milestones reviews. The level of detail
+presented will depend on the audience.
+Report requirements and procedures, to include format and frequency, are normally developed as part of risk management planning and are documented in risk management plan. They can be effectively incorporated into management reviews and milestones reviews to indicate any technical, schedule and cost barriers to the program objectives.
+5.2.6 Management Indicator System
+A management indicator system is a set of indicators or metrics that provide the management with timely information on the status of the projects and risk response actions. These metrics should be constantly monitored against the goal and the deviation should be tracked.
+5.2.7 Test and Evaluation
+A well-defined test and evaluation approach is a key element in monitoring the performance of selected risk-handling options and developing new risk assessments.
+Risk Management Practical Tips
+Infosys Limited – Company Confidential Page 20
+6 Practical Tips
+ Work Breakdown Structure (WBS) is a good source to analyze and identify risks at a detailed activity level
+ Identification of an owner (other than the project manager) for the risk management process is effective
+to implement and monitor the risk response
+ Proactively involve the key stakeholders who influence the final outcome of the project
+ Proactively identify triggers and symptoms of risks on a periodic basis
+ Risks should be identified at the earliest stage of project lifecycle to minimize their impact For instance, if majority of project team members are less experienced, then the project might have a risk of schedule and effort deviation. As a risk mitigation plan for managing this risk, appropriate training sessions could be planned for the project team members before they start working on the project
+ Involving the project team in risk mitigation planning is a good way to get their buy-in on managing the
+project risks
+ Some of the critical clauses of contract document may get overlooked during risk identification
+ Risk from the contract document needs to be identified upfront. The project team should be made
+aware of these risks
+ Tailor the project processes considering the risks in the project. e.g. Having 80% fresh members in the team would influence your quality management and build processes
+Risk Management Case Study
+Infosys Limited – Company Confidential Page 21
+7 Case Study
+Project Background:
+Client Organization provides physician practices, hospitals, and other healthcare providers with practice management and electronic health record technology, including electronic prescribing, care management and revenue cycle software.
+Risk-1:
+Crunched Time lines: Program was expected to complete the execution in 4 months. Design of 34 modules to be completed by Infosys in 2 months timeframe
+Mitigation:
+ Infosys did a huge ramp up by putting extra teams into rapid execution plan. Infosys enhanced other teams for supporting the expected pace of delivery
+ War rooms were created, expediting complex User Stories at Onshore
+ Re-planning was done regularly to check design completion status and re-assign across designers appropriately
+Risk-2:
+Interdependencies: Missing ownership and involvement between client and Infosys team. Big issue in tracking inter-dependency, both functional, and technical, between modules due to large size of program (multiple teams working on development)
+Mitigation:
+ Super teams were formed and led by program manager who was responsible for driving and collaborating with all the teams in the cluster and across the cluster
+ Weekly meetings and daily Scrum meetings were conducted to resolve all dependencies and open issues for closure across the functional tracks
+Risk-3:
+Product Design: Still evolving design which slipped multiple deadlines and hence, major overlap of design with execution timelines, thus creating serious trouble in scope management
+Mitigation:
+ Design work was sequenced and planned against specific timelines to reduce the overlap with execution timelines
+ Dedicated workshop sessions with controlled timeframes to box scope boundary and sign-off on functional design
+Results:
+580 User stories were delivered successfully. Client has appreciated and acknowledged Infosys effort for completing job irrespective of all known problems and initiated new programs at other locations.
+Conclusion:
+Client environment is high risk and very challenging with low client maturity, endemic delays, budget constraints, network environment, lack of domain knowledge, tight timelines and dependencies between modules. This program required a dynamic, flexible, program management with high level of endurance requirement and an ability to proactively anticipate and mitigate risks.
+Risk Management Practice Questions
+Infosys Limited – Company Confidential Page 22
+8 Practice Questions Question 1
+Which of the following is the CORRECT sequence for risk management process?
+a) Risk Identification  Risk Response Planning  Risk Analysis  Risk Monitoring and Control
+b) Risk Identification  Risk Response Planning  Risk Monitoring and Control  Risk Analysis
+c) Risk Identification  Risk Analysis  Risk Response Planning  Risk Monitoring and Control
+d) Risk Response Planning  Risk Identification  Risk Analysis  Risk Monitoring and Control Question 2
+Which one of the following is the risk response strategy for managing risks?
+a) Risk Avoidance
+b) Risk Mitigation
+c) Risk Acceptance
+d) All of the above Question 3
+Requirements are not detailed before start of the Sprint and are changing during the Sprint.
+Under which of the following category does this risk fall?
+a) Client Relationship
+b) Scope/Requirements/NFRs
+c) Environment and Infrastructure
+d) Project Profile Question 4
+The identified tools are not suitable for Test Automation in Agile projects. What would be the probable mitigation action for this risk?
+a) Perform proper due diligence before proposing automation tool for Agile testing
+b) Create reusable checklists for testing
+c) Ensure most of the assumptions are documented
+d) None of the above Question 5
+Which of the following risks DOES NOT qualify under Environment and Infrastructure category?
+a) Project setup is not planned and will adversely affect the schedule
+b) Unrealistic commitments to the clients has exposed the project to very high risk situations
+c) Extreme delays are expected in procurement of tools and software licenses
+d) Slow link/connectivity has adverse impact on the schedule and quality of deliverables
+Risk Management Appendix
+Infosys Limited – Company Confidential Page 23
+9 Appendix
+A. Types of Risks
+The key to successful risk management is to identify all known risks as well as build sufficient contingency for managing unknown risks.
+ Known Risks: There are many risks that would be known, can be anticipated and planned for mitigation. In such risks, uncertainty is usually in terms of ‘how’ and ‘when’
+ Unknown Risks: There are also risks that are unknown and hence, cannot be anticipated for planning their mitigation
+ Secondary Risks: Some part of planned risk response to the identified risks may also generate additional risks. Such risks are referred to as Secondary risks. These are the risks that arise as a direct result of implementing a risk response.
+ Residual Risk: This is the risk that remains after implementing the planned risk response when any of the identified risks occurs. They also include minor risks that have been accepted or addressed.
+B. Risk Analysis Tools and Techniques
+ Failure Mode and Effects Analysis
+Failure Mode and Effects Analysis (FMEA) is a risk assessment technique for systematically identifying potential failures in a system or a process. Failures are any errors or defects, especially the ones that affect the customer, and can be potential or actual. Failure modes are characterizations of the ways a product or process can fail. Effects analysis refers to studying the consequences of those failures.
+ Scenario Planning
+Scenario planning is a model for learning about the future in which a strategy is formed by drawing a small number of scenarios, stories how the future may unfold, and how this may affect an issue that confronts the project team or organization. Typically, the scenario planning process is as follows:
+o Identify the people who will contribute to analyze the risk scenarios
+o Comprehensive interviews/workshop about how participants see impact of the risk scenarios
+o Cluster or group these views into connected patterns
+o Group draws a list of priorities (the best ideas)
+o Sketch out rough pictures of the future based on these priorities (stories, rough scenarios)
+o Further work out to detailed impact scenarios (determine in what way each scenario will affect the project or program)
+o Identify early warning signals (things that are indicative for a particular risk scenario to unfold)
+ Force Field Analysis
+The Force Field Analysis is a method to:
+o Investigate the balance of power involved in an issue
+o Identify most important players (stakeholders) and target groups for a campaign on the issue
+o Identify opponents and allies
+o Identify how to influence each target group
+ Cost Benefit Analysis
+Cost-Benefit analysis (CBA) is the weighing-scale approach to decision-making. All the positives (cash-flow and other tangible benefits) are put on one side of the balance and all negatives (the costs and disadvantages) are put on the other. Whichever weighs the heavier, wins. This technique can also be used as part of the risk mitigation planning. The risk response plan can be finalized after doing a cost benefit analysis of all the responses.
+Risk Management Appendix
+Infosys Limited – Company Confidential Page 24
+ Risk Influence Modeling
+Identify risk influencing factors (RIF’s) is one of the key elements in risk and vulnerability analysis. The RIFs may be arranged hierarchically in influence diagrams to demonstrate their interdependence and effect on the risk. It is a central aspect of this approach to model the effect of risk reducing measures and changes.
+The influence diagrams are used both as a means for communicating the model between various categories of ‘experts’, further as an aid in accident analysis and also in the qualitative evaluation. This approach is often applied for complex socio-technical systems, when the objective is to carry out overall holistic analysis, taking all relevant aspects into account.
+ Monte Carlo Technique
+Monte Carlo simulation is a useful technique for modeling and analyzing real-world systems and situations. The Monte Carlo process, as applied to risk management, is an attempt to create a series of probability distributions for potential risk items, randomly sample these distributions, and then transform these numbers into useful information that reflects quantification of potential risks of a real-world scenario. In project management, Monte Carlo simulation can quantify the effects of risk and uncertainty in project schedules and budgets. The benefits of Monte Carlo simulation are using quantified data, allowing project managers to better justify and communicate their arguments for justification of their business case.
