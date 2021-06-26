@@ -1,0 +1,170 @@
+Introduction
+Quantitative Project Management (referred as QPM) provides an approach with a set of tools and techniques to achieve the business goals in a predictable manner for the project. Implementing a quantitative approach ensures that the projects are moving in the right direction and brings in better control and predictability into their project results.
+Quantitative Project Management is focused on supporting quantitative decision-making during the process of project execution. It uses statistical and quantitative management tools and techniques to bring in predictability and enhance ability to deliver as per commitments across the project lifecycle.
+This document is intended to provide an insight into the quantitative approach to be followed while executing Agile projects at Infosys. It covers few usable concepts and techniques that can be put in practice while managing the day-to-day project activities.
+Quantitative Project Management Key Drivers
+Infosys Limited – Company Confidential Page 6
+2 Key Drivers
+Usage of QPM techniques can help to a large extent to establish assurance on plans. It also ensures objectivity in decision making across the lifecycle stages of a project. Following are the key drivers for implementing QPM in Agile development projects for successful execution.
+ Ability to deliver as per commitments made to client (Effort, Schedule, Scope, Cost)
+ Achieve consistent client satisfaction across Sprints
+ Bring in predictability into execution of Sprints
+ Improve velocity/productivity in an Agile environment to a target value by a target date
+ Reduced escaped defects density
+Quantitative Project Management Concepts
+Infosys Limited – Company Confidential Page 7
+3 Concepts
+Typical project management is about managing people, risks, client and other stakeholder expectations and be able to deliver as per commitments. With traditional management approach, it becomes difficult to manage these variables as the scale of work increases and projects end up either with delays/poor quality of output. If the manager includes standard practices by using methods such as Statistical Process Control (SPC), prediction models using past historical data, objectively measuring progress and actions, then predictability for meeting commitments becomes better.
+Key concepts typically associated with Quantitative Project Management are listed as below:
+ Measurement systems, data collection and tracking mechanisms
+ Identify project objectives and critical success factors
+ Set project goals leveraging historical data and models
+ Set up processes, measurements and analytical tools
+ Understand, analyze and manage process variations to achieve project goals using appropriate statistical techniques
+ Predict project outcome using predictive models
+In the traditional approach of project management, there is a lot of focus on planning to use checklists, procedures and guidelines to carry out defined tasks such as coding, reviews and testing. The focus is more on completing the task rather than on measuring how well the task has been completed. As an example for a code, in traditional approach, the concern is more on whether reviews and testing were done and defects identified. This does not tell us anything about the effectiveness/efficiency in the process of reviews and testing. This can be achieved by quantitatively measuring the process and associated variations. A good quantitative process provides early warnings and enables effective preventive and corrective action planning. This quantitative approach revolves around:
+ Setting quantitative goals
+ Defining strategies and plans
+ Using process performance models
+ Analyzing and improving performance
+ Performing closure analysis
+These concepts will be elaborated in the context of a managing a project executed using Infosys Global Agile methodology.
+Quantitative Project Management Application in Projects
+Infosys Limited – Company Confidential Page 8
+4 Application in Projects
+4.1 Setting Quantitative Goals
+Every Agile project spans across various Sprints that are decided at the Project and Release planning meet. The key objectives and critical success factors are established during this time by reviewing the key business expected outcome.
+The goals help to provide a direction for the project team to understand the expected end result or outcomes from the project. Also, it helps projects to track and report progress in a more objective manner. The manager of an Agile development project should review these objectives and set quantitative goals that need to be achieved by the various Sprints, Releases and the overall project. Client and Infosys expectations are taken into consideration while defining the goals. The goals for each Sprint are discussed during the Sprint planning meeting and any additional goals specific to the Sprint are outlined.
+Goals revolve around key measures such as schedule, cost, effort, scope and quality (process and product). A few of the typical goals could be:
+ 100% adherence to Release plan
+ Minimum slippage in Sprint backlog items
+ Zero critical or major defects across Sprints
+Client specific goals can be added over and above these. To assess the current performance levels for setting achievable goals, there are multiple sources that are available:
+ Past Sprints/Release performance in the same project
+ Past Sprints/Release performance across similar projects within the account
+ Similar projects within the organization
+Based on the applicable goals, appropriate metrics need to be selected. To meet the specified goals, one or more metrics needs to be identified for selected processes and sub-processes. Please refer measurement and analysis document available in Pride (SparshWebAppsPRidE) for more details on process and sub-process related information. Techniques such as weighted average, Pareto, DAR, and so on can help in deciding the appropriate metrics from the identified list. The list of standard metrics applicable for ‘InfyAgile Global’ projects is provided in below table:
+‘InfyAgile Global’ Metrics Sprint Level Release Level Project Level
+ Velocity
+ Defect Density
+ Productivity
+ Schedule Variance
+ Defect Density
+ Effort Variance
+ Defect Removal Effectiveness
+ Productivity
+ Defect Density
+ ICT Ratio
+ Defect Removal Effectiveness
+ Review Effectiveness
+Table 1: Standard Metrics for ‘InfyAgile Global’
+Quantitative Project Management Application in Projects
+Infosys Limited – Company Confidential Page 9
+4.2 Setting up Strategies
+Once the goals are defined, it is important to define the approach that a team will adopt to meet the goals. Few of the steps are outlined below:
+ Project typically needs to adopt organization processes or the processes as followed in similar projects.
+ Detailed analysis of the identified processes to be done to understand the gaps/weakness/improvement opportunities
+ Comparative analysis of the process with benchmarks (internal/external) needs to be performed to identify significant practices that brought performance improvements.
+ These gaps/weakness/practices should be plugged as strategies to drive improvements.
+ The impact of every strategy to be assessed and the benefit from each of them should be quantified in terms of numbers so that the project has enough confidence of achieving the targeted % improvement.
+ New strategies identified should be added to the project’s defined processes.
+ Appropriate training on the new strategy needs to be organized and deployed based on a structured plan.
+4.3 Using Process Performance Models Process Performance Model (PPM) plays a critical role in QPM. As per SEI (Software Engineering Institute) the definition of a PPM is as stated - “A description of the relationships among attributes of a process and its work products that is developed from historical process-performance data and calibrated using collected process and product measures from the project and that is used to predict results to be achieved by following a process”. In other words, the historical process data, when analyzed, will indicate how the process has behaved in the past and the expected range of the process performance.
+Healthy Ingredients of Process Performance Models are listed as below:
+ Statistical, probabilistic or simulation in nature
+ Predict interim and/or final project outcomes
+ Use controllable factors tied to sub-processes to conduct the prediction
+ Model the variation of factors and understand the predicted range or variation of the outcomes
+ Enable “what-if” analysis for project planning, dynamic re-planning and problem resolution during project execution
+ Enable projects to achieve mid-course corrections to ensure project success
+The below table provides an illustration of various controllable factors and the outcomes that can be predicted.
+Controllable Factors
+Predictable Outcome Type of Reviews Conducted Type of Design Method Language Chosen Types of Testing Delivered Defect Density
+High-Medium-Low Domain Experience
+Architecture Layer
+Feature
+Team
+Productivity or Velocity
+Quantitative Project Management Application in Projects
+Infosys Limited – Company Confidential Page 10
+Lifecycle model
+Primary communication method Estimation method employed Estimator Type of Project High-Medium-Low Staff Turnover High-Medium-Low Complexity Customer Product Team Product High-Medium-Low Maturity of Platform Maturity or Capability Level of Process Decision making Decision-level in organization Release Cost and Schedule Variance Cycle Time
+Table 2: PPM Illustration
+During the planning stage, Process Performance Models (PPMs) enable the team to validate size and determine effort and schedule by applied estimation technique. PPMs suggest the impact on key project outcomes such as escaped defects, ability to meet defined timelines & Velocity.
+Figure 1: PPM in Planning
+Project teams can decide to create PPM models to suit the different prediction needs such as effort, defects, backlog and velocity.
+For example, following is a scenario on how the PPM model can help for an engineering activity like Continuous Integration. As new code is being added and regular tests are being conducted, there is likelihood for tested and stable features to fail in subsequent tests. To analyze a pattern of feature/code stability across builds, a simple model can be developed by gathering data about all test cycles and test case results for each cycle. Data trends can be statistically analyzed and a regression equation can be developed that provides details of controllable factors. Using data for past few Sprints, all future Sprints’ performance can be predicted and analyzed for actions.
+Validate with PPM
+Quantitative Project Management Application in Projects
+Infosys Limited – Company Confidential Page 11
+4.3.1 Velocity Improvement Prediction model
+Velocity Improvement Prediction model predicts the potential velocity improvement trend in a project / release. This model predicts Infosys’s capability to improve velocity over time. However in specific project scenario, velocity is driven by business and client driven priorities
+This model takes Average Sprint duration, estimated no of sprints and Estimated Average velocity as inputs and predicts after how many sprints improvement can be seen.
+For more details, please refer the literature on PPMs models available on Pride.
+(Path: SparshWebAppsPrideProcessesOrganizational Improvement & ChangeMeasure Organizational PerformanceProcess Performance Model
+Velocity improvement prediction model is available at - SparshWebAppsPrideProcessesOrganizational Improvement & ChangeMeasure Organizational Performance  Process Capability baseline and Process Database).
+4.4 Analyzing and Improving Performance
+During the execution, it is important to understand how well the Sprint is progressing and would the team be able to complete the entire project within the planned release timelines, or to acceptable limits for quality. To ensure this, it is important to monitor the progress at defined intervals. The intervals can be as mentioned below:
+ At a Project level
+ At a Release level
+ At a Sprint level
+The key to monitoring is:
+ Collecting relevant data as specified by the chosen metrics
+ Analyzing for variance using quantitative and statistical approaches
+ Taking appropriate corrective and preventive actions
+There could be several other mechanisms such as daily status calls, weekly status reports, continuous builds and test cycles that provide a visibility into the project progress.
+4.4.1 Sprint Retrospective Report
+Sprint Retrospective report aims at providing leading indicators, like Velocity, Defect Density, for project progress to identify corrective and preventive actions. Following are typically reviewed as part of this report.
+Sprint performance is analysis against the defined metrics and goals for the project. Corrective and Preventive actions are documented and tracked to closure.
+Quantitative Project Management Application in Projects
+Infosys Limited – Company Confidential Page 12
+Figure 2: Sprint Performance Report
+Team could plot trend analysis of Velocity of previous sprints.
+Velocity of sprints within a project are analyzed. Special causes are analyzed and acted upon. Improvements are planned to reduce variations.
+4.4.2 Burndown Chart
+A Burndown chart is a graphical representation of amount of work remaining versus time. The outstanding work (or backlog) is often on the vertical axis, with time along the horizontal axis. Hence, it is a run chart of outstanding work. It is useful for predicting when all of the work will be completed. The Release Burndown graph records the sum of remaining Product Backlog estimated work across time in the Release. The Sprint Burndown is a graph of the amount of Sprint Backlog work remaining in a Sprint across time in the Sprint.
+Quantitative Project Management Application in Projects
+Infosys Limited – Company Confidential Page 13
+Release Burndown Chart Sprint Burndown Chart
+Figure 3: Burndown chart
+The stability of sub processes parameters (e.g. Effort variance) are collected and analyzed at the end of every Sprint and Release. The variations in these parameters are analyzed and understood and corrective actions are taken through formal root cause analysis mechanism carried out for the areas that are deviating.
+4.5 Performing Closure Analysis
+At the end of a release, it is important to collate all the process and product metric data along with details such as key risks, customer complaints, deployed strategies and results obtained. A detailed analysis should be done to outline key inferences and process performance. The same should be shared in organization repository for use by other teams. The upcoming projects could use this data for (at a minimum):
+ Identifying critical success factors
+ Setting goals
+ Choosing appropriate strategies
+ Monitoring tools and techniques
+Quantitative Project Management Case Study
+Infosys Limited – Company Confidential Page 14
+5 Case Study
+Project Background
+The project goal was to implement the trading and back office systems and processes across global operations in a particular division of a large retail client.
+Client Expectation
+Quick ramp-up and ability to go to market with quick and workable solutions in incremental releases with focus on quality
+QPM Practices Adopted
+The project team set a goal to improve velocity apart from other goals based on key objectives. The project team successfully used proven QPM concepts such as PPM’s, burndown charts and Velocity trend chart, to achieve the goal. Following practices are adopted:
+ Team identified critical and controllable factors such as test coverage and review process, for improvement in velocity. Team used Quantitative techniques like PPM and control charts to improve Velocity
+ Test coverage was monitored on a periodic basis and continuously improved upon
+ Pair Programming was used to reduce human errors and help improve Team Velocity during team ramp up
+ Used team velocity dashboards during Sprint Retrospective meetings to identify areas of improvements
+ Used tools to measure test coverage
+Figure 4: Project Velocity
+In addition, team used Poisson Distribution to compute the probability of UAT defects.
+Quantitative Project Management Case Study
+Infosys Limited – Company Confidential Page 15
+Probability of achieving Expected Number of UAT Defect per sprint in upcoming sprint was 91%.
+Team identified below actions to increase the probability of getting less than or equal to 1 UAT defect
+ Knowledge management levers like trainings, cross skilling was used
+ Continuous tracking of sprint retrospective action items
+Benefits
+ Monitoring project progress using Quantitative techniques and taking informed decisions helped in ensuring improvement in Velocity.
+ Quantitative approach for monitoring test coverage helped to bring in predictability into defects injected across Sprints which in turn reduced defects and improved quality of deliverables
+Quantitative Project Management Appendix
+Infosys Limited – Company Confidential Page 16
+6 Appendix: Metrics for Infosys Global Agile Projects Metric Name
+Definition/ Formula UOM
+Type of Metrics Process/ Product
+Remarks/ Guidelines Velocity Number of story points / Sprint Number Leading Indicator Process Collected during every Sprint based on story points Productivity
+Number of story points per person day (i.e. Total no. of SPs delivered during that period*8.5 /(actual effort) where actual effort is, all the effort logged under P codes during that period.)) Number
+Lagging Indicator Process
+Collected at Release / project level based on FP or Story points Story point variance Story Point Variance=(No. of SPs delivered – No. of SPs committed)/No. of SPs committed)*100
