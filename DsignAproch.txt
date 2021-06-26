@@ -1,0 +1,334 @@
+1 Introduction
+This module provides an overview of design principles for Agile projects.
+System architecture provides high-level structure to serve as a starting point for design and development activities for a project. Architecture and Infrastructure planning (AIP), and high-level organization of components at start of project can help discover and prioritize major architecture and deployment issues that require further investigation.
+In Agile, design need not consider all known system features. The immediate focus is on implementing a sub-set of features at any given time, evolving the software and its design with additional features. Core system architecture, product and platforms are typically decided initially to ensure that the system is being developed using a stable platform. There is no dedicated design phase in Agile projects. The design documents are typically not prepared or maintained in Agile projects. However, Infosys Global Agile recommends just enough documentation for the complex modules. The code is self-explanatory and forms the basis of design in Agile projects. The detail design evolves iteratively with addition of new features. The system design is kept open and simple in order to add new features.
+Design Approach for Agile Projects Challenges
+Infosys Limited – Company Confidential Page 6
+2 Challenges
+Following are the challenges a team will usually encounter while doing design in Agile projects:
+ Design in Agile is iterative in nature and evolves over a period of time as the project is executed. Not knowing the complete landscape of the project may, at times, lead to certain issues such as incompatible design to interact with external interfaces, system security and other non-functional requirements
+ Detailed design is not done in Agile projects at the beginning. The emerging design during the sprint execution may lead to technical debt with huge code base, having duplicate code, monolithic routines and inflexible design. It becomes difficult to maintain the code base, find and fix bugs, and extend new features
+ Also since there is limited detailed design documents present in Agile projects, quite a few times developers accustomed to working in traditional methodology find it difficult to function in ‘Agile’ way of development
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 7
+3 Concepts
+3.1 Design in Traditional Methodology
+In traditional software development, there is a dedicated design phase (high-level and low-level/detail design phases) before start of the coding phase. High-level architecture generally involves depicting the system into modules, representing the interfaces and interactions between these interfaces. Detail design outlines the design internals for each of the modules. Typically, for OOAD (Object Oriented Analysis and Design) project, high-level design includes system architecture with details about interfaces, components, and networks that need to be developed along with the data flows and interactions between component systems. Detail design further divides high-level design into class diagram with all the methods and relation between the classes. Design documents in traditional software development are very elaborate and detailed and run into several pages since the entire system design is done up-front and the design team passes on the design documents to the development team.
+3.2 How is Design Different in Agile Projects?
+Agile believes in “Welcome changing requirements, even late in development” and “Simplicity--the art of maximizing the amount of work not done--is essential”.
+As a result of above doctrines from Agile manifesto, Agile projects believe in No Big Design Up Front * (NBDUF) and You Aren't Gonna Need it (YAGNI) principles.
+Rationale for YAGNI/NBDUF approach is:
+1) Any code or design which is not required for the current set of features might not be required in the future
+2) More time is spent in designing/ developing feature which does not add any value to the current set of features required by the customer
+3) Additional unrequired feature can lead to software becoming larger and complicated which in turn can impose constraints on adding new features
+* Projects executed in traditional methodology have requirement phase where the entire system requirements are gathered up front. This is followed by the design phase where system design is detailed out and designed. Typically system architecture, interaction diagram, component model, class diagram, sequence diagram, system context diagram, use case diagram are done during the design phases (High Level/Low Level Design phases). This detailing is done before start of the coding phase and is called Big Design Up Front as all the design is complete before the start of coding phase.
+YAGNI: You Aren't Gonna Need It (YAGNI) is one of the engineering principles of Extreme Programming (XP) which focuses on working on the features which are deemed necessary. It is usually used in combination with other Extreme Programming practices of refactoring and Test Driven Development.
+3.3 Design Guidelines for Agile Projects
+In traditional software development project, requirements and plans are set before development begins, which enables the team to know the road ahead with a reasonable confidence that requirements or design will not change drastically in the middle whereas Agile method is to enable and embrace change. On an Agile project, requirements can change at any point in the project cycle. Therefore it is imperative for Agile teams to have a code in a position where they can conveniently accept a new requirement or change.
+One of the important Agile manifesto principle stresses on good design in Agile projects “Continuous attention to technical excellence and good design enhances agility”.
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 8
+Following guidelines can be used for design in Agile projects:
+1) Keep It Simple
+2) Apply SOLID Principles
+3) Continuous Code Refactoring
+4) Test Driven Development (TDD)
+5) Implement Design Patterns
+Note: Please refer to Appendix for ‘Design principles used across key Agile methods’
+3. 3. 1 Keep It Simple
+One of the key concepts in Agile development is to keep the system design as simple as possible. Simple design is adaptive in nature and easily responds to frequent changes due to changing requirements in Agile projects. Following four criteria can be applied to keep the system design simple:
+ Self-Explanatory: A code should be self-documenting. The code should use unabbreviated words i.e. full names. Standard naming convention should be followed. Use comments or assertions for better understanding of code.
+ No duplication: Each and every declaration of the behavior should appear OnceAndOnlyOnce. Developers should not implement unrelated ideas in the same method. Code without duplication is easier to maintain and change.
+ Remove superfluous content: Code should not have any unnecessary content. It should only have the code to support the required functionality. Any functionality which is not required should not be coded (YAGNI principle).
+ Cover all test scenarios: Write code that satisfies unit tests covering all functional areas. TDD helps the developer with the same. With code, only for the required feature, minimal coding is done to keep it simple and flexible to maintain.
+3. 3. 2 Apply SOLID Principles
+SOLID is an acronym coined for five object-oriented design principles. These principles can help create a robust system which is easier to maintain and extend over time. These are OOPS concepts but can be applied for any other design principles as well. Some of the SOLID principles can be debatable and should be evaluated before applying in project specific scenarios. The SOLID principles are as follows:
+a) Single Responsibility Principle: As described by Robert Martin "A class should have one, and only one, reason to change." This principle relates to cohesion, which is a measure of how closely two things are related. The programmer should maximize cohesion so that each class does only one thing. This in turn ensures that behavior of a class is not accidently changed.
+In the below code, the Single Responsibility Principle (SRP) is being violated because the InsertRecord class has multiple responsibilities of creating database connection and inserting the record.
+// Method with multiple responsibilities – violating SRP
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 9
+public void InsertRecord(Shopper e)
+{
+string StrConnectionString = "";
+SqlConnection objCon = new SqlConnection(StrConnectionString);
+SqlParameter[] SomeParameters=null;
+SqlCommand objCommand = new SqlCommand("InsertQuery", objCon);
+objCommand.Parameters.AddRange(SomeParameters);
+ObjCommand.ExecuteNonQuery();
+}
+The above design if not very efficient as does not allow reuse. In the below code, the above code is re-factored to implement SRP to increase reuse. Though generally this principle is widely accepted, one of the arguments against SRP is that depending on the future requirements the code can be refactored for reuse.
+// Method with single responsibility – follows SRP
+public void InsertRecord(Shopper e)
+{
+SqlConnection objCon = GetConnection();
+SqlParameter[] SomeParameters=GetParameters();
+SqlCommand ObjCommand = GetSQLCommand(objCon,"InsertQuery",SomeParameters);
+ObjCommand.ExecuteNonQuery();
+}
+private SqlCommand GetSQLCommand(SqlConnection objCon, string InsertQuery, SqlParameter[] Param)
+{
+SqlCommand objCommand = new SqlCommand(InsertQuery, objCon);
+objCommand.Parameters.AddRange(Param);
+return objCommand;
+}
+private SqlParameter[] GetParameters()
+{
+//Create Paramter array from values
+}
+private SqlConnection GetConnection()
+{
+string StrConnectionString = "";
+return new SqlConnection(StrConnString);
+}
+b) Open/Closed Principle: The open/closed principle states "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"; that is, such an entity can allow its behavior to be modified without altering its source code.
+Source: http://en.wikipedia.org/wiki/Open/closed_principle
+There are various instances when the consuming code may want to change the behavior of the class. Open/closed principle suggests extending or changing the behavior of the class without changing the class. This can be done by applying the OOPS (Object Oriented Programming) concept of abstractions and polymorphism resulting in derived class to extend the behavior for new feature.
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 10
+In many practical situations with the requirements changing drastically it does not make sense to have 7 layers of hierarchy in the code because modifications were asked 7 times. The design decision should be based on how frequently the base class is being referenced. This principle is extremely useful in frameworks, libraries. where there are numerous dependencies and any change to the behavior of the existing classes can cause big impact on the system.
+The below code is refactored to implement Open Closed Principle to calculate the area of rectangle and circle by inheriting the base class. This is helpful as for any new change in requirements (say calculating the area of a cylinder) in the future can be handled without changing the existing code or classes making the design more responsive to changes and leaving no room for introducing any bugs in the existing functionality.
+//Open for modification but closed for extension
+public double CalculateArea(object[] shapes)
+{
+double area = 0;
+foreach (var shape in shapes)
+{
+if (shape is Rectangle)
+{
+Rectangle rectangle = (Rectangle)shape;
+area += rectangle.Width * rectangle.Height;
+}
+else
+{
+Circle circle = (Circle)shape;
+area += circle.Radius * circle.Radius * Math.PI;
+}
+}
+return area;
+}
+The above code is refactored to implement Open Closed Principle.
+public abstract class GetDimensionsForShape
+{
+public abstract double CalculateArea();
+}
+//Inheriting from GetDimensionsForShape the Rectangle and Circle classes now looks like this:
+public class Rectangle : GetDimensionsForShape
+{
+public double Width { get; set; }
+public double Height { get; set; }
+public override double CalculateArea()
+{
+return Width*Height;
+}
+}
+public class Circle : GetDimensionsForShape
+{
+public double Radius { get; set; }
+public override double CalculateArea()
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 11
+{
+return Radius*Radius*Math.PI;
+}
+}
+c) Liskov Substitution Principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it." — Robert Martin.
+New derived classes extend the base classes without changing their behavior. This principle is an extension of the Open Closed Principle. If a system is using a base class, the reference to that base class can be replaced with the derived class without changing the functionality of the system.
+Liskov Substitution Principle (LSP) has certain violations, most typical being the Circle-ellipse problem (refer http://en.wikipedia.org/wiki/Circle-ellipse_problem for details).
+The below code violates Liskov Substitution Principle. Since only ‘ProjectTask’ raises an exception when the task status is closed, the program needs to be changed if ‘ProjectTask’ is used as substitution for ‘TaskStatus’.
+public class TaskStatus
+{
+public Status Task_Status { get; set; }
+public virtual void CloseTask()
+{
+Task_Status = Task_Status.Closed;
+}
+}
+public ProjectTask : TaskStatus
+{
+public override void CloseTask()
+{
+if (TaskStatus == TaskStatus.Started)
+throw new Exception("Cannot close a started Project Task");
+base.CloseTask();
+}
+}
+The above code is modified below to support the Liskov Substitution Principle. By stipulating that a call of TaskClose() is valid only in the state when CanCloseTask() returns true, we can fix the Liskov Substitution Principle violation by applying the pre-condition to ProjectTask and TaskStatus.
+public class TaskStatus
+{
+public Status Task_Status { get; set; }
+public virtual bool CanCloseTask()
+{
+return true;
+}
+public virtual void CloseTask()
+{
+Task_Status = Task_Status.Closed;
+}
+}
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 12
+public ProjectTask : TaskStatus
+{
+public override bool CanCloseTask()
+{
+return Task_Status != Task_Status.Started;
+}
+public override void CloseTask()
+{
+if (Task_Status == Task_Status.Started)
+throw new Exception("Cannot close a started Project Task");
+base.CloseTask();
+}
+}
+d) Interface Segregation Principle: This principle states that clients should not depend on the interface that they don’t use. Each interface should have a single responsibility and should not be overloaded. Interfaces should be kept small and cohesive and exposed only when required. interface IGetBankCustomerData { public Customer GetBankCustomer(Guid AccountID); public void SetBankCustomer(Customer customer); public Customer GetBankCustomerForReport(Guid AccountID); }
+The above interface is polluted by having the third method declaration when a report data access class implements this. The report class needs only the GetCustomerForReport method but for the other two methods it will have implement something, at least it will throw NotImplemented exception for the first method. So, in this case we have to segregate this interface into two, which is in-line with interface Segregation Principle. interface IGetBankCustomerData : IBankReportDataAccess { public Customer GetBankCustomer(Guid AccountID); public void SetBankCustomer(Customer customer);} interface IBankReportDataAccess { public Customer GetCustomerForReport(Guid AccountID);
+}
+e) Dependency Inversion Principle:
+"1. High level modules should not depend upon low level modules. Both should depend upon abstractions.
+2. Abstractions should not depend upon details. Details should depend upon abstractions."
+— Robert Martin
+If a class has dependencies on other classes, it should rely on the dependencies’ interfaces rather than their concrete types. The idea is to isolate our class behind a boundary formed by the abstractions it depends upon. If all the details behind those abstractions change, then our class is still safe. This helps keep coupling low and makes our design easier to change.
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 13
+The following example considers a code to track the user actions on a website
+public class LogUserActions
+{
+public void AddLog()
+{
+// Adds user actions to a file
+}
+}
+public class LogManager
+{
+LogUserActions log = new LogUserActions ();
+public LogManager(LogUserActions log)
+{
+this.log = log;
+}
+public void Log()
+{
+this.log.AddLog();
+}
+}
+In case, there is change to log the user actions in database as well then new low level class needs to be written to inset the data to the database as below. Issue with this approach is the need for change to LogManager class which will require the entire functionality to be tested again.
+public class LogUserActionsInDB
+{
+public void AddLog()
+{
+// Insert the user activity details in Database
+}
+}
+Using the dependency Inversion principle (DIP) we can put across abstract class or interface between high level and low level classes. This example is rewritten below using DIP by creating an abstraction (IManageLog) and LogManager as high level class.
+public interface IManageLog
+{
+void AddLog();
+}
+public class LogManager
+{
+IManageLog log;
+public LogManager(IManageLog log)
+{
+this.log = log;
+}
+public void Insert()
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 14
+{
+this.log.AddLog();
+}
+}
+public class LogUserActionsInDB: IManageLog
+{
+public void AddLog()
+{
+// Insert the user activity details in Database
+}
+}
+public class LogUserActions: IManageLog
+{
+public void AddLog()
+{
+// Adds user actions to a file
+}
+}
+With this solution, we can implement new low level classes without changing the code for the high level class. The high level class does not depend on the low level classes, thus achieving greater flexibility.
+Again the implementation of this principle should not be applied to all classes. If class functionality is not likely to change then this principle need not be applied.
+3. 3. 3 Continuous Code Refactoring
+Refactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior. Its heart is a series of small behavior preserving transformations. Each transformation (called ‘refactoring’) does little, but a sequence of transformations can produce a significant restructuring. Since each refactoring is small, it’s less likely to go wrong. The system is also kept fully working after each small refactoring, reducing the chances that a system can get seriously broken during the restructuring. (Source: www.refactoring.com)
+Refactoring can be done for variety of reasons to make the code extensible and maintainable which in fact leads to adaptive and simple design. Code refactoring is done to
+ Remove duplication and unused code
+ Increase abstraction
+ Change to code structure to make it modular and simpler
+ Increase reuse or implementing design patterns
+ Increase cohesion, reduce coupling
+ Change poor design or code
+ Implement coding standards
+Detailed list of refactoring technique with examples can be found at http://www.refactoring.com/catalog/
+Design Approach for Agile Projects Concepts
+Infosys Limited – Company Confidential Page 15
+Code refactoring gives us the following advantages:
+a) Simplified Design: Refactoring should be done to clean up unwanted code and provide structure to the code so that it is easier to understand.
+b) Maintainability: Refactoring reduces long monolithic routines into set of single purpose methods, removes code duplications and provides more readable and standardized code which in turn helps in easier maintenance of the application.
+c) Develop Frameworks: Refactoring helps in extracting reusable components which can be used to develop frameworks. E.g. If we are using XX at multiple places, instead we can refactor the code to use design patterns.
+d) Adaptability: Refactoring helps in making the software design simple and open. This makes it easier to extend application capabilities.
+e) Faster Development: Simpler structure with open and adaptive design is easier to understand and add new system requirements. Impact due to adding a new feature is localized and is easier to implement.
+Though code refactoring has multiple benefits there is cost associated with development and testing effort. Also, there is a possibility of new bugs getting introduced in the code. The cost and possibility of introducing new bugs can be reduced by having good regression or unit test suites which can be run to ensure existing functionality is not broken. Test Driven Development helps in putting across good unit test suites (Refer the course material on ‘Test Driven Development’ for more details).
+3. 3. 4 Test Driven Development (TDD)
+Test driven development is a design enabler. It helps the developer to analyze the requirement, think about code structure (APIs, interfaces, classes, methods, their interaction and dependencies), reuse components and code behavior for boundary conditions.
+3. 3. 5 Implement Design Patterns
+As per YAGNI principle, design patterns evolve with features being developed and code refactoring and should not be implemented up-front. This requires developers to have good understanding of design patterns and their implementations. But the team can do a trade-off with YAGNI principles on implementing design patterns up-front if they are clear about the need of design pattern or can defer for later implementation. In this case design patterns can be put across in simplest form based on their applications and the complexities can then be added at later point of time.
+Note: For detailed information on design patterns please contact E&R.
+Design Approach for Agile Projects Application in Projects
+Infosys Limited – Company Confidential Page 16
+4 Application in Projects
+4.1 Define System Architecture
+Product and platform should be decided at start of the project. Create visual architecture and infrastructure (AIP) planning diagram defining components, interfaces and other characteristics of system or components, as required. Any specific security or other NFRs can be outlined in the visual AIP along with product and platform being used. System Architecture is typically decided during project workshop or project initiation (Sprint 0) phase. The architecture defined takes care of the organizational IT roadmap and the application/product being developed. The following guidelines can be followed to create stable software architecture:
+ Create System architecture diagram to show how system will be implemented in different layers and the main components being used
+ Decide on platform level details (programming language, database)
+ Identify risk areas that need POC (Proof of Concept)
+Techniques used for defining system architecture are:
+ Expert Judgment
+ Whiteboard, AIP diagram
+ Existing Enterprise Guidelines & Constraints
+4.2 Define Architecture Stories
+This is an optional phase typically applicable for projects with technical complexities or known technologies and tools. Depending on the technical competency in the project the team may want to skip this phase.
+System architecture is refined at the start of the project. Risk area identified as part of the ‘Define System Architecture’ phase should be defined as architecture stories and taken up as POC during this phase, which is in-line with the idea of fail fast of Agile principle. Any other POC as required for the identified risk areas or new technology implementation should be covered during this phase. Some of the high priority stories can be identified for implementation, during first 2-3 Sprints (assuming 2 weeks iteration for project duration of more than 6 months) which can set up the technical foundation (e.g. Data Access Framework, Error Logging Framework, common utilities) for the system being developed. It is important to note that the team should have good visibility of the system requirements to implement these technical stories.
+High-level objectives of this phase are:
+ Reduce project risk due to technology by validating assumptions (e.g. POC for identified risk areas)
+ Provide foundation for future Sprints, like define error handling framework, define data services and design patterns (Can be implemented at later Sprints if the customer priority is different)
+Techniques used are:
+ Expert Judgment
+ Team discussions
+ Whiteboard
+4.3 Just-in-Time Design
+Minimal design discussion can happen at start of the Sprint for stories for the current Sprint to ensure consistent implementation. Further focus on feature implementation and design should be given at start of story. The design typically evolves iteratively along the Sprints. The design focus during the Sprint shifts to just-in-time
+Design Approach for Agile Projects Application in Projects
+Infosys Limited – Company Confidential Page 17
+design. Design at the start of the Sprint sets the direction for the team for implementing the stories in conjunction to the defined architecture. Whiteboard with expert judgment is the most used tool and technique for just-in-time (JIT) design.
+Typically the team during this phase has design discussion for implementation of the features. As new features are implemented, design needs to be constantly kept simple to ensure that it is both maintainable and extensible. Design guidelines, as described in the concepts section, should be applied while developing the system to ensure the same. TDD can be followed to ensure easier code refactoring during subsequent Sprints. Pair programming can be followed in the project to ensure code is simple and self-explanatory.
+During the JIT design phase, certain visual artifacts as mentioned below can be created for implementing the current story at hand.
+o Interaction Diagram
+o ER (Entity Relationship) diagram
+o Sequence Diagram
+Typically, the design techniques used for JIT are –
+ Expert Judgment
+ Whiteboard
+During Sprint phase architecture, design and code quality should be frequently monitored. It is recommended to have a code quality tool integrated with the developers IDE to ensure code quality compliance. Practices like continuous integration should be followed and any technical debt accrued should be addressed in a timely and effective manner.
+Design Approach for Agile Projects Case Study
+Infosys Limited – Company Confidential Page 18
+5 Case Study
+Project Profile:
+The project involves development of user interface for one of the Agile application lifecycle management (ALM) tool used by the client in order to provide better user experience for product roadmap, release planning and daily stand views.
+Problem Statement:
+The project involved interaction with various development teams, Agile coaches and Product Owners for feedback on the team and implement the same to the tool. This meant that frequent requirement changes in the project, due to which it was not possible to do detailed design for the tool up-front.
+Solution:
+The team started the project with workshop with key stakeholders to gather the preliminary requirements of the tool. A dedicated Product Owner was identified from the client side to help the team with managing of Product Backlog and deciding on the priority of work to be done. The initial requirements were put across as capabilities (sub divided to FeaturesStoriesTasks) in the Product Backlog. Release was planned with clearly outlined release goals and was tracked on regular basis.
+Technology stack, which was in-line with the enterprise technology blueprint, was decided during the workshop. Key participants for the discussion were client, Infosys architect and the project team. System Architecture diagram was created as a high level blue print for development and visual design for UI was done as part of the workshop.
+Figure 1: Sample System Architecture Diagram
+During the initial execution phase, architecture stories along with functional stories were created as part of development to ensure that the initial architecture was put across in place. UI development framework (Accordion, tabular layouts, support for Angular and JQuery for drag and drop functionalities, busy component) and error logging framework was developed. All this was done along with implementation of small functionalities which was displayed to the stakeholders at the end of two week Sprint. Several POC were done to eliminate risk areas in the project during initial Sprints.
+Design Approach for Agile Projects Case Study
+Infosys Limited – Company Confidential Page 19
+In subsequent phases, both new functionalities and changes to the existing functionalities were added as decided for the iterations. The team used design and refactoring techniques covered in the document above to ensure that the code is extensible and maintainable. SONAR was used to keep track and address technical debt in the project and improve design and code quality of the tool being developed.
+Benefits:
+As a result of scalable design, the team was able to add new features at a fast pace and provide demo to the stakeholders every two weeks, take their feedback and implement changes based on priority.
